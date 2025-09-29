@@ -1,0 +1,226 @@
+CRITICAL - 2024-05-31 00:03:23 --> Error: Class 'App\Controllers\perfiles_Model' not found
+in APPPATH\Controllers\producto_controller.php on line 156.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->tablaEliminados()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 00:04:07 --> BadMethodCallException: Call to undefined method App\Models\categoria_Model::usuarioPerfiles
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\producto_controller.php(125): CodeIgniter\Model->__call('usuarioPerfiles', [])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->tablaEliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 00:05:11 --> BadMethodCallException: Call to undefined method App\Models\categoria_Model::productosCategoria
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\producto_controller.php(125): CodeIgniter\Model->__call('productosCategoria', [])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->tablaEliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 00:06:16 --> BadMethodCallException: Call to undefined method App\Models\categoria_Model::finAll
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\producto_controller.php(125): CodeIgniter\Model->__call('finAll', [])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->tablaEliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 00:06:40 --> ErrorException: Undefined variable: productos
+in APPPATH\Views\back\tabla_prod_eliminados.php on line 19.
+ 1 APPPATH\Views\back\tabla_prod_eliminados.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productos', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_prod_eliminados.php', 19, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_prod_eliminados.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/tabla_prod_eliminados', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(131): view('back/tabla_prod_eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->tablaEliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 00:28:30 --> mysqli_sql_exception: Unknown column 'activo' in 'where clause' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\contacto_controller.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 00:28:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'activo' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contacto`
+WHERE `activo` = :activo:', [...], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\contacto_controller.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 00:28:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'activo' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `contacto`
+WHERE `activo` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `contacto`
+WHERE `activo` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contacto`
+WHERE `activo` = :activo:', [...], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\contacto_controller.php(11): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 00:28:30 --> [Caused by] mysqli_sql_exception: Unknown column 'activo' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `contacto`
+WHERE `activo` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `contacto`
+WHERE `activo` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `contacto`
+WHERE `activo` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contacto`
+WHERE `activo` = :activo:', [...], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\contacto_controller.php(11): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 00:31:18 --> mysqli_sql_exception: Unknown column 'activo' in 'where clause' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\contacto_controller.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 00:31:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'activo' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contacto`
+WHERE `activo` = :activo:', [...], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\contacto_controller.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 00:31:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'activo' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `contacto`
+WHERE `activo` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `contacto`
+WHERE `activo` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contacto`
+WHERE `activo` = :activo:', [...], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\contacto_controller.php(11): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 00:31:18 --> [Caused by] mysqli_sql_exception: Unknown column 'activo' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `contacto`
+WHERE `activo` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `contacto`
+WHERE `activo` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `contacto`
+WHERE `activo` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contacto`
+WHERE `activo` = :activo:', [...], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\contacto_controller.php(11): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 00:43:58 --> ErrorException: Undefined variable: usuario
+in APPPATH\Views\back\tabla_cont_eliminados.php on line 29.
+ 1 APPPATH\Views\back\tabla_cont_eliminados.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_cont_eliminados.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_cont_eliminados.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/tabla_cont_eliminados', [], true)
+ 5 APPPATH\Controllers\contacto_controller.php(105): view('back/tabla_cont_eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->tablaEliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-31 00:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-31 00:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-31 00:51:53 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 970.
+ 1 SYSTEMPATH\BaseModel.php(970): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\contacto_controller.php(112): CodeIgniter\Model->update('3', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->activar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 00:57:46 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 970.
+ 1 SYSTEMPATH\BaseModel.php(970): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\contacto_controller.php(112): CodeIgniter\Model->update('3', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->activar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-31 01:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-31 01:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-31 01:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-31 01:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-31 01:09:54 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 970.
+ 1 SYSTEMPATH\BaseModel.php(970): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\contacto_controller.php(112): CodeIgniter\Model->update('3', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->activar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-31 01:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-31 01:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-31 01:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-31 01:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-31 01:27:00 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 970.
+ 1 SYSTEMPATH\BaseModel.php(970): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\contacto_controller.php(112): CodeIgniter\Model->update('8', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->activar('8')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-31 01:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

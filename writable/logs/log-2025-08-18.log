@@ -1,0 +1,103 @@
+INFO - 2025-08-18 21:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:54:40 --> Cart Class Initialized
+INFO - 2025-08-18 21:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 21:54:57 --> Cart Class Initialized
+INFO - 2025-08-18 21:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:05:59 --> Cart Class Initialized
+INFO - 2025-08-18 22:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:09:39 --> Cart Class Initialized
+INFO - 2025-08-18 22:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:10:49 --> Cart Class Initialized
+INFO - 2025-08-18 22:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:16:35 --> Cart Class Initialized
+INFO - 2025-08-18 22:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 22:17:05 --> Cart Class Initialized
+INFO - 2025-08-18 22:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-18 23:26:18 --> ParseError: syntax error, unexpected single-quoted string "carrito", expecting variable
+in APPPATH\Models\usuario_Model.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\usuario_Model')
+ 3 APPPATH\Controllers\login_controller.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\usuario_Model')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\login_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-18 23:26:52 --> ParseError: syntax error, unexpected single-quoted string "carrito", expecting variable
+in APPPATH\Models\usuario_Model.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\usuario_Model')
+ 3 APPPATH\Controllers\login_controller.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\usuario_Model')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\login_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-18 23:27:07 --> ParseError: syntax error, unexpected single-quoted string "carrito", expecting variable
+in APPPATH\Models\usuario_Model.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\usuario_Model')
+ 3 APPPATH\Controllers\login_controller.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\usuario_Model')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\login_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-18 23:27:08 --> ParseError: syntax error, unexpected single-quoted string "carrito", expecting variable
+in APPPATH\Models\usuario_Model.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\usuario_Model')
+ 3 APPPATH\Controllers\login_controller.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\usuario_Model')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\login_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-18 23:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:28:53 --> Cart Class Initialized
+CRITICAL - 2025-08-18 23:28:53 --> ErrorException: Undefined variable $usuarioId
+in APPPATH\Controllers\carrito_controller.php on line 100.
+ 1 APPPATH\Controllers\carrito_controller.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioId', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->agregar_al_carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-18 23:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:29:30 --> Cart Class Initialized
+CRITICAL - 2025-08-18 23:29:30 --> ErrorException: Undefined variable $usuarioId
+in APPPATH\Controllers\carrito_controller.php on line 102.
+ 1 APPPATH\Controllers\carrito_controller.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioId', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->agregar_al_carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-18 23:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:30:07 --> Cart Class Initialized
+INFO - 2025-08-18 23:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-18 23:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

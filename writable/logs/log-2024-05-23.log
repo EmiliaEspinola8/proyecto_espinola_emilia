@@ -1,0 +1,616 @@
+INFO - 2024-05-23 19:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 19:38:26 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\producto_Model.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\producto_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\producto_Model')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\producto_Model')
+ 4 APPPATH\Controllers\producto_controller.php(12): spl_autoload_call('App\\Models\\producto_Model')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 19:39:32 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\producto_Model.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\producto_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\producto_Model')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\producto_Model')
+ 4 APPPATH\Controllers\producto_controller.php(12): spl_autoload_call('App\\Models\\producto_Model')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 19:40:12 --> BadMethodCallException: Call to undefined method App\Models\producto_Model::finAll
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\producto_controller.php(13): CodeIgniter\Model->__call('finAll', [])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 19:57:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/productos/editar_producto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/productos/editar_producto.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(84): view('back/productos/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 20:02:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/productos/editar_producto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/productos/editar_producto.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(84): view('back/productos/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 20:28:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/productos/editar_producto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/productos/editar_producto.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(84): view('back/productos/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 20:28:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/productos/productoNuevo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/productos/productoNuevo.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/productoNuevo', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(18): view('back/productos/productoNuevo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 20:29:18 --> ParseError: syntax error, unexpected ')', expecting ';' or ','
+in APPPATH\Views\back\productos\editar_producto.php on line 13.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(84): view('back/productos/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 20:30:32 --> ParseError: syntax error, unexpected ')', expecting ';' or ','
+in APPPATH\Views\back\productos\editar_producto.php on line 13.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(88): view('back/productos/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 20:36:43 --> ParseError: syntax error, unexpected ')', expecting ';' or ','
+in APPPATH\Views\back\producto\editar_producto.php on line 13.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 20:37:11 --> ParseError: syntax error, unexpected ')', expecting ';' or ','
+in APPPATH\Views\back\producto\editar_producto.php on line 13.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 20:38:21 --> ParseError: syntax error, unexpected ')', expecting ';' or ','
+in APPPATH\Views\back\producto\editar_producto.php on line 17.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 20:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 20:38:47 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 20:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 20:40:24 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 20:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 20:41:15 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 20:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 20:44:07 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 20:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 20:45:48 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 20:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-23 20:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 20:47:32 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 20:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 20:51:20 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 20:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 20:52:11 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 20:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-23 20:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 20:53:00 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 21:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 21:03:18 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 21:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 21:04:51 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 21:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 21:11:22 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 21:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 21:18:55 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 21:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 21:19:37 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\producto\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\producto\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\producto\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 21:27:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/producto/editar_producto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/producto/editar_producto.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 21:27:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/producto/editar_producto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/producto/editar_producto.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(88): view('back/producto/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 21:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 21:28:28 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\productos\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\productos\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/productos/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 21:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 21:49:02 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\productos\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\productos\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/productos/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 21:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 21:54:43 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\productos\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\productos\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/productos/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:01:16 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:08:04 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(87): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:12:16 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 13.
+ 1 APPPATH\Views\back\editar_producto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(87): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:13:23 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 13.
+ 1 APPPATH\Views\back\editar_producto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(87): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:16:29 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 13.
+ 1 APPPATH\Views\back\editar_producto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(87): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:16:50 --> ErrorException: Undefined index: nombre_prod
+in APPPATH\Views\back\editar_producto.php on line 16.
+ 1 APPPATH\Views\back\editar_producto.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(87): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 22:28:40 --> ParseError: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\back\editar_producto.php on line 8.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:29:33 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:29:58 --> ErrorException: Undefined index: id
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:33:28 --> ErrorException: Undefined variable: productos
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productos', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:34:35 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:36:47 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:37:07 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:42:21 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:42:40 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:48:08 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:51:14 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:54:53 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 22:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 22:57:03 --> ErrorException: Undefined index: id
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 23:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 23:22:15 --> ErrorException: Undefined index: id
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 23:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 23:24:58 --> ErrorException: Trying to get property 'id_prod' of non-object
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_prod\' of non-object', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 23:26:02 --> ErrorException: Trying to get property 'id_prod' of non-object
+in APPPATH\Views\back\productoNuevo.php on line 27.
+ 1 APPPATH\Views\back\productoNuevo.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_prod\' of non-object', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productoNuevo.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productoNuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productoNuevo', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(18): view('back/productoNuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 23:33:17 --> ErrorException: Trying to get property 'id_prod' of non-object
+in APPPATH\Views\back\productoNuevo.php on line 27.
+ 1 APPPATH\Views\back\productoNuevo.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_prod\' of non-object', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productoNuevo.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productoNuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productoNuevo', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(18): view('back/productoNuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-23 23:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-23 23:36:58 --> ErrorException: Undefined index: id_prod
+in APPPATH\Views\back\editar_producto.php on line 10.
+ 1 APPPATH\Views\back\editar_producto.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_prod', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(88): view('back/editar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit(null)
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

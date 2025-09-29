@@ -1,0 +1,429 @@
+INFO - 2024-05-27 19:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 19:09:14 --> ParseError: syntax error, unexpected '='
+in APPPATH\Controllers\producto_controller.php on line 163.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\producto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\producto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\producto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:09:42 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:10:55 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 19:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 19:11:35 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:11:52 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 19:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 19:12:28 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:14:28 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 19:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 19:14:57 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 19:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 19:16:23 --> ErrorException: unlink(C:\xampp\htdocs\proyecto_espinola_emilia\writable\debugbar/debugbar_1716676010.690973.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\proyecto_espinola_emilia\\writable\\debugbar/debugbar_1716676010.690973.json): No such file or directory', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\system\\Debug\\Toolbar\\Collectors\\History.php', 80, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\writable\\debugbar/debugbar_1716676010.690973.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(498): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1716837381.356058', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:16:43 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:18:12 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:47:54 --> ErrorException: Undefined variable: productos
+in APPPATH\Views\back\tabla_usuarios.php on line 21.
+ 1 APPPATH\Views\back\tabla_usuarios.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productos', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usuarios.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/tabla_usuarios', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(17): view('back/tabla_usuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->create()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:57:14 --> ErrorException: Undefined variable: usuarios
+in APPPATH\Views\back\tabla_usuarios.php on line 20.
+ 1 APPPATH\Views\back\tabla_usuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usuarios', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usuarios.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/tabla_usuarios', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(17): view('back/tabla_usuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->create()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:57:43 --> ErrorException: Undefined index: perfil
+in APPPATH\Views\back\tabla_usuarios.php on line 27.
+ 1 APPPATH\Views\back\tabla_usuarios.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: perfil', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usuarios.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/tabla_usuarios', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(19): view('back/tabla_usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->create()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 21:17:57 --> ParseError: syntax error, unexpected ''perfil_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\usuario_crud_controller.php on line 100.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 21:18:49 --> Error: Class 'CodeIgniter\perfiles_Model' not found
+in APPPATH\Controllers\usuario_crud_controller.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->creaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 21:20:57 --> Error: Class 'CodeIgniter\perfiles_Model' not found
+in APPPATH\Controllers\usuario_crud_controller.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->creaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 21:21:22 --> Error: Class 'CodeIgniter\perfil_Model' not found
+in APPPATH\Controllers\usuario_crud_controller.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->creaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 21:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 21:33:13 --> ParseError: syntax error, unexpected ''perfiles_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\usuario_crud_controller.php on line 100.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 21:34:01 --> ParseError: syntax error, unexpected ''perfiles_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\usuario_crud_controller.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 21:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 21:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 22:08:21 --> ErrorException: Undefined variable: categoriaModel
+in APPPATH\Controllers\usuario_crud_controller.php on line 116.
+ 1 APPPATH\Controllers\usuario_crud_controller.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoriaModel', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php', 116, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->edit('3')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:09:03 --> ErrorException: Undefined index: id_usuario
+in APPPATH\Views\back\editar_usuario.php on line 15.
+ 1 APPPATH\Views\back\editar_usuario.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(122): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:13:28 --> ErrorException: Undefined index: id_usuario
+in APPPATH\Views\back\editar_usuario.php on line 15.
+ 1 APPPATH\Views\back\editar_usuario.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(122): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:16:51 --> ErrorException: Undefined index: id_usuario
+in APPPATH\Views\back\editar_usuario.php on line 16.
+ 1 APPPATH\Views\back\editar_usuario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(122): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:18:46 --> ErrorException: Undefined index: id_usuario
+in APPPATH\Views\back\editar_usuario.php on line 16.
+ 1 APPPATH\Views\back\editar_usuario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(122): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 22:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 22:19:18 --> ErrorException: Undefined index: id_usuario
+in APPPATH\Views\back\editar_usuario.php on line 16.
+ 1 APPPATH\Views\back\editar_usuario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(122): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 22:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 22:21:20 --> ErrorException: Undefined variable: perfiles
+in APPPATH\Views\back\editar_usuario.php on line 83.
+ 1 APPPATH\Views\back\editar_usuario.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: perfiles', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(122): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 22:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 22:22:11 --> ErrorException: Undefined index: perfiles_id
+in APPPATH\Views\back\editar_usuario.php on line 84.
+ 1 APPPATH\Views\back\editar_usuario.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: perfiles_id', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 84, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(122): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 22:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 22:35:12 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\usuario_crud_controller.php on line 201.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:37:15 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\usuario_crud_controller.php on line 201.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:39:25 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\usuario_crud_controller.php on line 201.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:03:28 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\usuario_crud_controller.php on line 201.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:04:32 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\usuario_crud_controller.php on line 200.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:09:31 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\usuario_crud_controller.php on line 202.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:11:30 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\usuario_crud_controller.php on line 202.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:13:34 --> ErrorException: Undefined variable: usuario
+in APPPATH\Views\back\editar_usuario.php on line 16.
+ 1 APPPATH\Views\back\editar_usuario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(181): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('3')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:15:12 --> ErrorException: Undefined variable: usuario
+in APPPATH\Views\back\editar_usuario.php on line 16.
+ 1 APPPATH\Views\back\editar_usuario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(181): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('3')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:16:01 --> ErrorException: Undefined variable: usuario
+in APPPATH\Views\back\editar_usuario.php on line 16.
+ 1 APPPATH\Views\back\editar_usuario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(181): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('3')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:25:49 --> ParseError: syntax error, unexpected 'public' (T_PUBLIC)
+in APPPATH\Controllers\usuario_crud_controller.php on line 129.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 23:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 23:45:15 --> ErrorException: Undefined index: email
+in APPPATH\Controllers\usuario_crud_controller.php on line 180.
+ 1 APPPATH\Controllers\usuario_crud_controller.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php', 180, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:46:09 --> ErrorException: Undefined index: email
+in APPPATH\Controllers\usuario_crud_controller.php on line 180.
+ 1 APPPATH\Controllers\usuario_crud_controller.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php', 180, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:47:28 --> ErrorException: Undefined index: pass
+in APPPATH\Controllers\usuario_crud_controller.php on line 182.
+ 1 APPPATH\Controllers\usuario_crud_controller.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pass', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php', 182, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 23:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 23:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,17 @@
+INFO - 2025-07-24 21:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-24 21:50:13 --> Cart Class Initialized
+INFO - 2025-07-24 21:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-24 21:50:35 --> Cart Class Initialized
+INFO - 2025-07-24 21:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-24 21:50:44 --> Cart Class Initialized
+INFO - 2025-07-24 21:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-24 21:50:49 --> Cart Class Initialized
+INFO - 2025-07-24 21:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-24 21:52:34 --> Error: Call to undefined function App\Filters\rediret()
+in APPPATH\Filters\Auth.php on line 14.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('crudusuarios', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-24 21:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-24 21:53:55 --> Cart Class Initialized

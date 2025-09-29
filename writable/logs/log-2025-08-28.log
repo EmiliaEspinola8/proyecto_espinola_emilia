@@ -1,0 +1,676 @@
+INFO - 2025-08-28 00:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-28 00:09:04 --> ErrorException: Undefined array key "carrito"
+in APPPATH\Models\usuario_Model.php on line 23.
+ 1 APPPATH\Models\usuario_Model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php', 23)
+ 2 APPPATH\Controllers\Home.php(77): App\Models\usuario_Model->obtenerCarrito(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 00:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 00:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 00:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 00:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 00:38:23 --> Cart Class Initialized
+INFO - 2025-08-28 00:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 00:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 00:38:42 --> Cart Class Initialized
+INFO - 2025-08-28 00:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 00:39:06 --> Cart Class Initialized
+INFO - 2025-08-28 01:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 01:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 01:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 01:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 01:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 01:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 01:20:45 --> Cart Class Initialized
+INFO - 2025-08-28 01:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 01:20:48 --> Cart Class Initialized
+INFO - 2025-08-28 02:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:01:46 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:01:46 --> ErrorException: Undefined variable $producto
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:02:33 --> Cart Class Initialized
+INFO - 2025-08-28 02:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:03:06 --> Cart Class Initialized
+INFO - 2025-08-28 02:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:06:12 --> Cart Class Initialized
+INFO - 2025-08-28 02:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:08:29 --> Cart Class Initialized
+INFO - 2025-08-28 02:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:08:44 --> Cart Class Initialized
+INFO - 2025-08-28 02:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:09:43 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:09:43 --> ErrorException: Undefined array key "cantida"
+in APPPATH\Controllers\carrito_controller.php on line 148.
+ 1 APPPATH\Controllers\carrito_controller.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantida"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:09:58 --> Cart Class Initialized
+INFO - 2025-08-28 02:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:13:16 --> Cart Class Initialized
+INFO - 2025-08-28 02:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:13:22 --> Cart Class Initialized
+INFO - 2025-08-28 02:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:13:23 --> Cart Class Initialized
+INFO - 2025-08-28 02:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:13:24 --> Cart Class Initialized
+INFO - 2025-08-28 02:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:16:27 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:16:27 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:18:28 --> Cart Class Initialized
+INFO - 2025-08-28 02:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:18:38 --> Cart Class Initialized
+INFO - 2025-08-28 02:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:18:40 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:18:40 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:18:44 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:18:44 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:18:54 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:18:54 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:23:48 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:23:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:23:48 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:23:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:34:04 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:34:04 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:35:50 --> Cart Class Initialized
+INFO - 2025-08-28 02:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:35:58 --> Cart Class Initialized
+INFO - 2025-08-28 02:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:36:21 --> Cart Class Initialized
+INFO - 2025-08-28 02:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:36:32 --> Cart Class Initialized
+INFO - 2025-08-28 02:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:36:54 --> Cart Class Initialized
+INFO - 2025-08-28 02:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:36:55 --> Cart Class Initialized
+INFO - 2025-08-28 02:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:36:56 --> Cart Class Initialized
+INFO - 2025-08-28 02:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:37:12 --> Cart Class Initialized
+INFO - 2025-08-28 02:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:37:24 --> Cart Class Initialized
+INFO - 2025-08-28 02:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:37:41 --> Cart Class Initialized
+INFO - 2025-08-28 02:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:38:26 --> Cart Class Initialized
+INFO - 2025-08-28 02:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:38:52 --> Cart Class Initialized
+INFO - 2025-08-28 02:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:42:29 --> Cart Class Initialized
+INFO - 2025-08-28 02:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:46:53 --> Cart Class Initialized
+INFO - 2025-08-28 02:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:46:56 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:46:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:47:08 --> Cart Class Initialized
+INFO - 2025-08-28 02:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:11 --> Cart Class Initialized
+INFO - 2025-08-28 02:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:13 --> Cart Class Initialized
+INFO - 2025-08-28 02:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:17 --> Cart Class Initialized
+INFO - 2025-08-28 02:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:22 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:50:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:22 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:50:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:24 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:50:24 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 147.
+ 1 APPPATH\Controllers\carrito_controller.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:42 --> Cart Class Initialized
+INFO - 2025-08-28 02:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:48 --> Cart Class Initialized
+INFO - 2025-08-28 02:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:56 --> Cart Class Initialized
+INFO - 2025-08-28 02:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:50:59 --> Cart Class Initialized
+INFO - 2025-08-28 02:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:51:04 --> Cart Class Initialized
+INFO - 2025-08-28 02:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:51:05 --> Cart Class Initialized
+INFO - 2025-08-28 02:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:51:07 --> Cart Class Initialized
+INFO - 2025-08-28 02:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:51:12 --> Cart Class Initialized
+INFO - 2025-08-28 02:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:51:23 --> Cart Class Initialized
+INFO - 2025-08-28 02:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:51:54 --> Cart Class Initialized
+INFO - 2025-08-28 02:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:51:55 --> Cart Class Initialized
+INFO - 2025-08-28 02:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:51:58 --> Cart Class Initialized
+INFO - 2025-08-28 02:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:52:01 --> Cart Class Initialized
+INFO - 2025-08-28 02:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:52:09 --> Cart Class Initialized
+INFO - 2025-08-28 02:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:52:17 --> Cart Class Initialized
+INFO - 2025-08-28 02:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:52:18 --> Cart Class Initialized
+INFO - 2025-08-28 02:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:53:03 --> Cart Class Initialized
+CRITICAL - 2025-08-28 02:53:03 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 89.
+ 1 APPPATH\Controllers\carrito_controller.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->agregar_al_carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 02:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:53:25 --> Cart Class Initialized
+INFO - 2025-08-28 02:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:53:38 --> Cart Class Initialized
+INFO - 2025-08-28 02:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:53:50 --> Cart Class Initialized
+INFO - 2025-08-28 02:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 02:53:51 --> Cart Class Initialized
+INFO - 2025-08-28 20:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-28 20:15:37 --> ErrorException: Undefined array key "carrito"
+in APPPATH\Models\usuario_Model.php on line 23.
+ 1 APPPATH\Models\usuario_Model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php', 23)
+ 2 APPPATH\Controllers\Home.php(77): App\Models\usuario_Model->obtenerCarrito(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 20:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:17:43 --> Cart Class Initialized
+INFO - 2025-08-28 20:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:17:44 --> Cart Class Initialized
+INFO - 2025-08-28 20:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:17:54 --> Cart Class Initialized
+INFO - 2025-08-28 20:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:18:03 --> Cart Class Initialized
+INFO - 2025-08-28 20:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:21:31 --> Cart Class Initialized
+INFO - 2025-08-28 20:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:21:32 --> Cart Class Initialized
+INFO - 2025-08-28 20:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:21:41 --> Cart Class Initialized
+INFO - 2025-08-28 20:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:22:01 --> Cart Class Initialized
+INFO - 2025-08-28 20:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:22:17 --> Cart Class Initialized
+INFO - 2025-08-28 20:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:22:20 --> Cart Class Initialized
+INFO - 2025-08-28 20:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:22:46 --> Cart Class Initialized
+INFO - 2025-08-28 20:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:22:49 --> Cart Class Initialized
+INFO - 2025-08-28 20:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:22:56 --> Cart Class Initialized
+INFO - 2025-08-28 20:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:23:12 --> Cart Class Initialized
+CRITICAL - 2025-08-28 20:23:12 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 89.
+ 1 APPPATH\Controllers\carrito_controller.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->agregar_al_carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 20:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:23:44 --> Cart Class Initialized
+CRITICAL - 2025-08-28 20:23:44 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 89.
+ 1 APPPATH\Controllers\carrito_controller.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->agregar_al_carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 20:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:28:03 --> Cart Class Initialized
+INFO - 2025-08-28 20:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:31:57 --> Cart Class Initialized
+CRITICAL - 2025-08-28 20:31:57 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 APPPATH\Controllers\carrito_controller.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 20:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:32:13 --> Cart Class Initialized
+INFO - 2025-08-28 20:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:32:22 --> Cart Class Initialized
+INFO - 2025-08-28 20:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:32:27 --> Cart Class Initialized
+CRITICAL - 2025-08-28 20:32:27 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 APPPATH\Controllers\carrito_controller.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 20:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:33:09 --> Cart Class Initialized
+INFO - 2025-08-28 20:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:37:03 --> Cart Class Initialized
+INFO - 2025-08-28 20:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:39:47 --> Cart Class Initialized
+INFO - 2025-08-28 20:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:39:52 --> Cart Class Initialized
+CRITICAL - 2025-08-28 20:39:52 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 APPPATH\Controllers\carrito_controller.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 20:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-28 20:43:07 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\carrito_controller.php on line 142.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\carrito_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\carrito_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\carrito_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 20:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:43:30 --> Cart Class Initialized
+INFO - 2025-08-28 20:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:44:45 --> Cart Class Initialized
+INFO - 2025-08-28 20:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:46:16 --> Cart Class Initialized
+INFO - 2025-08-28 20:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:47:03 --> Cart Class Initialized
+INFO - 2025-08-28 20:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:47:12 --> Cart Class Initialized
+INFO - 2025-08-28 20:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:48:34 --> Cart Class Initialized
+INFO - 2025-08-28 20:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:49:32 --> Cart Class Initialized
+INFO - 2025-08-28 20:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:49:49 --> Cart Class Initialized
+INFO - 2025-08-28 20:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:49:59 --> Cart Class Initialized
+INFO - 2025-08-28 20:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:54:10 --> Cart Class Initialized
+INFO - 2025-08-28 20:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:54:14 --> Cart Class Initialized
+INFO - 2025-08-28 20:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:54:26 --> Cart Class Initialized
+INFO - 2025-08-28 20:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:55:02 --> Cart Class Initialized
+INFO - 2025-08-28 20:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:55:05 --> Cart Class Initialized
+INFO - 2025-08-28 20:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:55:10 --> Cart Class Initialized
+INFO - 2025-08-28 20:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 20:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:05:49 --> Cart Class Initialized
+CRITICAL - 2025-08-28 21:05:49 --> TypeError: Unsupported operand types: string + int
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:05:51 --> Cart Class Initialized
+INFO - 2025-08-28 21:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:05:54 --> Cart Class Initialized
+CRITICAL - 2025-08-28 21:05:54 --> TypeError: Unsupported operand types: string + int
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:05:58 --> Cart Class Initialized
+INFO - 2025-08-28 21:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:06:04 --> Cart Class Initialized
+CRITICAL - 2025-08-28 21:06:04 --> TypeError: Unsupported operand types: string + int
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:06:06 --> Cart Class Initialized
+INFO - 2025-08-28 21:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:06:25 --> Cart Class Initialized
+CRITICAL - 2025-08-28 21:06:25 --> TypeError: Unsupported operand types: string + int
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:06:27 --> Cart Class Initialized
+INFO - 2025-08-28 21:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:06:31 --> Cart Class Initialized
+CRITICAL - 2025-08-28 21:06:31 --> TypeError: Unsupported operand types: string + int
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:06:32 --> Cart Class Initialized
+INFO - 2025-08-28 21:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:06:37 --> Cart Class Initialized
+CRITICAL - 2025-08-28 21:06:37 --> TypeError: Unsupported operand types: string + int
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:06:50 --> Cart Class Initialized
+INFO - 2025-08-28 21:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:07:02 --> Cart Class Initialized
+CRITICAL - 2025-08-28 21:07:02 --> TypeError: Unsupported operand types: string + int
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:07:03 --> Cart Class Initialized
+INFO - 2025-08-28 21:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:07:50 --> Cart Class Initialized
+CRITICAL - 2025-08-28 21:07:50 --> TypeError: Unsupported operand types: string + int
+in APPPATH\Controllers\carrito_controller.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->incrementarCantProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:07:53 --> Cart Class Initialized
+INFO - 2025-08-28 21:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:14:07 --> Cart Class Initialized
+INFO - 2025-08-28 21:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:14:10 --> Cart Class Initialized
+CRITICAL - 2025-08-28 21:14:10 --> TypeError: Unsupported operand types: string * string
+in APPPATH\Views\cliente\carrito.php on line 23.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/carrito', [], true)
+ 4 APPPATH\Controllers\carrito_controller.php(191): view('cliente/carrito', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->validarStock()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-28 21:16:41 --> TypeError: Unsupported operand types: string * string
+in APPPATH\Views\cliente\carrito.php on line 23.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/carrito.php', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(313): view('cliente/carrito.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('77')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-28 21:16:52 --> TypeError: Unsupported operand types: string * string
+in APPPATH\Views\cliente\carrito.php on line 23.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/carrito.php', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(313): view('cliente/carrito.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('77')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-28 21:19:19 --> TypeError: Unsupported operand types: string * string
+in APPPATH\Views\cliente\carrito.php on line 23.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/carrito.php', [], true)
+ 4 APPPATH\Controllers\Home.php(82): view('cliente/carrito.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-28 21:20:39 --> TypeError: Unsupported operand types: string * string
+in APPPATH\Views\cliente\carrito.php on line 23.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/carrito.php', [], true)
+ 4 APPPATH\Controllers\Home.php(82): view('cliente/carrito.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-28 21:20:52 --> TypeError: Unsupported operand types: string * string
+in APPPATH\Views\cliente\carrito.php on line 23.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/carrito.php', [], true)
+ 4 APPPATH\Controllers\Home.php(82): view('cliente/carrito.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-28 21:21:04 --> ErrorException: Undefined array key "carrito"
+in APPPATH\Models\usuario_Model.php on line 23.
+ 1 APPPATH\Models\usuario_Model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php', 23)
+ 2 APPPATH\Controllers\Home.php(77): App\Models\usuario_Model->obtenerCarrito(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:21:38 --> Cart Class Initialized
+INFO - 2025-08-28 21:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:22:13 --> Cart Class Initialized
+INFO - 2025-08-28 21:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:22:16 --> Cart Class Initialized
+INFO - 2025-08-28 21:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:23:52 --> Cart Class Initialized
+INFO - 2025-08-28 21:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:24:24 --> Cart Class Initialized
+INFO - 2025-08-28 21:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:24:32 --> Cart Class Initialized
+INFO - 2025-08-28 21:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-28 21:27:03 --> ParseError: syntax error, unexpected token ";"
+in APPPATH\Controllers\carrito_controller.php on line 181.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\carrito_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\carrito_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\carrito_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-28 21:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:27:46 --> Cart Class Initialized
+INFO - 2025-08-28 21:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:28:02 --> Cart Class Initialized
+INFO - 2025-08-28 21:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:28:05 --> Cart Class Initialized
+INFO - 2025-08-28 21:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:28:58 --> Cart Class Initialized
+INFO - 2025-08-28 21:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:29:34 --> Cart Class Initialized
+INFO - 2025-08-28 21:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:29:36 --> Cart Class Initialized
+INFO - 2025-08-28 21:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:29:40 --> Cart Class Initialized
+INFO - 2025-08-28 21:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:43:11 --> Cart Class Initialized
+INFO - 2025-08-28 21:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:56:12 --> Cart Class Initialized
+INFO - 2025-08-28 21:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:56:34 --> Cart Class Initialized
+INFO - 2025-08-28 21:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:56:40 --> Cart Class Initialized
+INFO - 2025-08-28 21:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:56:55 --> Cart Class Initialized
+INFO - 2025-08-28 21:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:57:02 --> Cart Class Initialized
+INFO - 2025-08-28 21:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:57:21 --> Cart Class Initialized
+INFO - 2025-08-28 21:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:57:22 --> Cart Class Initialized
+INFO - 2025-08-28 21:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:57:23 --> Cart Class Initialized
+INFO - 2025-08-28 21:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-28 21:57:24 --> Cart Class Initialized

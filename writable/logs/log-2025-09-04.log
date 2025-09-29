@@ -1,0 +1,760 @@
+INFO - 2025-09-04 01:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 01:14:01 --> Error: Class "App\Controllers\productos_detalle_Model" not found
+in APPPATH\Controllers\ventas_controller.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ventas_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-04 01:15:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\ventas_controller::$productosDetalle is deprecated in APPPATH\Controllers\ventas_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ventas_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-04 01:15:30 --> ErrorException: Undefined array key "carrito"
+in APPPATH\Models\usuario_Model.php on line 23.
+ 1 APPPATH\Models\usuario_Model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php', 23)
+ 2 APPPATH\Controllers\ventas_controller.php(30): App\Models\usuario_Model->obtenerCarrito(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ventas_controller->registrarVenta()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-04 01:19:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\ventas_controller::$productosDetalle is deprecated in APPPATH\Controllers\ventas_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ventas_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-04 01:19:05 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\ventas_controller.php(40): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ventas_controller->registrarVenta()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-04 01:20:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\ventas_controller::$productosDetalle is deprecated in APPPATH\Controllers\ventas_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ventas_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:28:20 --> Cart Class Initialized
+INFO - 2025-09-04 01:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:28:39 --> Cart Class Initialized
+INFO - 2025-09-04 01:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:28:41 --> Cart Class Initialized
+INFO - 2025-09-04 01:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:28:47 --> Cart Class Initialized
+INFO - 2025-09-04 01:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-04 01:28:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\ventas_controller::$productosDetalle is deprecated in APPPATH\Controllers\ventas_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ventas_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:31:33 --> Cart Class Initialized
+INFO - 2025-09-04 01:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:31:38 --> Cart Class Initialized
+CRITICAL - 2025-09-04 01:31:38 --> TypeError: Unsupported operand types: string * string
+in APPPATH\Views\cliente\carrito.php on line 23.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/carrito', [], true)
+ 4 APPPATH\Controllers\carrito_controller.php(191): view('cliente/carrito', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->validarStock()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:31:40 --> Cart Class Initialized
+INFO - 2025-09-04 01:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-04 01:31:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\ventas_controller::$productosDetalle is deprecated in APPPATH\Controllers\ventas_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ventas_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:41:58 --> Cart Class Initialized
+INFO - 2025-09-04 01:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:42:01 --> Cart Class Initialized
+INFO - 2025-09-04 01:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:42:02 --> Cart Class Initialized
+INFO - 2025-09-04 01:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:42:09 --> Cart Class Initialized
+INFO - 2025-09-04 01:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:42:14 --> Cart Class Initialized
+INFO - 2025-09-04 01:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:42:17 --> Cart Class Initialized
+INFO - 2025-09-04 01:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:42:21 --> Cart Class Initialized
+INFO - 2025-09-04 01:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:42:24 --> Cart Class Initialized
+INFO - 2025-09-04 01:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-04 01:42:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\ventas_controller::$productosDetalle is deprecated in APPPATH\Controllers\ventas_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ventas_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:43:05 --> Cart Class Initialized
+INFO - 2025-09-04 01:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:44:10 --> Cart Class Initialized
+INFO - 2025-09-04 01:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:44:12 --> Cart Class Initialized
+INFO - 2025-09-04 01:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:44:14 --> Cart Class Initialized
+INFO - 2025-09-04 01:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:44:15 --> Cart Class Initialized
+INFO - 2025-09-04 01:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-04 01:44:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\ventas_controller::$productosDetalle is deprecated in APPPATH\Controllers\ventas_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ventas_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:49:02 --> Cart Class Initialized
+INFO - 2025-09-04 01:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-09-04 01:49:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\ventas_controller::$productosDetalle is deprecated in APPPATH\Controllers\ventas_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ventas_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 01:54:22 --> ParseError: syntax error, unexpected token "endif"
+in APPPATH\Views\cliente\principal.php on line 32.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/principal', [], true)
+ 3 APPPATH\Controllers\Home.php(83): view('cliente/principal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 01:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 01:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:01:18 --> Cart Class Initialized
+INFO - 2025-09-04 02:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:01:21 --> Cart Class Initialized
+CRITICAL - 2025-09-04 02:01:21 --> TypeError: Unsupported operand types: string * string
+in APPPATH\Views\cliente\carrito.php on line 23.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/carrito', [], true)
+ 4 APPPATH\Controllers\carrito_controller.php(191): view('cliente/carrito', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->validarStock()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 02:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:01:23 --> Cart Class Initialized
+INFO - 2025-09-04 02:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:01:26 --> Cart Class Initialized
+INFO - 2025-09-04 02:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:04:50 --> Cart Class Initialized
+INFO - 2025-09-04 02:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:11:22 --> Cart Class Initialized
+CRITICAL - 2025-09-04 02:11:22 --> ErrorException: Undefined array key ""
+in APPPATH\Controllers\carrito_controller.php on line 174.
+ 1 APPPATH\Controllers\carrito_controller.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->validarStock()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 02:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:11:24 --> Cart Class Initialized
+CRITICAL - 2025-09-04 02:11:24 --> ErrorException: Undefined array key ""
+in APPPATH\Controllers\carrito_controller.php on line 174.
+ 1 APPPATH\Controllers\carrito_controller.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->validarStock()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 02:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:11:24 --> Cart Class Initialized
+CRITICAL - 2025-09-04 02:11:24 --> ErrorException: Undefined array key ""
+in APPPATH\Controllers\carrito_controller.php on line 174.
+ 1 APPPATH\Controllers\carrito_controller.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->validarStock()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 02:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:11:24 --> Cart Class Initialized
+CRITICAL - 2025-09-04 02:11:24 --> ErrorException: Undefined array key ""
+in APPPATH\Controllers\carrito_controller.php on line 174.
+ 1 APPPATH\Controllers\carrito_controller.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->validarStock()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 02:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:14:25 --> Cart Class Initialized
+INFO - 2025-09-04 02:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:14:25 --> Cart Class Initialized
+INFO - 2025-09-04 02:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:14:30 --> Cart Class Initialized
+INFO - 2025-09-04 02:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 02:14:31 --> Cart Class Initialized
+INFO - 2025-09-04 19:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:26:29 --> Cart Class Initialized
+INFO - 2025-09-04 19:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:26:38 --> Cart Class Initialized
+INFO - 2025-09-04 19:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:26:46 --> Cart Class Initialized
+INFO - 2025-09-04 19:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:26:53 --> Cart Class Initialized
+INFO - 2025-09-04 19:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:30:11 --> Cart Class Initialized
+INFO - 2025-09-04 19:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:30:13 --> Cart Class Initialized
+INFO - 2025-09-04 19:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:30:14 --> Cart Class Initialized
+INFO - 2025-09-04 19:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:30:16 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:32 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:34 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:36 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:38 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:39 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:40 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:43 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:43 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:44 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:44 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:45 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:45 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:46 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:46 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:47 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:47 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:47 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:49 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:50 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:51 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:53 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:53 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:54 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:54 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:55 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:55 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:55 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:57 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:57 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:59 --> Cart Class Initialized
+INFO - 2025-09-04 19:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:31:59 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:01 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:03 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:05 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:07 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:08 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:08 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:08 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:09 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:11 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:12 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:12 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:13 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:15 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:16 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:18 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:19 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:25 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:32 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:33 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:33 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:33 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:35 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:36 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:38 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:38 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:40 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:41 --> Cart Class Initialized
+INFO - 2025-09-04 19:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:32:42 --> Cart Class Initialized
+INFO - 2025-09-04 19:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:33:16 --> Cart Class Initialized
+INFO - 2025-09-04 19:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:33:24 --> Cart Class Initialized
+INFO - 2025-09-04 19:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:33:25 --> Cart Class Initialized
+INFO - 2025-09-04 19:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:33:26 --> Cart Class Initialized
+INFO - 2025-09-04 19:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:33:27 --> Cart Class Initialized
+INFO - 2025-09-04 19:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:33:35 --> Cart Class Initialized
+INFO - 2025-09-04 19:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:35:00 --> Cart Class Initialized
+INFO - 2025-09-04 19:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:36:40 --> Cart Class Initialized
+INFO - 2025-09-04 19:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:36:43 --> Cart Class Initialized
+INFO - 2025-09-04 19:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:36:43 --> Cart Class Initialized
+INFO - 2025-09-04 19:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:36:43 --> Cart Class Initialized
+INFO - 2025-09-04 19:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:37:05 --> Cart Class Initialized
+INFO - 2025-09-04 19:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 19:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 20:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 20:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 20:19:28 --> BadMethodCallException: Call to undefined method App\Models\productos_detalle_Model::consultarTalles
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\producto_controller.php(347): CodeIgniter\Model->__call('consultarTalles', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 20:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-04 20:20:56 --> mysqli_sql_exception: Unknown column 'pd.id_talle' in 'field list' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles('', '1')
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-04 20:20:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.id_talle' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT pd.id_talle
+            FROM productos_detalle pd
+            WHERE pd.producto_id = ? 
+            AND pd.id_colores = ?', [...])
+ 2 APPPATH\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles('', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-04 20:20:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.id_talle' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT pd.id_talle
+            FROM productos_detalle pd
+            WHERE pd.producto_id = \'\' 
+            AND pd.id_colores = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT pd.id_talle
+            FROM productos_detalle pd
+            WHERE pd.producto_id = \'\' 
+            AND pd.id_colores = \'1\'')
+ 3 APPPATH\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT pd.id_talle
+            FROM productos_detalle pd
+            WHERE pd.producto_id = ? 
+            AND pd.id_colores = ?', [...])
+ 4 APPPATH\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles('', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-04 20:20:56 --> [Caused by] mysqli_sql_exception: Unknown column 'pd.id_talle' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT pd.id_talle
+            FROM productos_detalle pd
+            WHERE pd.producto_id = \'\' 
+            AND pd.id_colores = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT pd.id_talle
+            FROM productos_detalle pd
+            WHERE pd.producto_id = \'\' 
+            AND pd.id_colores = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT pd.id_talle
+            FROM productos_detalle pd
+            WHERE pd.producto_id = \'\' 
+            AND pd.id_colores = \'1\'')
+ 4 APPPATH\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT pd.id_talle
+            FROM productos_detalle pd
+            WHERE pd.producto_id = ? 
+            AND pd.id_colores = ?', [...])
+ 5 APPPATH\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles('', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 20:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 20:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 20:22:09 --> Cart Class Initialized
+ERROR - 2025-09-04 20:22:13 --> mysqli_sql_exception: Unknown column 'pd.id_colores' in 'where clause' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles('', '1')
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-04 20:22:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.id_colores' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = ? 
+            AND pd.id_colores = ?', [...])
+ 2 APPPATH\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles('', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-04 20:22:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.id_colores' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = \'\' 
+            AND pd.id_colores = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = \'\' 
+            AND pd.id_colores = \'1\'')
+ 3 APPPATH\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = ? 
+            AND pd.id_colores = ?', [...])
+ 4 APPPATH\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles('', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-04 20:22:13 --> [Caused by] mysqli_sql_exception: Unknown column 'pd.id_colores' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = \'\' 
+            AND pd.id_colores = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = \'\' 
+            AND pd.id_colores = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = \'\' 
+            AND pd.id_colores = \'1\'')
+ 4 APPPATH\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = ? 
+            AND pd.id_colores = ?', [...])
+ 5 APPPATH\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles('', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 20:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 20:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 20:32:07 --> ParseError: syntax error, unexpected integer "80", expecting variable
+in APPPATH\Models\productos_detalle_Model.php on line 52.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\productos_detalle_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\productos_detalle_Model')
+ 3 APPPATH\Controllers\producto_controller.php(300): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\productos_detalle_Model')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('80')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 20:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-04 20:32:56 --> mysqli_sql_exception: Unknown column 'pd.color' in 'where clause' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles(80, 1)
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-04 20:32:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.color' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = ? 
+            AND pd.color = ?', [...])
+ 2 APPPATH\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles(80, 1)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-04 20:32:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.color' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = 80 
+            AND pd.color = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = 80 
+            AND pd.color = 1')
+ 3 APPPATH\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = ? 
+            AND pd.color = ?', [...])
+ 4 APPPATH\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles(80, 1)
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-04 20:32:56 --> [Caused by] mysqli_sql_exception: Unknown column 'pd.color' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = 80 
+            AND pd.color = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = 80 
+            AND pd.color = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = 80 
+            AND pd.color = 1')
+ 4 APPPATH\Models\productos_detalle_Model.php(59): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT pd.talle_id
+            FROM productos_detalle pd
+            WHERE pd.producto_id = ? 
+            AND pd.color = ?', [...])
+ 5 APPPATH\Controllers\producto_controller.php(347): App\Models\productos_detalle_Model->consultarTalles(80, 1)
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->consultar_talles()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 20:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 20:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 20:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 20:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 20:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 21:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 22:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 23:27:05 --> ErrorException: Undefined array key "id_talle"
+in APPPATH\Views\cliente\detalle-producto.php on line 24.
+ 1 APPPATH\Views\cliente\detalle-producto.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_talle"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\detalle-producto.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\detalle-producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/detalle-producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(315): view('cliente/detalle-producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('80')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 23:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 23:27:34 --> ErrorException: Undefined array key "id_talle"
+in APPPATH\Views\cliente\detalle-producto.php on line 27.
+ 1 APPPATH\Views\cliente\detalle-producto.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_talle"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\detalle-producto.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\detalle-producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/detalle-producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(315): view('cliente/detalle-producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('80')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 23:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 23:29:16 --> ErrorException: Undefined variable $productoDetalleSeleccionado
+in APPPATH\Controllers\producto_controller.php on line 315.
+ 1 APPPATH\Controllers\producto_controller.php(315): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productoDetalleSeleccionado', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 315)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('80')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 23:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 23:29:47 --> ErrorException: Undefined variable $productoDetalleSeleccionado
+in APPPATH\Views\cliente\detalle-producto.php on line 24.
+ 1 APPPATH\Views\cliente\detalle-producto.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productoDetalleSeleccionado', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\detalle-producto.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\detalle-producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/detalle-producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(315): view('cliente/detalle-producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('80')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 23:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 23:30:35 --> ErrorException: Undefined variable $productoDetalleSeleccionado
+in APPPATH\Views\cliente\detalle-producto.php on line 24.
+ 1 APPPATH\Views\cliente\detalle-producto.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productoDetalleSeleccionado', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\detalle-producto.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\detalle-producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/detalle-producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(315): view('cliente/detalle-producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('80')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-04 23:31:26 --> ParseError: syntax error, unexpected variable "$productoDetalle", expecting "]"
+in APPPATH\Controllers\producto_controller.php on line 315.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 23:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 23:31:50 --> ErrorException: Undefined variable $productosDetalle
+in APPPATH\Views\cliente\detalle-producto.php on line 25.
+ 1 APPPATH\Views\cliente\detalle-producto.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productosDetalle', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\detalle-producto.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\detalle-producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/detalle-producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(315): view('cliente/detalle-producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('80')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 23:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 23:38:28 --> ErrorException: Undefined variable $id
+in APPPATH\Models\productos_detalle_Model.php on line 77.
+ 1 APPPATH\Models\productos_detalle_Model.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\productos_detalle_Model.php', 77)
+ 2 APPPATH\Controllers\producto_controller.php(300): App\Models\productos_detalle_Model->primerDetalleProducto('80')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('80')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-04 23:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-04 23:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

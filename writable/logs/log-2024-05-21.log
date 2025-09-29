@@ -1,0 +1,790 @@
+CRITICAL - 2024-05-21 00:11:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/usuario/productoNuevo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/productoNuevo.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/usuario/productoNuevo', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(19): view('back/usuario/productoNuevo')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:12:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/producto/productoNuevo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/producto/productoNuevo.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/productoNuevo', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(19): view('back/producto/productoNuevo')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:12:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/producto/productoNuevo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/producto/productoNuevo.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/producto/productoNuevo', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(19): view('back/producto/productoNuevo')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:20:31 --> ErrorException: Undefined variable: categoriaModel
+in APPPATH\Views\back\productos\alta_producto.php on line 36.
+ 1 APPPATH\Views\back\productos\alta_producto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoriaModel', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/alta_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(28): view('back/productos/alta_producto')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:21:06 --> ErrorException: Undefined variable: categoriaModel
+in APPPATH\Views\back\productos\alta_producto.php on line 36.
+ 1 APPPATH\Views\back\productos\alta_producto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoriaModel', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/alta_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(28): view('back/productos/alta_producto')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:22:41 --> ErrorException: Undefined variable: categoriaModel
+in APPPATH\Views\back\productos\alta_producto.php on line 36.
+ 1 APPPATH\Views\back\productos\alta_producto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoriaModel', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/alta_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(28): view('back/productos/alta_producto')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:24:49 --> ErrorException: Undefined variable: data
+in APPPATH\Views\back\productos\alta_producto.php on line 36.
+ 1 APPPATH\Views\back\productos\alta_producto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/alta_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(28): view('back/productos/alta_producto')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:25:51 --> ErrorException: Undefined variable: data
+in APPPATH\Views\back\productos\alta_producto.php on line 36.
+ 1 APPPATH\Views\back\productos\alta_producto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/alta_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(28): view('back/productos/alta_producto')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-21 01:34:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-21 01:34:07 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:34:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:34:07 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-21 01:35:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-21 01:35:08 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:35:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:35:08 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-21 01:36:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-21 01:36:14 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:36:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:36:14 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-21 01:36:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-21 01:36:17 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:36:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:36:17 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-21 01:37:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-21 01:37:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:37:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:37:12 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-21 01:42:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-21 01:42:27 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:42:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:42:27 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`
+ORDER BY `id_categoria`,  DESC', [], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\producto_controller.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:44:01 --> ErrorException: Undefined variable: categoriaModel
+in APPPATH\Views\back\productos\alta_producto.php on line 37.
+ 1 APPPATH\Views\back\productos\alta_producto.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoriaModel', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\productos\\alta_producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/productos/alta_producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(31): view('back/productos/alta_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->creaProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 16:53:20 --> ParseError: syntax error, unexpected ''stock'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\producto_controller.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\producto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\producto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\producto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 16:54:54 --> ParseError: syntax error, unexpected ''stock'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\producto_controller.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\producto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\producto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\producto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 16:55:25 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\producto_controller.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\producto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\producto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\producto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 16:59:02 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\producto_controller.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\producto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\producto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\producto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 16:59:06 --> ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\producto_controller.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\producto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\producto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\producto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 17:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 17:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 17:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 17:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 17:33:57 --> ParseError: syntax error, unexpected ')'
+in APPPATH\Controllers\producto_controller.php on line 64.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\producto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\producto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\producto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-21 17:35:03 --> mysqli_sql_exception: Unknown column 'categoria_id' in 'where clause' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(NULL, 'categoria_id', Array, NULL, 'categoria_id')
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', NULL, Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-21 17:35:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categoria_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(null, 'categoria_id', [...], null, 'categoria_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', null, [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 17:35:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categoria_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(null, 'categoria_id', [...], null, 'categoria_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', null, [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 17:35:03 --> [Caused by] mysqli_sql_exception: Unknown column 'categoria_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(null, 'categoria_id', [...], null, 'categoria_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', null, [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-21 17:38:18 --> mysqli_sql_exception: Unknown column 'categoria_id' in 'where clause' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(NULL, 'categoria_id', Array, NULL, 'categoria_id')
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', NULL, Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-21 17:38:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categoria_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(null, 'categoria_id', [...], null, 'categoria_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', null, [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 17:38:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categoria_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(null, 'categoria_id', [...], null, 'categoria_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', null, [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 17:38:18 --> [Caused by] mysqli_sql_exception: Unknown column 'categoria_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(null, 'categoria_id', [...], null, 'categoria_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', null, [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-21 17:39:52 --> mysqli_sql_exception: Unknown column 'categoria_id' in 'where clause' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(NULL, 'categoria_id', Array, NULL, 'categoria_id')
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', NULL, Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-21 17:39:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categoria_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(null, 'categoria_id', [...], null, 'categoria_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', null, [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 17:39:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categoria_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(null, 'categoria_id', [...], null, 'categoria_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', null, [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 17:39:52 --> [Caused by] mysqli_sql_exception: Unknown column 'categoria_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `categoria`
+WHERE `categoria_id` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique(null, 'categoria_id', [...], null, 'categoria_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', null, [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\producto_controller.php(49): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1036 @@
+INFO - 2025-09-08 00:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 00:23:00 --> ParseError: syntax error, unexpected token "=>", expecting ")"
+in APPPATH\Controllers\talle_controller.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\talle_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\talle_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\talle_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\talle_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 00:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 00:24:42 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\talle_controller.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\talle_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\talle_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\talle_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\talle_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 00:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 00:32:51 --> ErrorException: Undefined variable $talle
+in APPPATH\Controllers\talle_controller.php on line 37.
+ 1 APPPATH\Controllers\talle_controller.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $talle', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\talle_controller.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->create()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 00:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 00:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 01:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 01:08:14 --> Error: Class "App\Controllers\usuario_Model" not found
+in APPPATH\Controllers\contacto_controller.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->contacto()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 01:25:21 --> TypeError: CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, bool given, called in C:\xampp\htdocs\proyecto_espinola_emilia\system\Controller.php on line 198
+in SYSTEMPATH\Validation\Validation.php on line 576.
+ 1 SYSTEMPATH\Controller.php(198): CodeIgniter\Validation\Validation->setRules(true, [])
+ 2 SYSTEMPATH\Controller.php(152): CodeIgniter\Controller->setValidator(true, [])
+ 3 APPPATH\Controllers\contacto_controller.php(34): CodeIgniter\Controller->validate(true)
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->create()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 01:26:23 --> Error: Call to undefined function App\Controllers\obtenerReglas()
+in APPPATH\Controllers\contacto_controller.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 01:27:08 --> Error: Array callback must have exactly two elements
+in APPPATH\Controllers\contacto_controller.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-09-08 01:28:56 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\contacto_controller.php on line 45.
+ 1 APPPATH\Controllers\contacto_controller.php(45): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->create()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-09-08 01:29:26 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\contacto_controller.php on line 45.
+ 1 APPPATH\Controllers\contacto_controller.php(45): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->create()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 01:49:20 --> ErrorException: Undefined variable $datos
+in APPPATH\Controllers\contacto_controller.php on line 15.
+ 1 APPPATH\Controllers\contacto_controller.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 01:49:42 --> ErrorException: Undefined variable $contacto
+in APPPATH\Views\administrador\tabla-contacto.php on line 26.
+ 1 APPPATH\Views\administrador\tabla-contacto.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacto', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-contacto.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-contacto', [], true)
+ 5 APPPATH\Controllers\contacto_controller.php(15): view('administrador/tabla-contacto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 01:50:32 --> ErrorException: Undefined variable $producto
+in APPPATH\Views\administrador\tabla-contacto.php on line 36.
+ 1 APPPATH\Views\administrador\tabla-contacto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-contacto.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-contacto', [], true)
+ 5 APPPATH\Controllers\contacto_controller.php(15): view('administrador/tabla-contacto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 02:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 02:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 02:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 02:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 02:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 02:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 03:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 04:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-08 04:39:44 --> mysqli_sql_exception: Column 'talle' cannot be null in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(749): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\talle_controller.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\talle_controller->create()
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-09-08 04:39:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'talle' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `talles` (`talle`) VALUES (:talle:)', [...], false)
+ 2 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\talle_controller.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->create()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 04:39:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'talle' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `talles` (`talle`) VALUES (NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `talles` (`talle`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `talles` (`talle`) VALUES (:talle:)', [...], false)
+ 4 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\talle_controller.php(28): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->create()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 04:39:44 --> [Caused by] mysqli_sql_exception: Column 'talle' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `talles` (`talle`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `talles` (`talle`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `talles` (`talle`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `talles` (`talle`) VALUES (:talle:)', [...], false)
+ 5 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\talle_controller.php(28): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->create()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 05:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 05:23:00 --> BadMethodCallException: Call to undefined method App\Models\producto_Model::filtarProductos
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\producto_controller.php(325): CodeIgniter\Model->__call('filtarProductos', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 05:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 05:23:52 --> BadMethodCallException: Call to undefined method App\Models\producto_Model::filtarProductos
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\producto_controller.php(325): CodeIgniter\Model->__call('filtarProductos', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 05:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 05:52:27 --> ErrorException: Undefined array key "categoria"
+in APPPATH\Views\administrador\tabla-productos.php on line 43.
+ 1 APPPATH\Views\administrador\tabla-productos.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-productos', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(327): view('administrador/tabla-productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 05:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 05:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 05:55:07 --> ErrorException: Undefined array key "categoria.descripcion"
+in APPPATH\Views\administrador\tabla-productos.php on line 43.
+ 1 APPPATH\Views\administrador\tabla-productos.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria.descripcion"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-productos', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(19): view('administrador/tabla-productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 05:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 05:56:43 --> ErrorException: Undefined array key "categoria"
+in APPPATH\Views\administrador\tabla-productos.php on line 43.
+ 1 APPPATH\Views\administrador\tabla-productos.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-productos', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(327): view('administrador/tabla-productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 05:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 05:58:03 --> ParseError: syntax error, unexpected single-quoted string "descripcion", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\administrador\tabla-productos.php on line 43.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-productos', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(19): view('administrador/tabla-productos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 05:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 06:04:44 --> ErrorException: Undefined array key "categoria"
+in APPPATH\Views\administrador\tabla-productos.php on line 43.
+ 1 APPPATH\Views\administrador\tabla-productos.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-productos', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(327): view('administrador/tabla-productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 06:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-08 06:05:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+                        FROM productos
+                        INNER JOIN...' at line 1 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * , cate...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , cate...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , cate...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\producto_Model.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * , cate...', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('', '')
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-08 06:05:59 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+                        FROM productos
+                        INNER JOIN...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\producto_Model.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.estado = ?', [...])
+ 2 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('', '')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 06:05:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+                        FROM productos
+                        INNER JOIN...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.estado = \'\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.estado = \'\'')
+ 3 APPPATH\Models\producto_Model.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.estado = ?', [...])
+ 4 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('', '')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 06:05:59 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+                        FROM productos
+                        INNER JOIN...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.estado = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.estado = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.estado = \'\'')
+ 4 APPPATH\Models\producto_Model.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.estado = ?', [...])
+ 5 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('', '')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 06:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 06:19:27 --> ErrorException: Undefined variable $query
+in APPPATH\Models\producto_Model.php on line 27.
+ 1 APPPATH\Models\producto_Model.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\producto_Model.php', 27)
+ 2 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 06:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-08 06:20:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+                        FROM productos
+                        INNER JOIN...' at line 1 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * , cate...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , cate...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , cate...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\producto_Model.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * , cate...', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '1')
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-08 06:20:43 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+                        FROM productos
+                        INNER JOIN...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\producto_Model.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where (productos.nombre_producto like ? OR categoria.descripcion like ?)
+                        AND productos.estado = ?', [...])
+ 2 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 06:20:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+                        FROM productos
+                        INNER JOIN...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where (productos.nombre_producto like \'%buzo%\' OR categoria.descripcion like \'%buzo%\')
+                        AND productos.estado = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where (productos.nombre_producto like \'%buzo%\' OR categoria.descripcion like \'%buzo%\')
+                        AND productos.estado = \'1\'')
+ 3 APPPATH\Models\producto_Model.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where (productos.nombre_producto like ? OR categoria.descripcion like ?)
+                        AND productos.estado = ?', [...])
+ 4 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 06:20:43 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''
+                        FROM productos
+                        INNER JOIN...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where (productos.nombre_producto like \'%buzo%\' OR categoria.descripcion like \'%buzo%\')
+                        AND productos.estado = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where (productos.nombre_producto like \'%buzo%\' OR categoria.descripcion like \'%buzo%\')
+                        AND productos.estado = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where (productos.nombre_producto like \'%buzo%\' OR categoria.descripcion like \'%buzo%\')
+                        AND productos.estado = \'1\'')
+ 4 APPPATH\Models\producto_Model.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria\'
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where (productos.nombre_producto like ? OR categoria.descripcion like ?)
+                        AND productos.estado = ?', [...])
+ 5 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 06:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-08 06:27:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? OR categoria.descripcion like ?' at line 5 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * , cate...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , cate...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , cate...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\producto_Model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * , cate...', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '')
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-08 06:27:44 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? OR categoria.descripcion like ?' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\producto_Model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?', [...])
+ 2 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 06:27:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? OR categoria.descripcion like ?' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?')
+ 3 APPPATH\Models\producto_Model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?', [...])
+ 4 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 06:27:44 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? OR categoria.descripcion like ?' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?')
+ 4 APPPATH\Models\producto_Model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?', [...])
+ 5 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 06:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 06:28:51 --> TypeError: CodeIgniter\Database\BaseConnection::query(): Argument #3 ($setEscapeFlags) must be of type bool, array given, called in C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\producto_Model.php on line 39
+in SYSTEMPATH\Database\BaseConnection.php on line 570.
+ 1 APPPATH\Models\producto_Model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where (productos.nombre_producto like ? OR categoria.descripcion like ?)', [...], [...])
+ 2 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 06:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 06:30:02 --> TypeError: CodeIgniter\Database\BaseConnection::query(): Argument #3 ($setEscapeFlags) must be of type bool, array given, called in C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\producto_Model.php on line 39
+in SYSTEMPATH\Database\BaseConnection.php on line 570.
+ 1 APPPATH\Models\producto_Model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?', [...], [...])
+ 2 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 06:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 06:39:56 --> ErrorException: Undefined variable $query
+in APPPATH\Models\producto_Model.php on line 41.
+ 1 APPPATH\Models\producto_Model.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\producto_Model.php', 41)
+ 2 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 06:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 06:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-08 19:18:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? OR categoria.descripcion like ?' at line 5 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * , cate...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , cate...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , cate...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\producto_Model.php(54): CodeIgniter\Database\BaseConnection->query('SELECT * , cate...', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '')
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-08 19:18:42 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? OR categoria.descripcion like ?' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\producto_Model.php(54): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?', [...])
+ 2 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 19:18:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? OR categoria.descripcion like ?' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?')
+ 3 APPPATH\Models\producto_Model.php(54): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?', [...])
+ 4 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-08 19:18:42 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? OR categoria.descripcion like ?' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?')
+ 4 APPPATH\Models\producto_Model.php(54): CodeIgniter\Database\BaseConnection->query('SELECT * , categoria.descripcion AS categoria
+                        FROM productos
+                        INNER JOIN categoria
+                        ON productos.categoria_id = categoria.id_categoria
+                        where productos.nombre_producto like ? OR categoria.descripcion like ?', [...])
+ 5 APPPATH\Controllers\producto_controller.php(325): App\Models\producto_Model->filtarProductos('buzo', '')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 19:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 19:27:47 --> BadMethodCallException: Call to undefined method App\Models\producto_Model::filtarProductosEstado
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\producto_controller.php(328): CodeIgniter\Model->__call('filtarProductosEstado', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 19:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 19:28:49 --> BadMethodCallException: Call to undefined method App\Models\producto_Model::filtarProductosEstado
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\producto_controller.php(328): CodeIgniter\Model->__call('filtarProductosEstado', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 19:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 19:37:14 --> ParseError: syntax error, unexpected token "if"
+in APPPATH\Controllers\producto_controller.php on line 330.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 19:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 19:37:47 --> ErrorException: Undefined variable $productos
+in APPPATH\Controllers\producto_controller.php on line 334.
+ 1 APPPATH\Controllers\producto_controller.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 334)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 19:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 19:39:08 --> ErrorException: Undefined array key "categoria"
+in APPPATH\Views\administrador\tabla-productos.php on line 43.
+ 1 APPPATH\Views\administrador\tabla-productos.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-productos', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(336): view('administrador/tabla-productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 19:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 19:58:20 --> ParseError: syntax error, unexpected token "else"
+in APPPATH\Views\administrador\editar_producto.php on line 104.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/editar_producto', [], true)
+ 3 APPPATH\Controllers\producto_controller.php(159): view('administrador/editar_producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->edit('75')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 19:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 19:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 20:07:48 --> ErrorException: Undefined array key "id_productos_detalle"
+in APPPATH\Views\administrador\tabla_productos_detalle.php on line 26.
+ 1 APPPATH\Views\administrador\tabla_productos_detalle.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_productos_detalle"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_productos_detalle.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_productos_detalle.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla_productos_detalle', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(29): view('administrador/tabla_productos_detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('75')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 20:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 20:17:31 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php on line 877
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->like('nombre_apellido', null)
+ 2 APPPATH\Controllers\contacto_controller.php(65): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 20:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 20:23:46 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php on line 877
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->like('nombre_apellido', null)
+ 2 APPPATH\Controllers\contacto_controller.php(65): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 20:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 20:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 21:04:48 --> ErrorException: Undefined variable $validation
+in APPPATH\Views\administrador\tabla_talles.php on line 69.
+ 1 APPPATH\Views\administrador\tabla_talles.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_talles.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_talles.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla_talles', [], true)
+ 5 APPPATH\Controllers\talle_controller.php(15): view('administrador/tabla_talles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 21:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 21:55:18 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\administrador\tabla-productos.php on line 40.
+ 1 APPPATH\Views\administrador\tabla-productos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-productos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-productos', [], true)
+ 5 APPPATH\Controllers\talle_controller.php(51): view('administrador/tabla-productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->buscarTalles()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 21:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 21:56:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "administrador/tabla-talles.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrador/tabla-talles.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-talles', [], true)
+ 3 APPPATH\Controllers\talle_controller.php(51): view('administrador/tabla-talles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->buscarTalles()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 21:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 21:57:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "administrador/tabla-talles.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrador/tabla-talles.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-talles', [], true)
+ 3 APPPATH\Controllers\talle_controller.php(51): view('administrador/tabla-talles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->buscarTalles()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 21:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 21:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 21:57:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\administrador\tabla_talles.php on line 34.
+ 1 APPPATH\Views\administrador\tabla_talles.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_talles.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_talles.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla_talles', [], true)
+ 5 APPPATH\Controllers\talle_controller.php(51): view('administrador/tabla_talles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->buscarTalles()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 22:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 22:01:00 --> Error: Cannot use object of type App\Models\talles_Model as array
+in APPPATH\Controllers\talle_controller.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->buscarTalles()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 22:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 22:04:55 --> TypeError: Illegal offset type
+in APPPATH\Controllers\talle_controller.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->buscarTalles()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 22:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 22:05:51 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\administrador\tabla_talles.php on line 34.
+ 1 APPPATH\Views\administrador\tabla_talles.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_talles.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_talles.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla_talles', [], true)
+ 5 APPPATH\Controllers\talle_controller.php(51): view('administrador/tabla_talles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->buscarTalles()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 22:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 22:07:03 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\administrador\tabla_talles.php on line 34.
+ 1 APPPATH\Views\administrador\tabla_talles.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_talles.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_talles.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla_talles', [], true)
+ 5 APPPATH\Controllers\talle_controller.php(51): view('administrador/tabla_talles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->buscarTalles()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 22:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 22:08:30 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\administrador\tabla_talles.php on line 34.
+ 1 APPPATH\Views\administrador\tabla_talles.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_talles.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_talles.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla_talles', [], true)
+ 5 APPPATH\Controllers\talle_controller.php(51): view('administrador/tabla_talles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->buscarTalles()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 22:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-08 22:10:11 --> ParseError: syntax error, unexpected token "->"
+in APPPATH\Models\talles_Model.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\talles_Model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\talles_Model')
+ 3 APPPATH\Controllers\talle_controller.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\talles_Model')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-08 22:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 22:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 23:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 23:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 23:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-08 23:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

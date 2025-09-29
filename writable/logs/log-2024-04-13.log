@@ -1,0 +1,9 @@
+CRITICAL - 2024-04-13 15:55:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/quienesSomos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/quienesSomos.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/quienesSomos', [], true)
+ 3 APPPATH\Controllers\Home.php(27): view('front/quienesSomos')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->quienesSomos()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,193 @@
+INFO - 2024-06-04 00:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 00:03:27 --> Cart Class Initialized
+CRITICAL - 2024-06-04 00:03:27 --> ErrorException: Illegal string offset 'id'
+in APPPATH\Views\back\carrito.php on line 36.
+ 1 APPPATH\Views\back\carrito.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 00:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 00:04:25 --> Cart Class Initialized
+CRITICAL - 2024-06-04 00:04:25 --> ErrorException: Illegal string offset 'id_prod'
+in APPPATH\Views\back\carrito.php on line 36.
+ 1 APPPATH\Views\back\carrito.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_prod\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 00:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 00:15:27 --> Cart Class Initialized
+CRITICAL - 2024-06-04 00:15:27 --> ErrorException: Undefined property: CodeIgniter\View\View::$cart
+in APPPATH\Views\back\carrito.php on line 34.
+ 1 APPPATH\Views\back\carrito.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$cart', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 00:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 00:16:17 --> Cart Class Initialized
+CRITICAL - 2024-06-04 00:16:17 --> ErrorException: Undefined property: CodeIgniter\View\View::$cart
+in APPPATH\Views\back\carrito.php on line 34.
+ 1 APPPATH\Views\back\carrito.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$cart', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 00:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 00:16:34 --> Cart Class Initialized
+CRITICAL - 2024-06-04 00:16:34 --> Error: Object of class CodeIgniterCart\Cart could not be converted to string
+in APPPATH\Views\back\carrito.php on line 34.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 4 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 00:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 00:17:10 --> Cart Class Initialized
+CRITICAL - 2024-06-04 00:17:10 --> ErrorException: Undefined property: CodeIgniter\View\View::$cart
+in APPPATH\Views\back\carrito.php on line 34.
+ 1 APPPATH\Views\back\carrito.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$cart', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 00:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 00:23:31 --> Cart Class Initialized
+CRITICAL - 2024-06-04 00:23:31 --> ErrorException: Illegal string offset 'id_prod'
+in APPPATH\Views\back\carrito.php on line 36.
+ 1 APPPATH\Views\back\carrito.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_prod\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 00:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 00:25:54 --> Cart Class Initialized
+CRITICAL - 2024-06-04 00:25:54 --> ErrorException: Illegal string offset 'name'
+in APPPATH\Views\back\carrito.php on line 40.
+ 1 APPPATH\Views\back\carrito.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 00:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 00:53:22 --> Cart Class Initialized
+INFO - 2024-06-04 00:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 00:53:40 --> Cart Class Initialized
+CRITICAL - 2024-06-04 00:53:40 --> ErrorException: Illegal string offset 'name'
+in APPPATH\Views\back\carrito.php on line 40.
+ 1 APPPATH\Views\back\carrito.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 01:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:04:17 --> Cart Class Initialized
+CRITICAL - 2024-06-04 01:04:17 --> ErrorException: Illegal string offset 'id_prod'
+in APPPATH\Views\back\carrito.php on line 36.
+ 1 APPPATH\Views\back\carrito.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_prod\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 01:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:10:10 --> Cart Class Initialized
+CRITICAL - 2024-06-04 01:10:10 --> ErrorException: Illegal string offset 'name'
+in APPPATH\Views\back\carrito.php on line 39.
+ 1 APPPATH\Views\back\carrito.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 01:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:14:35 --> Cart Class Initialized
+INFO - 2024-06-04 01:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:35:36 --> Cart Class Initialized
+CRITICAL - 2024-06-04 01:35:36 --> ParseError: syntax error, unexpected '<'
+in APPPATH\Views\back\carrito.php on line 10.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 3 APPPATH\Controllers\carrito_controller.php(105): view('back/carrito', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 01:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:38:01 --> Cart Class Initialized
+INFO - 2024-06-04 01:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:38:08 --> Cart Class Initialized
+CRITICAL - 2024-06-04 01:38:11 --> ErrorException: unlink(C:\xampp\htdocs\proyecto_espinola_emilia\writable\debugbar/debugbar_1717372863.035148.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\proyecto_espinola_emilia\\writable\\debugbar/debugbar_1717372863.035148.json): No such file or directory', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\system\\Debug\\Toolbar\\Collectors\\History.php', 80, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\writable\\debugbar/debugbar_1717372863.035148.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(498): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1717465082.709890', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 01:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:38:37 --> Cart Class Initialized
+INFO - 2024-06-04 01:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:38:47 --> Cart Class Initialized
+INFO - 2024-06-04 01:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:57:25 --> Cart Class Initialized
+INFO - 2024-06-04 01:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:57:31 --> Cart Class Initialized
+CRITICAL - 2024-06-04 01:57:34 --> ErrorException: unlink(C:\xampp\htdocs\proyecto_espinola_emilia\writable\debugbar/debugbar_1717373775.499608.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\proyecto_espinola_emilia\\writable\\debugbar/debugbar_1717373775.499608.json): No such file or directory', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\system\\Debug\\Toolbar\\Collectors\\History.php', 80, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\writable\\debugbar/debugbar_1717373775.499608.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(498): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1717466251.956551', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-04 01:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-04 01:57:50 --> Cart Class Initialized

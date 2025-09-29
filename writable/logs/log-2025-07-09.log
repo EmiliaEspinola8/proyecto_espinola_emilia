@@ -1,0 +1,33 @@
+INFO - 2025-07-09 01:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 01:28:31 --> Cart Class Initialized
+INFO - 2025-07-09 01:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 15:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 15:01:52 --> Cart Class Initialized
+INFO - 2025-07-09 20:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 20:06:47 --> Cart Class Initialized
+INFO - 2025-07-09 20:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 20:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-09 21:35:02 --> ErrorException: Cannot redeclare App\Controllers\Home::contacto()
+in APPPATH\Controllers\Home.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-09 21:37:53 --> ErrorException: Cannot redeclare App\Controllers\Home::contacto()
+in APPPATH\Controllers\Home.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-09 21:37:54 --> ErrorException: Cannot redeclare App\Controllers\Home::contacto()
+in APPPATH\Controllers\Home.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-09 21:38:18 --> ErrorException: Cannot redeclare App\Controllers\Home::contacto()
+in APPPATH\Controllers\Home.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-09 21:38:19 --> ErrorException: Cannot redeclare App\Controllers\Home::contacto()
+in APPPATH\Controllers\Home.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-09 21:39:45 --> ErrorException: Cannot redeclare App\Controllers\Home::contacto()
+in APPPATH\Controllers\Home.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-09 21:40:22 --> ErrorException: Cannot redeclare App\Controllers\Home::contacto()
+in APPPATH\Controllers\Home.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-07-09 21:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 21:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 22:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,323 @@
+INFO - 2025-08-19 00:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:04:51 --> Cart Class Initialized
+INFO - 2025-08-19 00:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:05:18 --> Cart Class Initialized
+CRITICAL - 2025-08-19 00:05:18 --> ErrorException: Undefined variable $carrito
+in APPPATH\Controllers\carrito_controller.php on line 118.
+ 1 APPPATH\Controllers\carrito_controller.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrito', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->eliminarProductoDelCarrito()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:08:13 --> Cart Class Initialized
+INFO - 2025-08-19 00:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:08:19 --> Cart Class Initialized
+CRITICAL - 2025-08-19 00:08:19 --> ErrorException: Undefined variable $carrito
+in APPPATH\Controllers\carrito_controller.php on line 118.
+ 1 APPPATH\Controllers\carrito_controller.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrito', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->eliminarProductoDelCarrito()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:09:09 --> Cart Class Initialized
+INFO - 2025-08-19 00:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:09:13 --> Cart Class Initialized
+CRITICAL - 2025-08-19 00:09:13 --> ErrorException: Undefined array key "carrito"
+in APPPATH\Models\usuario_Model.php on line 23.
+ 1 APPPATH\Models\usuario_Model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php', 23)
+ 2 APPPATH\Controllers\carrito_controller.php(113): App\Models\usuario_Model->obtenerCarrito(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->eliminarProductoDelCarrito()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:16:33 --> Cart Class Initialized
+INFO - 2025-08-19 00:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:16:41 --> Cart Class Initialized
+INFO - 2025-08-19 00:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:16:56 --> Cart Class Initialized
+INFO - 2025-08-19 00:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:17:02 --> Cart Class Initialized
+CRITICAL - 2025-08-19 00:17:02 --> ErrorException: Undefined array key "carrito"
+in APPPATH\Models\usuario_Model.php on line 23.
+ 1 APPPATH\Models\usuario_Model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php', 23)
+ 2 APPPATH\Controllers\carrito_controller.php(114): App\Models\usuario_Model->obtenerCarrito(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->eliminarProductoDelCarrito()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:19:13 --> Cart Class Initialized
+INFO - 2025-08-19 00:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:19:17 --> Cart Class Initialized
+CRITICAL - 2025-08-19 00:19:17 --> ErrorException: Undefined variable $usuarioId
+in APPPATH\Controllers\carrito_controller.php on line 114.
+ 1 APPPATH\Controllers\carrito_controller.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioId', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\carrito_controller.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->eliminarProductoDelCarrito()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:20:02 --> Cart Class Initialized
+INFO - 2025-08-19 00:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:20:15 --> Cart Class Initialized
+INFO - 2025-08-19 00:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:20:17 --> Cart Class Initialized
+INFO - 2025-08-19 00:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:20:19 --> Cart Class Initialized
+INFO - 2025-08-19 00:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-19 00:55:11 --> ParseError: syntax error, unexpected token "protected"
+in APPPATH\Controllers\producto_controller.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-19 00:56:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-19 00:56:51 --> ErrorException: Undefined variable $usuarioID
+in APPPATH\Controllers\producto_controller.php on line 317.
+ 1 APPPATH\Controllers\producto_controller.php(317): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioID', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 317)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('78')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-19 00:57:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-19 00:57:19 --> ErrorException: Undefined variable $usuario
+in APPPATH\Controllers\producto_controller.php on line 317.
+ 1 APPPATH\Controllers\producto_controller.php(317): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 317)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('78')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-19 00:58:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-19 00:58:01 --> ErrorException: Undefined variable $usuarioID
+in APPPATH\Controllers\producto_controller.php on line 318.
+ 1 APPPATH\Controllers\producto_controller.php(318): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioID', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 318)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('78')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-19 00:58:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-19 00:59:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 00:59:28 --> Cart Class Initialized
+WARNING - 2025-08-19 00:59:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 00:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-19 01:02:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-19 01:02:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-19 01:04:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-19 01:04:00 --> ErrorException: Undefined variable $usuarios
+in APPPATH\Controllers\producto_controller.php on line 317.
+ 1 APPPATH\Controllers\producto_controller.php(317): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 317)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('76')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-19 01:04:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-19 01:04:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:04:52 --> Cart Class Initialized
+WARNING - 2025-08-19 01:08:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-19 01:08:43 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\cliente\carrito.php on line 8.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/carrito.php', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(322): view('cliente/carrito.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('76')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-19 01:08:43 --> [Caused by] ErrorException: Undefined variable $carrito
+in APPPATH\Views\cliente\carrito.php on line 8.
+ 1 APPPATH\Views\cliente\carrito.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrito', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\carrito.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\cliente\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/carrito.php', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(322): view('cliente/carrito.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('76')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-19 01:09:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-19 01:10:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-19 01:10:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-19 01:10:50 --> ErrorException: Undefined variable $usuarios
+in APPPATH\Controllers\producto_controller.php on line 317.
+ 1 APPPATH\Controllers\producto_controller.php(317): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 317)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('76')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-19 01:11:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-19 01:11:00 --> ErrorException: Undefined variable $usuarios
+in APPPATH\Controllers\producto_controller.php on line 316.
+ 1 APPPATH\Controllers\producto_controller.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 316)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('76')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-19 01:11:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\producto_controller::$productos is deprecated in APPPATH\Controllers\producto_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\producto_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-19 01:11:01 --> ErrorException: Undefined variable $usuarios
+in APPPATH\Controllers\producto_controller.php on line 316.
+ 1 APPPATH\Controllers\producto_controller.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 316)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->detalle_producto('76')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:12:44 --> Cart Class Initialized
+INFO - 2025-08-19 01:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:12:45 --> Cart Class Initialized
+CRITICAL - 2025-08-19 01:17:00 --> Error: Call to undefined function App\Controllers\visualizarCarrito()
+in APPPATH\Controllers\Home.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-19 01:18:16 --> Error: Call to undefined function App\Controllers\visualizarCarrito()
+in APPPATH\Controllers\Home.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-19 01:18:24 --> Error: Call to undefined function App\Controllers\visualizarCarrito()
+in APPPATH\Controllers\Home.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-19 01:19:25 --> Error: Call to undefined function App\Controllers\visualizarCarrito()
+in APPPATH\Controllers\Home.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-19 01:20:03 --> Error: Call to undefined function App\Controllers\visualizarCarrito()
+in APPPATH\Controllers\Home.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-19 01:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:22:04 --> Cart Class Initialized
+INFO - 2025-08-19 01:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-19 01:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

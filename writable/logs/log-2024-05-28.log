@@ -1,0 +1,75 @@
+CRITICAL - 2024-05-28 00:31:50 --> ErrorException: Undefined index: id_usuario
+in APPPATH\Views\back\tabla_usuarios.php on line 29.
+ 1 APPPATH\Views\back\tabla_usuarios.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usuarios.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/tabla_usuarios', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(20): view('back/tabla_usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-28 00:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-28 02:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-28 02:33:18 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 02:37:25 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 02:39:08 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 02:41:17 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\producto_controller.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 02:42:06 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\producto_controller.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-28 02:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-28 02:42:32 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\producto_controller.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 02:43:55 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\producto_controller.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 02:44:16 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 02:53:31 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-28 02:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-28 02:58:03 --> Error: Call to a member function getRandomName() on null
+in APPPATH\Controllers\producto_controller.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

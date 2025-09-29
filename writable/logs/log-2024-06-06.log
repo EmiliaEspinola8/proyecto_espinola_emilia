@@ -1,0 +1,579 @@
+INFO - 2024-06-06 00:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 00:04:49 --> Cart Class Initialized
+INFO - 2024-06-06 00:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 00:05:33 --> Cart Class Initialized
+INFO - 2024-06-06 00:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 00:05:46 --> Cart Class Initialized
+INFO - 2024-06-06 00:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 00:07:19 --> Cart Class Initialized
+CRITICAL - 2024-06-06 00:23:53 --> ErrorException: Trying to get property 'resuelto' of non-object
+in APPPATH\Controllers\contacto_controller.php on line 87.
+ 1 APPPATH\Controllers\contacto_controller.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'resuelto\' of non-object', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 00:24:16 --> ErrorException: Trying to get property 'resuelto' of non-object
+in APPPATH\Controllers\contacto_controller.php on line 87.
+ 1 APPPATH\Controllers\contacto_controller.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'resuelto\' of non-object', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 00:24:58 --> ParseError: syntax error, unexpected ''resuelto'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Controllers\contacto_controller.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\contacto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\contacto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\contacto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\contacto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 00:26:28 --> ErrorException: Trying to get property 'resuelto' of non-object
+in APPPATH\Controllers\contacto_controller.php on line 87.
+ 1 APPPATH\Controllers\contacto_controller.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'resuelto\' of non-object', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 00:32:36 --> ParseError: syntax error, unexpected '$contacto' (T_VARIABLE), expecting '('
+in APPPATH\Controllers\contacto_controller.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\contacto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\contacto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\contacto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\contacto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 00:33:04 --> ErrorException: Trying to get property 'resuelto' of non-object
+in APPPATH\Controllers\contacto_controller.php on line 87.
+ 1 APPPATH\Controllers\contacto_controller.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'resuelto\' of non-object', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 00:36:22 --> ErrorException: Trying to get property 'resuelto' of non-object
+in APPPATH\Controllers\contacto_controller.php on line 87.
+ 1 APPPATH\Controllers\contacto_controller.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'resuelto\' of non-object', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 00:59:07 --> ParseError: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Controllers\contacto_controller.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\contacto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\contacto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\contacto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\contacto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 00:59:33 --> ErrorException: Trying to get property 'resuelto' of non-object
+in APPPATH\Controllers\contacto_controller.php on line 87.
+ 1 APPPATH\Controllers\contacto_controller.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'resuelto\' of non-object', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:00:43 --> ErrorException: Trying to get property 'resuelto' of non-object
+in APPPATH\Controllers\contacto_controller.php on line 87.
+ 1 APPPATH\Controllers\contacto_controller.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'resuelto\' of non-object', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\contacto_controller.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\contacto_controller->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 01:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 01:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 01:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 01:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 01:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 01:16:51 --> ErrorException: Undefined variable: usuarioModel
+in APPPATH\Controllers\usuario_crud_controller.php on line 39.
+ 1 APPPATH\Controllers\usuario_crud_controller.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usuarioModel', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->create()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 01:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 01:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 01:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 11:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 11:53:34 --> Cart Class Initialized
+INFO - 2024-06-06 11:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 11:55:12 --> Cart Class Initialized
+INFO - 2024-06-06 12:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:48:37 --> Cart Class Initialized
+CRITICAL - 2024-06-06 12:49:34 --> ErrorException: unlink(C:\xampp\htdocs\proyecto_espinola_emilia\writable\debugbar/debugbar_1717636033.161241.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\proyecto_espinola_emilia\\writable\\debugbar/debugbar_1717636033.161241.json): No such file or directory', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\system\\Debug\\Toolbar\\Collectors\\History.php', 80, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\writable\\debugbar/debugbar_1717636033.161241.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(498): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1717678123.424432', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 12:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:50:35 --> Cart Class Initialized
+INFO - 2024-06-06 13:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:15:35 --> Cart Class Initialized
+INFO - 2024-06-06 13:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:15:38 --> Cart Class Initialized
+INFO - 2024-06-06 13:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:16:07 --> ErrorException: Undefined variable: data
+in APPPATH\Views\front\producto.php on line 23.
+ 1 APPPATH\Views\front\producto.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:16:50 --> ErrorException: Undefined variable: data
+in APPPATH\Views\front\producto.php on line 23.
+ 1 APPPATH\Views\front\producto.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:17:52 --> ErrorException: Undefined variable: data
+in APPPATH\Views\front\producto.php on line 33.
+ 1 APPPATH\Views\front\producto.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:18:59 --> ErrorException: Undefined variable: producto
+in APPPATH\Views\front\producto.php on line 23.
+ 1 APPPATH\Views\front\producto.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: producto', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:19:15 --> ErrorException: Undefined index: id
+in APPPATH\Views\front\producto.php on line 96.
+ 1 APPPATH\Views\front\producto.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php', 96, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:25:51 --> Cart Class Initialized
+INFO - 2024-06-06 13:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:26:12 --> Cart Class Initialized
+INFO - 2024-06-06 13:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:27:45 --> Cart Class Initialized
+INFO - 2024-06-06 13:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:31:46 --> Cart Class Initialized
+INFO - 2024-06-06 13:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:32:41 --> Cart Class Initialized
+INFO - 2024-06-06 13:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:32:51 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:33:28 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:36:03 --> Cart Class Initialized
+CRITICAL - 2024-06-06 13:36:03 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(93): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:36:17 --> Cart Class Initialized
+CRITICAL - 2024-06-06 13:36:17 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(93): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:39:17 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:47:08 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:47:33 --> ErrorException: Undefined index: nombre
+in APPPATH\Views\front\producto.php on line 23.
+ 1 APPPATH\Views\front\producto.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:49:11 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:52:40 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:59:07 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 13:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:59:20 --> Cart Class Initialized
+INFO - 2024-06-06 13:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:59:25 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 14:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 14:25:30 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 14:25:56 --> Error: Call to undefined function form_open()
+in APPPATH\Views\front\producto.php on line 116.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 4 APPPATH\Controllers\producto_controller.php(90): view('front/producto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->productos('10')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 14:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:29:14 --> Cart Class Initialized
+CRITICAL - 2024-06-06 14:29:14 --> Error: Class 'App\Controllers\categoria_Model' not found
+in APPPATH\Controllers\carrito_controller.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->productos('10')
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 14:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:29:42 --> Cart Class Initialized
+CRITICAL - 2024-06-06 14:29:42 --> ErrorException: Undefined index: id
+in APPPATH\Views\front\producto.php on line 119.
+ 1 APPPATH\Views\front\producto.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php', 119, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(40): view('front/producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->productos('10')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 14:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:30:56 --> Cart Class Initialized
+CRITICAL - 2024-06-06 14:30:56 --> ErrorException: Undefined index: nombre
+in APPPATH\Views\front\producto.php on line 120.
+ 1 APPPATH\Views\front\producto.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nombre', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\producto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/producto', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(40): view('front/producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->productos('10')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 14:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:31:20 --> Cart Class Initialized
+INFO - 2024-06-06 14:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:31:49 --> Cart Class Initialized
+INFO - 2024-06-06 14:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:36:39 --> Cart Class Initialized
+INFO - 2024-06-06 14:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:36:58 --> Cart Class Initialized
+INFO - 2024-06-06 14:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:37:13 --> Cart Class Initialized
+INFO - 2024-06-06 14:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:37:49 --> Cart Class Initialized
+INFO - 2024-06-06 14:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:38:08 --> Cart Class Initialized
+INFO - 2024-06-06 14:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:38:26 --> Cart Class Initialized
+INFO - 2024-06-06 14:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:38:53 --> Cart Class Initialized
+INFO - 2024-06-06 14:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:39:10 --> Cart Class Initialized
+INFO - 2024-06-06 14:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:41:13 --> Cart Class Initialized
+INFO - 2024-06-06 14:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:43:07 --> Cart Class Initialized
+INFO - 2024-06-06 14:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:43:10 --> Cart Class Initialized
+INFO - 2024-06-06 14:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:43:10 --> Cart Class Initialized
+INFO - 2024-06-06 14:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:47:20 --> Cart Class Initialized
+INFO - 2024-06-06 14:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:48:07 --> Cart Class Initialized
+INFO - 2024-06-06 14:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:48:45 --> Cart Class Initialized
+INFO - 2024-06-06 14:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:49:07 --> Cart Class Initialized
+INFO - 2024-06-06 14:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 14:51:32 --> Cart Class Initialized
+INFO - 2024-06-06 15:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:02:15 --> Cart Class Initialized
+INFO - 2024-06-06 15:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:02:46 --> Cart Class Initialized
+INFO - 2024-06-06 15:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:03:37 --> Cart Class Initialized
+INFO - 2024-06-06 15:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:03:44 --> Cart Class Initialized
+INFO - 2024-06-06 15:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:04:07 --> Cart Class Initialized
+INFO - 2024-06-06 15:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:04:56 --> Cart Class Initialized
+INFO - 2024-06-06 15:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:05:57 --> Cart Class Initialized
+INFO - 2024-06-06 15:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:14:20 --> Cart Class Initialized
+INFO - 2024-06-06 15:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:14:25 --> Cart Class Initialized
+INFO - 2024-06-06 15:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:14:25 --> Cart Class Initialized
+CRITICAL - 2024-06-06 15:14:25 --> ErrorException: Illegal string offset 'id_prod'
+in APPPATH\Views\back\carrito.php on line 36.
+ 1 APPPATH\Views\back\carrito.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_prod\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(119): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 15:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:15:18 --> Cart Class Initialized
+INFO - 2024-06-06 15:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:15:22 --> Cart Class Initialized
+INFO - 2024-06-06 15:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:15:23 --> Cart Class Initialized
+CRITICAL - 2024-06-06 15:15:23 --> ErrorException: Illegal string offset 'id_prod'
+in APPPATH\Views\back\carrito.php on line 36.
+ 1 APPPATH\Views\back\carrito.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_prod\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(119): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 15:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:16:25 --> Cart Class Initialized
+CRITICAL - 2024-06-06 15:16:25 --> ErrorException: Illegal string offset 'id_prod'
+in APPPATH\Views\back\carrito.php on line 36.
+ 1 APPPATH\Views\back\carrito.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_prod\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(119): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 15:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:16:28 --> Cart Class Initialized
+INFO - 2024-06-06 15:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:16:31 --> Cart Class Initialized
+INFO - 2024-06-06 15:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:16:32 --> Cart Class Initialized
+CRITICAL - 2024-06-06 15:16:32 --> ErrorException: Illegal string offset 'id_prod'
+in APPPATH\Views\back\carrito.php on line 36.
+ 1 APPPATH\Views\back\carrito.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_prod\'', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\carrito.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/carrito', [], true)
+ 5 APPPATH\Controllers\carrito_controller.php(119): view('back/carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\carrito_controller->muestra()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-06 15:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:16:42 --> Cart Class Initialized
+INFO - 2024-06-06 15:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:16:46 --> Cart Class Initialized
+INFO - 2024-06-06 15:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:16:46 --> Cart Class Initialized
+INFO - 2024-06-06 15:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:30:01 --> Cart Class Initialized
+INFO - 2024-06-06 15:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:30:05 --> Cart Class Initialized
+INFO - 2024-06-06 15:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:31:44 --> Cart Class Initialized
+INFO - 2024-06-06 15:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:32:36 --> Cart Class Initialized
+INFO - 2024-06-06 15:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:35:47 --> Cart Class Initialized
+INFO - 2024-06-06 15:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:36:13 --> Cart Class Initialized
+INFO - 2024-06-06 15:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:36:18 --> Cart Class Initialized
+INFO - 2024-06-06 15:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:39:56 --> Cart Class Initialized
+INFO - 2024-06-06 15:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:41:03 --> Cart Class Initialized
+INFO - 2024-06-06 15:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:42:34 --> Cart Class Initialized
+INFO - 2024-06-06 15:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:48:50 --> Cart Class Initialized
+INFO - 2024-06-06 15:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:49:10 --> Cart Class Initialized
+INFO - 2024-06-06 15:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:55:15 --> Cart Class Initialized
+INFO - 2024-06-06 15:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 15:56:52 --> Cart Class Initialized
+INFO - 2024-06-06 16:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:02:17 --> Cart Class Initialized
+INFO - 2024-06-06 16:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:02:27 --> Cart Class Initialized
+INFO - 2024-06-06 16:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:02:40 --> Cart Class Initialized
+INFO - 2024-06-06 16:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:03:23 --> Cart Class Initialized
+INFO - 2024-06-06 16:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:03:43 --> Cart Class Initialized
+INFO - 2024-06-06 16:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:04:02 --> Cart Class Initialized
+INFO - 2024-06-06 16:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:04:18 --> Cart Class Initialized
+INFO - 2024-06-06 16:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:07:20 --> Cart Class Initialized
+INFO - 2024-06-06 16:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:08:59 --> Cart Class Initialized
+INFO - 2024-06-06 16:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:09:44 --> Cart Class Initialized
+INFO - 2024-06-06 16:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:10:27 --> Cart Class Initialized
+INFO - 2024-06-06 16:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:10:42 --> Cart Class Initialized
+INFO - 2024-06-06 16:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:11:18 --> Cart Class Initialized
+INFO - 2024-06-06 16:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:11:58 --> Cart Class Initialized
+INFO - 2024-06-06 16:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:12:16 --> Cart Class Initialized
+INFO - 2024-06-06 16:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:13:18 --> Cart Class Initialized
+INFO - 2024-06-06 16:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 16:14:00 --> Cart Class Initialized
+INFO - 2024-06-06 17:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 17:04:20 --> Cart Class Initialized

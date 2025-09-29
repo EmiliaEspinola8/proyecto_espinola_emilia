@@ -1,0 +1,950 @@
+INFO - 2024-05-30 00:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-30 00:01:07 --> ParseError: syntax error, unexpected ''perfil_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\usuario_crud_controller.php on line 185.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 00:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-30 00:01:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`)) in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 00:01:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `pass` = :pass:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:01:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$L.L7OpmMlquy1L.p6BRVC.iJdSXgPLDz.lBFaVfNQv6moxhiULu16\', `perfil_id` = \'12\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$L.L7OpmMlquy1L.p6BRVC.iJdSXgPLDz.lBFaVfNQv6moxhiULu16\', `perfil_id` = \'12\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `pass` = :pass:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:01:42 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$L.L7OpmMlquy1L.p6BRVC.iJdSXgPLDz.lBFaVfNQv6moxhiULu16\', `perfil_id` = \'12\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$L.L7OpmMlquy1L.p6BRVC.iJdSXgPLDz.lBFaVfNQv6moxhiULu16\', `perfil_id` = \'12\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$L.L7OpmMlquy1L.p6BRVC.iJdSXgPLDz.lBFaVfNQv6moxhiULu16\', `perfil_id` = \'12\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `pass` = :pass:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 00:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-30 00:04:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`)) in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 00:04:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `pass` = :pass:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:04:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$n/eo9sGFo4YloBO6LwHPIeiQz2IYkjvCw.kBxOJZRE9xynHLpLLp.\', `perfil_id` = \'21\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$n/eo9sGFo4YloBO6LwHPIeiQz2IYkjvCw.kBxOJZRE9xynHLpLLp.\', `perfil_id` = \'21\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `pass` = :pass:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:04:44 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$n/eo9sGFo4YloBO6LwHPIeiQz2IYkjvCw.kBxOJZRE9xynHLpLLp.\', `perfil_id` = \'21\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$n/eo9sGFo4YloBO6LwHPIeiQz2IYkjvCw.kBxOJZRE9xynHLpLLp.\', `perfil_id` = \'21\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$n/eo9sGFo4YloBO6LwHPIeiQz2IYkjvCw.kBxOJZRE9xynHLpLLp.\', `perfil_id` = \'21\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `pass` = :pass:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 00:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-30 00:06:06 --> ErrorException: Undefined variable: usuario
+in APPPATH\Views\back\editar_usuario.php on line 16.
+ 1 APPPATH\Views\back\editar_usuario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(175): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 00:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-30 00:16:42 --> ErrorException: Undefined variable: perfiles
+in APPPATH\Views\back\editar_usuario.php on line 71.
+ 1 APPPATH\Views\back\editar_usuario.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: perfiles', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 71, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(119): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 00:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-30 00:18:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`)) in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 00:18:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `pass` = :pass:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:18:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$IiXrYUzFB/p1i5NwnG4uNO1FydHNY41SouiG.1HEfPbsuiX.fBgYW\', `perfil_id` = \'12\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$IiXrYUzFB/p1i5NwnG4uNO1FydHNY41SouiG.1HEfPbsuiX.fBgYW\', `perfil_id` = \'12\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `pass` = :pass:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 00:18:41 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$IiXrYUzFB/p1i5NwnG4uNO1FydHNY41SouiG.1HEfPbsuiX.fBgYW\', `perfil_id` = \'12\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$IiXrYUzFB/p1i5NwnG4uNO1FydHNY41SouiG.1HEfPbsuiX.fBgYW\', `perfil_id` = \'12\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofia\', `apellido` = \'espínola\', `email` = \'sofiaMartinez@gmail.com\', `usuario` = \'sofi\', `pass` = \'$2y$10$IiXrYUzFB/p1i5NwnG4uNO1FydHNY41SouiG.1HEfPbsuiX.fBgYW\', `perfil_id` = \'12\'
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `email` = :email:, `usuario` = :usuario:, `pass` = :pass:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\usuario_crud_controller.php(185): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 00:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-30 00:20:48 --> ErrorException: Undefined variable: usuario
+in APPPATH\Views\back\editar_usuario.php on line 16.
+ 1 APPPATH\Views\back\editar_usuario.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usuario', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(175): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 00:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 00:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 20:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-30 20:43:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`)) in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 20:43:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:43:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:43:01 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 20:44:09 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`)) in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 20:44:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:44:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:44:09 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 20:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-30 20:44:20 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`)) in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 20:44:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:44:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:44:20 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 20:44:20 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`)) in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 20:44:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:44:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:44:20 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 20:51:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`)) in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 20:51:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:51:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:51:08 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 20:55:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`)) in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 20:55:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:55:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:55:01 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 20:55:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`)) in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 20:55:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:55:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 20:55:52 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bd_espinola_emilia`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`perfil_id`) REFERENCES `perfiles` (`id_perfiles`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `nombre` = \'sofi\', `apellido` = \'espínola\', `usuario` = \'sofi\', `email` = \'sofiaMartinez@gmail.com\', `perfil_id` = NULL
+WHERE `usuarios`.`id_usuario` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:, `perfil_id` = :perfil_id:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\usuario_crud_controller.php(137): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->update('4')
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 20:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 20:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-30 20:56:39 --> ErrorException: Undefined index: id_descripcion
+in APPPATH\Views\back\editar_usuario.php on line 72.
+ 1 APPPATH\Views\back\editar_usuario.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_descripcion', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php', 72, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/editar_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(119): view('back/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 20:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 20:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 20:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-30 21:05:22 --> mysqli_sql_exception: Table 'bd_espinola_emilia.perfil' doesn't exist in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\usuario_Model.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(15): App\Models\usuario_Model->usuarioPerfiles()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->index()
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 21:05:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'bd_espinola_emilia.perfil' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`', [], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\usuario_Model.php(13): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\usuario_crud_controller.php(15): App\Models\usuario_Model->usuarioPerfiles()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 21:05:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'bd_espinola_emilia.perfil' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`', [], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\usuario_Model.php(13): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\usuario_crud_controller.php(15): App\Models\usuario_Model->usuarioPerfiles()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 21:05:22 --> [Caused by] mysqli_sql_exception: Table 'bd_espinola_emilia.perfil' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usuario`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`', [], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\usuario_Model.php(13): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\usuario_crud_controller.php(15): App\Models\usuario_Model->usuarioPerfiles()
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->index()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 21:05:52 --> mysqli_sql_exception: Table 'bd_espinola_emilia.perfil' doesn't exist in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\usuario_Model.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php(15): App\Models\usuario_Model->usuarioPerfiles()
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->index()
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-30 21:05:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'bd_espinola_emilia.perfil' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`', [], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\usuario_Model.php(13): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\usuario_crud_controller.php(15): App\Models\usuario_Model->usuarioPerfiles()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 21:05:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'bd_espinola_emilia.perfil' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`', [], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\usuario_Model.php(13): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\usuario_crud_controller.php(15): App\Models\usuario_Model->usuarioPerfiles()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 21:05:52 --> [Caused by] mysqli_sql_exception: Table 'bd_espinola_emilia.perfil' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usuarios`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `perfiles`.`descripcion` AS `perfil`
+FROM `usuarios`
+JOIN `perfil` ON `usuarios`.`perfil_id` = `perfil`.`id_perfiles`', [], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\usuario_Model.php(13): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\usuario_crud_controller.php(15): App\Models\usuario_Model->usuarioPerfiles()
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->index()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 21:10:45 --> BadMethodCallException: Call to undefined method App\Models\usuario_Model::usuarioPerfiles
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\usuario_crud_controller.php(15): CodeIgniter\Model->__call('usuarioPerfiles', [])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 22:22:45 --> ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+in APPPATH\Controllers\usuario_crud_controller.php on line 148.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 22:23:20 --> ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+in APPPATH\Controllers\usuario_crud_controller.php on line 148.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_crud_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\usuario_crud_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\usuario_crud_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 22:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-30 22:28:25 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/crudusuarios" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/crudusuarios')
+ 2 APPPATH\Controllers\usuario_crud_controller.php(144): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->delete('16')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 22:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-30 22:30:07 --> TypeError: Argument 2 passed to CodeIgniter\BaseModel::delete() must be of the type bool, array given, called in C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php on line 148
+in SYSTEMPATH\BaseModel.php on line 1094.
+ 1 APPPATH\Controllers\usuario_crud_controller.php(148): CodeIgniter\BaseModel->delete('4', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->delete('4')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 22:36:13 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/crudusuarios" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/crudusuarios')
+ 2 APPPATH\Controllers\usuario_crud_controller.php(144): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->delete('14')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 22:37:40 --> TypeError: Argument 2 passed to CodeIgniter\BaseModel::delete() must be of the type bool, array given, called in C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\usuario_crud_controller.php on line 145
+in SYSTEMPATH\BaseModel.php on line 1094.
+ 1 APPPATH\Controllers\usuario_crud_controller.php(145): CodeIgniter\BaseModel->delete('14', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->delete('14')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 23:20:28 --> ErrorException: Undefined index: perfiles
+in APPPATH\Views\back\tabla_usser_eliminados.php on line 26.
+ 1 APPPATH\Views\back\tabla_usser_eliminados.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: perfiles', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usser_eliminados.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usser_eliminados.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/tabla_usser_eliminados', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(161): view('back/tabla_usser_eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->tablaEliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 23:22:52 --> ErrorException: Undefined index: perfiles
+in APPPATH\Views\back\tabla_usser_eliminados.php on line 26.
+ 1 APPPATH\Views\back\tabla_usser_eliminados.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: perfiles', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usser_eliminados.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usser_eliminados.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/tabla_usser_eliminados', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(161): view('back/tabla_usser_eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->tablaEliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 23:26:09 --> ErrorException: Undefined index: perfiles
+in APPPATH\Views\back\tabla_usser_eliminados.php on line 26.
+ 1 APPPATH\Views\back\tabla_usser_eliminados.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: perfiles', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usser_eliminados.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usser_eliminados.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/tabla_usser_eliminados', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(161): view('back/tabla_usser_eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->tablaEliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 23:26:18 --> ErrorException: unlink(C:\xampp\htdocs\proyecto_espinola_emilia\writable\debugbar/debugbar_1717108568.706048.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\proyecto_espinola_emilia\\writable\\debugbar/debugbar_1717108568.706048.json): No such file or directory', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\system\\Debug\\Toolbar\\Collectors\\History.php', 80, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\writable\\debugbar/debugbar_1717108568.706048.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(498): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1717111576.128389', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 23:26:20 --> ErrorException: Undefined index: perfiles
+in APPPATH\Views\back\tabla_usser_eliminados.php on line 26.
+ 1 APPPATH\Views\back\tabla_usser_eliminados.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: perfiles', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usser_eliminados.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\back\\tabla_usser_eliminados.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('back/tabla_usser_eliminados', [], true)
+ 5 APPPATH\Controllers\usuario_crud_controller.php(161): view('back/tabla_usser_eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->tablaEliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 23:27:43 --> Error: Function name must be a string
+in APPPATH\Controllers\usuario_crud_controller.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\usuario_crud_controller->tablaEliminados()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_crud_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

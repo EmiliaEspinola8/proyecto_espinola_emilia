@@ -1,0 +1,56 @@
+CRITICAL - 2024-06-02 23:37:18 --> ErrorException: Undefined variable: imagen
+in APPPATH\Views\front\principal.php on line 34.
+ 1 APPPATH\Views\front\principal.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: imagen', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\principal.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\front\\principal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/principal', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('front/principal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 23:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 23:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 23:42:59 --> ErrorException: Undefined variable: img
+in APPPATH\Controllers\producto_controller.php on line 92.
+ 1 APPPATH\Controllers\producto_controller.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: img', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->update('10')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-02 23:45:13 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\producto_controller.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->update('10')
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-02 23:45:25 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\producto_controller.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->update('10')
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 23:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 23:45:34 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\producto_controller.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->update('10')
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-02 23:47:05 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\producto_controller.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->update('10')
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-02 23:49:46 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\producto_controller.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->update('10')
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 23:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 23:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 23:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 23:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 23:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

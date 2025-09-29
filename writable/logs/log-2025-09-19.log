@@ -1,0 +1,1214 @@
+INFO - 2025-09-19 03:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 03:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 03:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 03:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 03:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 03:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 03:56:22 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 03:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 03:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 03:59:28 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:02:35 --> ErrorException: Undefined array key "id_colores"
+in APPPATH\Controllers\color_controller.php on line 53.
+ 1 APPPATH\Controllers\color_controller.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_colores"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\color_controller.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:05:02 --> ErrorException: Undefined array key "id_colores"
+in APPPATH\Controllers\color_controller.php on line 53.
+ 1 APPPATH\Controllers\color_controller.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_colores"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\color_controller.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:09:42 --> ErrorException: Undefined array key "id_colores"
+in APPPATH\Controllers\color_controller.php on line 53.
+ 1 APPPATH\Controllers\color_controller.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_colores"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\color_controller.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:10:13 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:11:32 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:14:53 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:16:25 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:19:22 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\administrador\tabla-colores.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-colores', [], true)
+ 4 APPPATH\Controllers\color_controller.php(14): view('administrador/tabla-colores', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:21:41 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\administrador\tabla-colores.php on line 37.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-colores', [], true)
+ 4 APPPATH\Controllers\color_controller.php(14): view('administrador/tabla-colores', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:24:21 --> ErrorException: Attempt to read property "id_colores" on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 APPPATH\Controllers\color_controller.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_colores" on string', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\color_controller.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:27:10 --> ErrorException: Attempt to read property "id_colores" on array
+in APPPATH\Views\administrador\tabla-colores.php on line 36.
+ 1 APPPATH\Views\administrador\tabla-colores.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_colores" on array', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-colores.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-colores.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-colores', [], true)
+ 5 APPPATH\Controllers\color_controller.php(14): view('administrador/tabla-colores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:27:45 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:52:33 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:57:55 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 04:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 04:58:35 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 04:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 05:00:46 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 05:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 05:03:15 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\color_controller.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 05:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 05:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 06:03:04 --> ArgumentCountError: Too few arguments to function App\Controllers\color_controller::obtenerReglas(), 0 passed in C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\color_controller.php on line 21 and exactly 1 expected
+in APPPATH\Controllers\color_controller.php on line 79.
+ 1 APPPATH\Controllers\color_controller.php(21): App\Controllers\color_controller->obtenerReglas()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->create()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 06:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 06:15:56 --> ErrorException: Undefined variable $talle
+in APPPATH\Controllers\talle_controller.php on line 67.
+ 1 APPPATH\Controllers\talle_controller.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $talle', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\talle_controller.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\talle_controller->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\talle_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 06:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 06:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 07:01:40 --> Error: Class "App\Controllers\coolores_Model" not found
+in APPPATH\Controllers\color_controller.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 07:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 07:02:07 --> BadMethodCallException: Call to undefined method App\Models\colores_Model::filtarColores
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\color_controller.php(94): CodeIgniter\Model->__call('filtarColores', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 07:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 07:02:47 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\administrador\tabla-colores.php on line 34.
+ 1 APPPATH\Views\administrador\tabla-colores.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-colores.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-colores.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-colores', [], true)
+ 5 APPPATH\Controllers\color_controller.php(96): view('administrador/tabla-colores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 07:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 07:10:43 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\administrador\tabla-colores.php on line 34.
+ 1 APPPATH\Views\administrador\tabla-colores.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-colores.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla-colores.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla-colores', [], true)
+ 5 APPPATH\Controllers\color_controller.php(105): view('administrador/tabla-colores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 07:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-19 07:22:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT colores....', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores....')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores....')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores....', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', NULL)
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-19 07:22:00 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 2 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 07:22:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 3 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 4 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 07:22:00 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 4 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 5 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 07:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 07:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-19 07:25:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT colores....', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores....')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores....')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores....', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', NULL)
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-19 07:25:23 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 2 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 07:25:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 3 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 4 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 07:25:23 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 4 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 5 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 16:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 16:10:40 --> ErrorException: Undefined array key "carrito"
+in APPPATH\Models\usuario_Model.php on line 25.
+ 1 APPPATH\Models\usuario_Model.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\usuario_Model.php', 25)
+ 2 APPPATH\Controllers\Home.php(77): App\Models\usuario_Model->obtenerCarrito(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->inicio()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 16:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-19 16:12:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT colores....', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores....')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores....')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores....', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', NULL)
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-19 16:12:08 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 2 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 16:12:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 3 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 4 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 16:12:08 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 4 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 5 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 16:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-19 16:13:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3 in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT colores....', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores....')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores....')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores....', Array)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', NULL)
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-19 16:13:06 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 2 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 16:13:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 3 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 4 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 16:13:06 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, colores.estado)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)')
+ 4 APPPATH\Models\colores_Model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT colores.*
+                        FROM colores
+                        WHERE colores.estado = IFNULL(?, colores.estado)', [...])
+ 5 APPPATH\Controllers\color_controller.php(100): App\Models\colores_Model->filtrarColores('', null)
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 16:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 16:30:49 --> ErrorException: Undefined variable $colores
+in APPPATH\Controllers\color_controller.php on line 103.
+ 1 APPPATH\Controllers\color_controller.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $colores', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\color_controller.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 16:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 16:31:25 --> ErrorException: Undefined variable $colores
+in APPPATH\Controllers\color_controller.php on line 103.
+ 1 APPPATH\Controllers\color_controller.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $colores', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\color_controller.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 16:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-19 16:32:19 --> mysqli_sql_exception: Unknown table 'bd_espinola_emilia.talles' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `talles`...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `talles`...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `talles`...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `talles`...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\colores_Model.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\color_controller.php(96): App\Models\colores_Model->filtrarColoresEstado('0')
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-09-19 16:32:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'bd_espinola_emilia.talles'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `talles`.*
+FROM `colores`
+WHERE `colores`.`estado` = :colores.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\colores_Model.php(28): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\color_controller.php(96): App\Models\colores_Model->filtrarColoresEstado('0')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 16:32:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'bd_espinola_emilia.talles'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `talles`.*
+FROM `colores`
+WHERE `colores`.`estado` = \'0\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `talles`.*
+FROM `colores`
+WHERE `colores`.`estado` = \'0\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `talles`.*
+FROM `colores`
+WHERE `colores`.`estado` = :colores.estado:', [...], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\colores_Model.php(28): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\color_controller.php(96): App\Models\colores_Model->filtrarColoresEstado('0')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 16:32:19 --> [Caused by] mysqli_sql_exception: Unknown table 'bd_espinola_emilia.talles'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `talles`.*
+FROM `colores`
+WHERE `colores`.`estado` = \'0\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `talles`.*
+FROM `colores`
+WHERE `colores`.`estado` = \'0\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `talles`.*
+FROM `colores`
+WHERE `colores`.`estado` = \'0\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `talles`.*
+FROM `colores`
+WHERE `colores`.`estado` = :colores.estado:', [...], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\colores_Model.php(28): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\color_controller.php(96): App\Models\colores_Model->filtrarColoresEstado('0')
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\color_controller->buscarColores()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\color_controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 16:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 16:52:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\producto_controller.php on line 108.
+ 1 APPPATH\Controllers\producto_controller.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Controllers\\producto_controller.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->create()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 16:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 16:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 17:23:14 --> ErrorException: Undefined variable $db
+in APPPATH\Models\productos_detalle_Model.php on line 11.
+ 1 APPPATH\Models\productos_detalle_Model.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Models\\productos_detalle_Model.php', 11)
+ 2 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 17:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-19 17:23:42 --> mysqli_sql_exception: Unknown column 'productos_detalle.id' in 'field list' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\productos_detalle_Model.php(15): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-09-19 17:23:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos_detalle.id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.`id`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\productos_detalle_Model.php(15): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 17:23:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos_detalle.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `productos_detalle`.`id`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `productos_detalle`.`id`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.`id`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\productos_detalle_Model.php(15): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 17:23:42 --> [Caused by] mysqli_sql_exception: Unknown column 'productos_detalle.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `productos_detalle`.`id`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `productos_detalle`.`id`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `productos_detalle`.`id`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.`id`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\productos_detalle_Model.php(15): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 17:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-19 17:24:06 --> mysqli_sql_exception: Unknown column 'productos_detalle.id_talle' in 'field list' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\productos_detalle_Model.php(15): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-09-19 17:24:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos_detalle.id_talle' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\productos_detalle_Model.php(15): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 17:24:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos_detalle.id_talle' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\productos_detalle_Model.php(15): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 17:24:06 --> [Caused by] mysqli_sql_exception: Unknown column 'productos_detalle.id_talle' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `productos_detalle`.`id_talle`, `productos_detalle`.`id_colores`, `talles`.`talle`, `colores`.`color`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`id_talle` = `talles`.`id`
+LEFT JOIN `colores` ON `productos_detalle`.`id_colores` = `colores`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\productos_detalle_Model.php(15): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 17:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-19 17:27:11 --> mysqli_sql_exception: Unknown column 'productos.nombre_productos' in 'field list' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\productos_detalle_Model.php(16): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-09-19 17:27:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos.nombre_productos' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_productos`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`', [], false)
+ 2 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\productos_detalle_Model.php(16): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 17:27:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos.nombre_productos' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_productos`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_productos`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_productos`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`', [], false)
+ 4 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\productos_detalle_Model.php(16): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 17:27:11 --> [Caused by] mysqli_sql_exception: Unknown column 'productos.nombre_productos' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_productos`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_productos`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_productos`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.`id_producto`, `productos_detalle`.`id_producto`, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_productos`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`', [], false)
+ 5 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\productos_detalle_Model.php(16): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 17:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 17:27:27 --> ErrorException: Undefined array key "producto_id"
+in APPPATH\Views\administrador\tabla_productos_detalle.php on line 27.
+ 1 APPPATH\Views\administrador\tabla_productos_detalle.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_id"', 'C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_productos_detalle.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_espinola_emilia\\app\\Views\\administrador\\tabla_productos_detalle.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('administrador/tabla_productos_detalle', [], true)
+ 5 APPPATH\Controllers\producto_controller.php(29): view('administrador/tabla_productos_detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 17:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-19 17:30:17 --> mysqli_sql_exception: Unknown column 'productoss_detalle.id_producto' in 'where clause' in C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\proyecto_espinola_emilia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\proyecto_espinola_emilia\system\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_espinola_emilia\app\Models\productos_detalle_Model.php(17): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\proyecto_espinola_emilia\app\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+#7 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+#8 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+#9 C:\xampp\htdocs\proyecto_espinola_emilia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_espinola_emilia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-09-19 17:30:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productoss_detalle.id_producto' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.*, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_producto`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`
+WHERE `productoss_detalle`.`id_producto` = :productoss_detalle.id_producto:', [...], false)
+ 2 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\productos_detalle_Model.php(17): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 17:30:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productoss_detalle.id_producto' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `productos_detalle`.*, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_producto`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`
+WHERE `productoss_detalle`.`id_producto` = \'85\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `productos_detalle`.*, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_producto`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`
+WHERE `productoss_detalle`.`id_producto` = \'85\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.*, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_producto`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`
+WHERE `productoss_detalle`.`id_producto` = :productoss_detalle.id_producto:', [...], false)
+ 4 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\productos_detalle_Model.php(17): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-19 17:30:17 --> [Caused by] mysqli_sql_exception: Unknown column 'productoss_detalle.id_producto' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `productos_detalle`.*, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_producto`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`
+WHERE `productoss_detalle`.`id_producto` = \'85\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `productos_detalle`.*, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_producto`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`
+WHERE `productoss_detalle`.`id_producto` = \'85\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `productos_detalle`.*, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_producto`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`
+WHERE `productoss_detalle`.`id_producto` = \'85\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `productos_detalle`.*, `talles`.`talle`, `colores`.`nombre`, `productos`.`nombre_producto`
+FROM `productos_detalle`
+LEFT JOIN `talles` ON `productos_detalle`.`talle_id` = `talles`.`id_talle`
+LEFT JOIN `colores` ON `productos_detalle`.`color_id` = `colores`.`id_colores`
+JOIN `productos` ON `productos_detalle`.`producto_id` = `productos`.`id_producto`
+WHERE `productoss_detalle`.`id_producto` = :productoss_detalle.id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(877): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\productos_detalle_Model.php(17): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 17:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 17:35:42 --> BadMethodCallException: Call to undefined method App\Models\productos_detalle_Model::leftjoin
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Models\productos_detalle_Model.php(14): CodeIgniter\Model->__call('leftjoin', [...])
+ 2 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 17:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 17:36:50 --> BadMethodCallException: Call to undefined method App\Models\productos_detalle_Model::leftjoin
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Models\productos_detalle_Model.php(14): CodeIgniter\Model->__call('leftjoin', [...])
+ 2 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('85')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('85')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 17:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-19 17:36:55 --> BadMethodCallException: Call to undefined method App\Models\productos_detalle_Model::leftjoin
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Models\productos_detalle_Model.php(14): CodeIgniter\Model->__call('leftjoin', [...])
+ 2 APPPATH\Controllers\producto_controller.php(25): App\Models\productos_detalle_Model->DetalleProducto('78')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\producto_controller->ProductoDetalle('78')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-19 17:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-19 17:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,25 @@
+INFO - 2024-06-17 01:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 01:09:19 --> Error: Call to undefined function App\Filters\rediret()
+in APPPATH\Filters\Auth.php on line 14.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('crudproductos', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 01:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 01:11:25 --> Error: Call to undefined function App\Filters\rediret()
+in APPPATH\Filters\Auth.php on line 14.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('productos/edit/10', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 01:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 01:11:27 --> Error: Call to undefined function App\Filters\rediret()
+in APPPATH\Filters\Auth.php on line 14.
+ 1 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('crudproductos', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 01:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 01:11:35 --> Cart Class Initialized
+INFO - 2024-06-17 01:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 01:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
