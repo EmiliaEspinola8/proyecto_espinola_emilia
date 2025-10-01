@@ -4,8 +4,6 @@ Proyecto de una **tienda online de ropa** desarrollada con **CodeIgniter, PHP, H
 El sistema permite a los usuarios navegar, buscar y comprar prendas de manera sencilla y rápida.
 También permite al administrador gestionar los productos y viazualizar las ventas.
 
-
-
 ---
 
 ## Tecnoligias usadas
@@ -30,18 +28,43 @@ También permite al administrador gestionar los productos y viazualizar las vent
 
 ---
 
-## 📂 Estructura del Proyecto  
+## 📸 Capturas 
 
-```bash
-├── app/                  # Lógica del proyecto en CodeIgniter
-│   ├── Controllers/      # Controladores
-│   ├── Models/           # Modelos
-│   ├── Views/            # Vistas (HTML + PHP)
-│   └── Config/           # Configuración
-├── public/               # Recursos accesibles públicamente
-│   ├── css/              # Estilos CSS
-│   ├── js/               # Scripts JS
-│   └── img/              # Imágenes del proyecto
-├── .env                  # Variables de entorno
-├── composer.json         # Dependencias PHP
-└── README.md             # Documentación
+## 🏠 Página Principal
+
+![Principal](screenshots/cap-principal.png)
+
+![Principal](screenshots/productos-polulares.png)
+
+## 👕 Todos los productos
+
+![Principal](screenshots/todos-los-productos.png)
+
+## 👤 Iniciar sesión
+
+![Iniciar Sesiòn](screenshots/login.png)
+
+## 👤 Registrarse
+
+![Registrarse](screenshots/registro.png)
+
+## 🛒 Carrito 
+
+![Carrito](screenshots/carrito.png)
+
+## :money_with_wings:  Ventas 
+
+![Ventas](screenshots/ventas.png)
+
+## Alta de productos 
+
+![Alta de productos](screenshots/añadir-productos.png)
+
+## Añadir detalle al producto 
+
+![Detalle producto](screenshots/añadirdetalle.png)
+
+
+
+
+
