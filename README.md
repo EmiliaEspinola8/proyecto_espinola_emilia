@@ -29,12 +29,11 @@ También permite al administrador gestionar los productos y viazualizar las vent
 ---
 
 ## 📸 Capturas 
+Capturas de las funcionalidades más importantes de mi proyecctos.
 
 ## 🏠 Página Principal
 
 ![Principal](screenshots/cap-principal.png)
-
-![Principal](screenshots/productos-polulares.png)
 
 ## 👕 Todos los productos
 
@@ -50,7 +49,11 @@ También permite al administrador gestionar los productos y viazualizar las vent
 
 ## 🛒 Carrito 
 
-![Carrito](screenshots/carrito.png)
+![Carrito](screenshots/captura1.png)
+
+## Detalle del producto 
+
+![Carrito](screenshots/detalle-producto.png)
 
 ## :money_with_wings:  Ventas 
 
@@ -60,9 +63,6 @@ También permite al administrador gestionar los productos y viazualizar las vent
 
 ![Alta de productos](screenshots/añadir-productos.png)
 
-## Añadir detalle al producto 
-
-![Detalle producto](screenshots/añadirdetalle.png)
 
 
 
