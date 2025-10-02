@@ -1,3 +1,4 @@
+</div>
 <footer>
   <div class="grid-footer">
         <div class="flex-footer-navegacion">
@@ -69,11 +70,10 @@
     });
 }
 
-function eliminarDelCarrito() {
-        const idProducto = document.getElementById('id-producto-detalle');
+$(document).on('click', '#id-producto-detalle', function (){
       
         var parametros = {
-        "id_producto" : idProducto.value,
+        "id_producto" : $(this).val(),
         };
 
     $.ajax({
@@ -90,7 +90,7 @@ function eliminarDelCarrito() {
         console.error("Error AJAX: ", xhr.responseText);
         }
     });
-}
+});
 
 $(document).on('click', '.button-cantidad-carrito', function () {
 
@@ -280,8 +280,96 @@ $(document).on('click', '.button-secundario', function () {
   });
 });
 
+$(document).on('change', '.categorias, .talles , .colores, .ordenamiento', function () {
+  const categoriaSeleccionada = document.querySelector('input[name="categorias"]:checked');
+  const categoria = categoriaSeleccionada ? categoriaSeleccionada.value : null;
+  const ordenamiento = document.querySelector('.ordenamiento');
+  let colores = obtenerColores();
+  let talles = obtenerTalles();
+
+        var parametros = {
+        "id_categoria" : categoria,
+        "id_colores" : colores,
+        "id_talles" : talles,
+        "id_ordenamiento": ordenamiento.value,
+        };
+
+    $.ajax({
+        data: parametros,
+        url: 'filtrar_productos',
+        type: 'POST',
+
+        success: function(mensaje_mostrar) {
+            console.log("Respuesta del servidor:", mensaje_mostrar);
+            $('.galeria-productos').html(mensaje_mostrar);
+        },
+
+        error: function(xhr, status, error) {
+        console.error("Error AJAX: ", xhr.responseText);
+        }
+    });
 
 
+});
+
+$(document).on('click', '#btn-buscar', function () {
+  const categoriaSeleccionada = document.querySelector('input[name="categorias"]:checked');
+  const categoria = categoriaSeleccionada ? categoriaSeleccionada.value : null;
+  const ordenamiento = document.querySelector('.ordenamiento');
+  const buscar = document.querySelector('#input-buscar');
+  let colores = obtenerColores();
+  let talles = obtenerTalles();
+
+        var parametros = {
+        "id_categoria" : categoria,
+        "id_colores" : colores,
+        "id_talles" : talles,
+        "id_ordenamiento": ordenamiento.value,
+        "buscar": buscar.value 
+        };
+
+    $.ajax({
+        data: parametros,
+        url: 'filtrar_productos',
+        type: 'POST',
+
+        success: function(mensaje_mostrar) {
+            console.log("Respuesta del servidor:", mensaje_mostrar);
+            $('.galeria-productos').html(mensaje_mostrar);
+        },
+
+        error: function(xhr, status, error) {
+        console.error("Error AJAX: ", xhr.responseText);
+        }
+    });
+
+
+});
+
+function obtenerColores(){
+  let seleccionados = [];
+  // selecciona todos los checkbox con name="colores" que estén chequeados
+  document.querySelectorAll('input[name="colores"]:checked').forEach((el) => {
+    seleccionados.push(el.value);
+  });
+  return seleccionados;
+}
+
+function obtenerTalles(){
+  let seleccionados = [];
+  // selecciona todos los checkbox con name="colores" que estén chequeados
+  document.querySelectorAll('input[name="talles"]:checked').forEach((el) => {
+    seleccionados.push(el.value);
+  });
+  return seleccionados;
+}
+
+document.querySelectorAll('input[name="colores"]:checked').forEach((el) => {
+    el.querySelectorAll('.colores').forEach((c) => {
+    color = c.closest('.label-categorias');
+    color.classList.add('bordo');
+  });
+  });
     </script>
     <script src="assets/js/script.js"></script>
 </body>

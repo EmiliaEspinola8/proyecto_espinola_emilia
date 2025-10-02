@@ -72,4 +72,44 @@ public function productosCategoria(){
                     ->findAll();
     }
 
+    public function getProductosFiltrados($colores = null, $talles = null, $categoria_id = null, $ordenamiento, $buscar)
+{
+    $builder = $this->db->table('productos p')
+        ->select('p.*')
+        ->join('productos_detalle d', 'd.producto_id = p.id_producto', 'left');
+
+    // filtro por categoría
+    if (!empty($categoria_id)) {
+        $builder->where('p.categoria_id', $categoria_id);
+    }
+
+    // filtro por talles (lista de valores)
+    if (!empty($talles) && is_array($talles)) {
+        $builder->whereIn('d.talle_id', $talles);
+    }
+
+    // filtro por colores (lista de valores)
+    if (!empty($colores) && is_array($colores)) {
+        $builder->whereIn('d.color_id', $colores);
+    }
+
+    if(!empty($buscar)){
+        $builder->like('p.nombre_producto', $buscar);
+    }
+
+    $builder->groupBy('p.id_producto');
+
+    if($ordenamiento == 2){
+        $builder->orderBy('p.id_producto', 'ASC');
+    }else if($ordenamiento == 3){
+            $builder->orderBy('p.precio', 'DESC');
+    }else if($ordenamiento == 4){
+            $builder->orderBy('p.precio', 'ASC');
+    }else{
+            $builder->orderBy('p.id_producto', 'DESC');
+    }
+
+    return $builder->get()->getResultArray();
+}
+
 }

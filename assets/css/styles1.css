@@ -260,6 +260,8 @@ button:active{
 
 .grid-productos.galeria-productos{
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+
+    grid-template-rows: repeat(3, minmax(230px, 1fr));
 }
 
 .container-titulo-productos{
@@ -1223,6 +1225,18 @@ td, th{
     box-shadow: 0 20px 25px 16px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     filter: brightness(0.5);
     display: block;
+}
+input[type="radio"], input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked + label,
+label:has(input[type="checkbox"]:checked),
+input[type="rabio"]:checked + label,
+label:has(input[type="radio"]:checked) {
+    color: var(--color-principal);
+    font-size: 1.1em;
+    transition: all 0.2s ease-in-out;
 }
 
 @media (max-width: 920px){

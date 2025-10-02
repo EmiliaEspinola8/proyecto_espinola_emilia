@@ -23,6 +23,7 @@ $routes->get('/logout', 'login_controller::logout');
 
 
 /*rutas del crud de productos*/
+$routes->post('filtrar_productos', 'producto_controller::getFiltrarProductos');
 $routes->get('/productos', 'producto_controller::productos');
 $routes->get('/detalle_producto_(:num)', 'producto_controller::detalle_producto::/$1');
 $routes->post('consultar_colores', 'producto_controller::consultar_colores');

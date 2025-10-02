@@ -14,7 +14,7 @@
         <div>
         <div class="wapper-titulo-card">
             <p style="font-weight: 700;"><?= esc($item['nombre']) ?></p>
-            <button id="id-producto-detalle" onclick="eliminarDelCarrito();"  value="<?= esc($item['id_detalle_producto']) ?>" style="font-size: 22px !important; padding: 0" class="btn material-symbols-outlined">delete</button>
+            <button id="id-producto-detalle"  value="<?= esc($item['id_detalle_producto']) ?>" style="font-size: 22px !important; padding: 0" class="btn material-symbols-outlined">delete</button>
         </div>
         <p style="font-size: 0.8em;"><span style="font-weight: 700;">Talle: </span> <?= esc($item['talle']) ?> </p>
         <p style="font-size: 0.8em;"> <span style="font-weight: 700;">Color: </span> <?= esc($item['color']) ?></p>

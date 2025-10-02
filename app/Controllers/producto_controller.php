@@ -329,15 +329,40 @@ public function edit($id){
     public function productos()
     {   
         $productoModel = new producto_Model();
-        $productos = $productoModel->where('estado', 1)->findAll();
+        $productos = $productoModel->where('estado', 1)->orderBy('id_producto', 'DESC')->findAll();
+
+        $categoriaModel = new categoria_Model(); 
+        $categorias = $categoriaModel->where('activo', 1)->findAll();
+
+        $talleModel = new talles_Model();
+        $talles = $talleModel->where('estado', 1)->findAll();
+
+        $colorModel = new colores_Model();
+        $colores = $colorModel->where('estado', 1)->findAll();
+
         $carrito = $this->obtenerCarrito();
 
         echo view('cliente/head');
         echo view('cliente/header');
         echo view('cliente/navbar');
-        echo view('cliente/carrito.php', ['carrito' => $carrito, 'productos' => $productos]);
-        echo view('cliente/productos');
+        echo view('cliente/carrito.php', ['carrito' => $carrito]);
+        echo view('cliente/productos', ['categorias' => $categorias, 'colores' => $colores, 'talles' => $talles]);
+        echo view('cliente/galeria', ['productos' => $productos]);
         echo view('cliente/footer');
+    }
+
+    public function getFiltrarProductos(){
+        $productoModel = new producto_Model();
+
+        $idColores = $this->request->getPost('id_colores');
+        $idTalles = $this->request->getPost('id_talles');
+        $idCategoria = $this->request->getPost('id_categoria');
+        $idOrdenamiento = $this->request->getPost('id_ordenamiento');
+        $buscar = $this->request->getPost('buscar');
+
+        $productos = $productoModel-> getProductosFiltrados($idColores, $idTalles, $idCategoria, $idOrdenamiento, $buscar);
+        
+        echo view('cliente/galeria', ['productos' => $productos]);
     }
 
         public function obtenerReglas(){
