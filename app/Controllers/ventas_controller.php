@@ -52,17 +52,30 @@ class ventas_controller extends Controller{
 
             $productoObtenido = $this->productos->find($producto['producto_id']);
             $stock = ($productoObtenido['stock'] - $producto['cantidad']);
+            if($stock <= 0){
+                $carrito = $this->usuarios->actualizarCarrito($usuarioID, []);
+                $this->response->setJSON(['status' => 'error']);
+                session()->setFlashdata('error', 'No se pudo realizar su compra.');
+                return view('cliente/carrito', ['carrito' => $carrito]);
+            }
             $this->productos->update($producto['producto_id'], ['stock' => $stock]);
             
             if($producto['id_detalle_producto'] != $producto['producto_id']){
                     $productoDetalle = $this->productosDetalle->find($producto['id_detalle_producto']);
                     $stockDetalle = ($productoDetalle['stock'] - $producto['cantidad']);
+                    if($stockDetalle <= 0){
+                        $carrito = $this->usuarios->actualizarCarrito($usuarioID, []);
+                        $this->response->setJSON(['status' => 'error']);
+                        session()->setFlashdata('error', 'No se pudo realizar su compra.');
+                        return view('cliente/carrito', ['carrito' => $carrito]);
+                    }
                     $this->productosDetalle->update($producto['id_detalle_producto'], ['stock' => $stockDetalle]);
             }
 
             $this->detalleVentas->insert($data);
         }
         $carrito = $this->usuarios->actualizarCarrito($usuarioID, []);
+        session()->setFlashdata('sucess', 'Su compra se realizo con exito.');
         return view('cliente/carrito', ['carrito' => $carrito]);
     }
 

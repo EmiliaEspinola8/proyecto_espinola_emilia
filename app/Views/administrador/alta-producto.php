@@ -75,12 +75,12 @@
             <input autocomplete="off" class="button-admin input-login input-submit-login" type="submit" value="Agregar Producto">
             </div>
 
-            <div id="grid-colores-talles" class="grid-colores-talles">
-                <div id="plantilla-color-talle">
+            <div id="grid-colores-talles" class="grid-colores-talles" >
+                <div id="plantilla-color-talle" style="display: none">
     <div class="card card-talles-colores">
         <div class="flex-color-talle">
             <label class="label-login">Colores                
-                <select required name="color[]" class="input-login">
+                <select name="color[]" class="input-login">
                     <option value="" disabled selected style="color: #38332f;">Selecciona un color</option>
                     <?php foreach ($colores as $color): ?>
                         <option value="<?= $color['id_colores']; ?>"><?= $color['nombre']; ?></option>
@@ -88,7 +88,7 @@
                 </select>
             </label>
             <label class="label-login">Talles                
-                <select required name="talle[]" class="input-login">
+                <select name="talle[]" class="input-login">
                     <option value="" disabled selected style="color: #38332f;">Selecciona un talle</option>
                     <?php foreach ($talles as $talle): ?>
                         <option value="<?= $talle['id_talle']; ?>"><?= $talle['talle']; ?></option>
@@ -104,6 +104,11 @@
     </div>
 </div>
             </div>
+                <?php if(session()->getFlashdata('error')):?>
+                    <div class="alert alert-login text-center">
+                            <?= session()->getFlashdata('error')?>
+                    </div>
+                <?php endif;?>
 
             <div class="button-add-talle-color">
             <span class="material-symbols-outlined">add</span>

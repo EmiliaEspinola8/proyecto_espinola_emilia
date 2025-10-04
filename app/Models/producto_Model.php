@@ -11,6 +11,7 @@ public function productosCategoria(){
 
 	return $this->select('productos.*, categoria.descripcion AS categoria')
                     ->join('categoria', 'productos.categoria_id = categoria.id_categoria')
+                    ->orderBy('id_producto', 'ASC')
                     ->findAll();
 
 }

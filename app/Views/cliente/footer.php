@@ -178,6 +178,7 @@ $(document).on('input', '.input-cantidad-carrito', function () {
 
         error: function(xhr, status, error) {
         console.error("Error AJAX: ", xhr.responseText);
+        $('.carrito').html(error);
         }
     });
 }
@@ -286,30 +287,8 @@ $(document).on('change', '.categorias, .talles , .colores, .ordenamiento', funct
   const ordenamiento = document.querySelector('.ordenamiento');
   let colores = obtenerColores();
   let talles = obtenerTalles();
-
-        var parametros = {
-        "id_categoria" : categoria,
-        "id_colores" : colores,
-        "id_talles" : talles,
-        "id_ordenamiento": ordenamiento.value,
-        };
-
-    $.ajax({
-        data: parametros,
-        url: 'filtrar_productos',
-        type: 'POST',
-
-        success: function(mensaje_mostrar) {
-            console.log("Respuesta del servidor:", mensaje_mostrar);
-            $('.galeria-productos').html(mensaje_mostrar);
-        },
-
-        error: function(xhr, status, error) {
-        console.error("Error AJAX: ", xhr.responseText);
-        }
-    });
-
-
+  
+    consulta(categoria, colores, talles, ordenamiento.value);
 });
 
 $(document).on('click', '#btn-buscar', function () {
@@ -320,12 +299,37 @@ $(document).on('click', '#btn-buscar', function () {
   let colores = obtenerColores();
   let talles = obtenerTalles();
 
-        var parametros = {
+    consulta(categoria, colores, talles, ordenamiento.value, buscar.value);
+});
+
+$(document).on('click', '#btn-buscar1', function () {
+  const categoriaSeleccionada = document.querySelector('input[name="categorias"]:checked');
+  const categoria = categoriaSeleccionada ? categoriaSeleccionada.value : null;
+  const ordenamiento = document.querySelector('.ordenamiento1');
+  const buscar = document.querySelector('#input-buscar1');
+  let colores = obtenerColores();
+  let talles = obtenerTalles();
+
+    consulta(categoria, colores, talles, ordenamiento.value, buscar.value);
+});
+
+$(document).on('change', '.ordenamiento1', function () {
+  const categoriaSeleccionada = document.querySelector('input[name="categorias"]:checked');
+  const categoria = categoriaSeleccionada ? categoriaSeleccionada.value : null;
+  const ordenamiento = document.querySelector('.ordenamiento1');
+  let colores = obtenerColores();
+  let talles = obtenerTalles();
+
+  consulta(categoria, colores, talles, ordenamiento.value);
+});
+
+function consulta(categoria, colores, talles, ordenamiento, buscar = null){
+  var parametros = {
         "id_categoria" : categoria,
         "id_colores" : colores,
         "id_talles" : talles,
-        "id_ordenamiento": ordenamiento.value,
-        "buscar": buscar.value 
+        "id_ordenamiento": ordenamiento,
+        "buscar": buscar,
         };
 
     $.ajax({
@@ -343,8 +347,7 @@ $(document).on('click', '#btn-buscar', function () {
         }
     });
 
-
-});
+}
 
 function obtenerColores(){
   let seleccionados = [];
@@ -363,13 +366,6 @@ function obtenerTalles(){
   });
   return seleccionados;
 }
-
-document.querySelectorAll('input[name="colores"]:checked').forEach((el) => {
-    el.querySelectorAll('.colores').forEach((c) => {
-    color = c.closest('.label-categorias');
-    color.classList.add('bordo');
-  });
-  });
     </script>
     <script src="assets/js/script.js"></script>
 </body>

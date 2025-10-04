@@ -50,4 +50,16 @@
         </div>
 
     <?php endif; ?>
+
+    <?php if((session()->getFlashdata('error'))): ?>
+    <div class="validacion-form">
+        <p style="text-align: center;  font-weight: 700;  letter-spacing: 1px; font-size: 1.1em;"><?= esc(session()->getFlashdata('error')) ?></p>
+    </div>
+    <?php endif; ?>
+
+    <?php if((session()->getFlashdata('sucess'))): ?>
+    <div class="validacion-form validacion-form-success">
+        <p style="text-align: center;  font-weight: 700;  letter-spacing: 1px; font-size: 1.1em;"><?= esc(session()->getFlashdata('sucess')) ?></p>
+    </div>
+    <?php endif; ?>
     </div>

@@ -141,6 +141,12 @@
 </div>
             </div>
 
+            <?php if(session()->getFlashdata('error')):?>
+                    <div class="alert alert-login text-center">
+                            <?= session()->getFlashdata('error')?>
+                    </div>
+                <?php endif;?>
+
             <div class="button-add-talle-color">
             <span class="material-symbols-outlined">add</span>
             <button type="button">Agregar color y talle</button>

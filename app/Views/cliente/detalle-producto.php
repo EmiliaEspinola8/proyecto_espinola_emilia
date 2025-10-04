@@ -61,11 +61,9 @@
         </div>
         <?php if($session->get('logged_in')) {?>  
         <button onclick="agregarAlCarrito();" style="margin-top: 20px" class="input-login input-submit-login">Agregar al carrito</button>
-        <?php } else if($producto['stock'] < 0){?>
-                <button style="margin-top: 20px; backgraund: #333; border: none;"  class="input-login input-submit-login">Agregar al carrito</button>
-    <?php } else {?>
-      <button  onclick="window.location.href='http://localhost/proyecto_espinola_emilia/login'" style="margin-top: 20px" class="input-login input-submit-login">Agregar al carrito</button>
-      <?php }?>
+        <?php } else {?>
+            <button  onclick="window.location.href='http://localhost/proyecto_espinola_emilia/login'" style="margin-top: 20px" class="input-login input-submit-login">Agregar al carrito</button>
+        <?php }?>
     <p class="validacion-form" id="error-stock"></p>
     </div>
     </div>
@@ -77,7 +75,7 @@
       <h1 class="titulos">Te puede interesar también</h1>
       <hr class="my-4 border-dark separador">
   </div>
-  <div class="grid-productos galeria-productos">
+  <div class="grid-productos galeria-productos grid-productos-segun-categoria">
       <?php foreach ($categorias as $categoria): ?>
         <div  onclick="window.location.href='<?= base_url('detalle_producto_').$categoria['id_producto']; ?>'" style="cursor: pointer;" class="item-producto"> 
             <p class="sin-stock con-stock">Sin stock</p>

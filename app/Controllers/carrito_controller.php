@@ -90,7 +90,11 @@ class carrito_controller extends Controller{
                 'producto_id' => $idProducto];
             } else {
                     $this->response->setJSON(['status' => 'error']);
-                    return  "Solo quedan " . $idProductoDetalle['stock'] . " unidades disponibles.";
+                    if($idProductoDetalle['stock'] == 0){
+                        return "No quedan unidades disponibles";
+                    }else{
+                        return  "Solo quedan " . $idProductoDetalle['stock'] . " unidades disponibles.";
+                    }
             }
         }
         

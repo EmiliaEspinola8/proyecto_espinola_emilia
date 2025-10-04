@@ -100,6 +100,7 @@ class producto_controller extends Controller{
         for ($i = 0; $i < count($cantidad)-1; $i++) {
 
         if(empty($talles[$i]) || empty($colores[$i])){
+            $productoModel->delete($idProducto);
             return redirect()->back()->withInput()->with('error', 'Bebes seleccionar un color y un talle');         
         }else{
             $productoDetalle->insert([
@@ -224,9 +225,9 @@ public function edit($id){
 
         if(!empty($cantidad_viejos)){
             for ($i = 0; $i < count($cantidad_viejos); $i++){
-            if(empty($talles_viejos[$i]) && empty($colores_viejos[$i])){
+            if(empty($talles_viejos[$i]) || empty($colores_viejos[$i])){
 
-            return redirect()->back()->withInput()->with('error', 'Bebes seleccionar al menos un color o un talle');
+            return redirect()->back()->withInput()->with('error', 'Bebes seleccionar un color o un talle');
         }else{
             $productoDetalle->update($idProdustosDetalle[$i],[
             'producto_id' => $id,
@@ -360,7 +361,7 @@ public function edit($id){
         $idOrdenamiento = $this->request->getPost('id_ordenamiento');
         $buscar = $this->request->getPost('buscar');
 
-        $productos = $productoModel-> getProductosFiltrados($idColores, $idTalles, $idCategoria, $idOrdenamiento, $buscar);
+        $productos = $productoModel->getProductosFiltrados($idColores, $idTalles, $idCategoria, $idOrdenamiento, $buscar);
         
         echo view('cliente/galeria', ['productos' => $productos]);
     }
@@ -404,18 +405,6 @@ public function edit($id){
                 'rules' => 'required',
                 'errors' => [
                     'required' => 'El campo stock es requerido',
-                ],
-            ],
-            'talle'  => [
-                'rules' => 'required',
-                'errors' => [
-                    'required' => 'El campo talle es requerido',
-                ],
-            ],
-            'color'  => [
-                'rules' => 'required',
-                'errors' => [
-                    'required' => 'El campo color es requerido',
                 ],
             ],
         ];

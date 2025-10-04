@@ -40,12 +40,12 @@
 
                 <div style="display: flex; flex-direction: column; flex: 1; gap: 10px;" class="filtros filtros-mv">
                     <div style="align-self: start;" class="wapper-input wapper-input-telefono input-buscar filtros-flex">
-                    <span id="btn-buscar" class="material-symbols-outlined">search</span>
-                    <input id="input-buscar" class="input input-telefono" type="text" placeholder="Buscar...">
+                    <span id="btn-buscar1" class="material-symbols-outlined">search</span>
+                    <input id="input-buscar1" class="input input-telefono" type="text" placeholder="Buscar...">
                     </div>
                 <div  class="wapper-input wapper-input-telefono select-filtrar filtros-flex" style="flex: 1;">
                 <span class="material-symbols-outlined">filter_alt</span>
-                <select class="input input-telefono ordenamiento" name="ordenamiento" id="ordenamiento">
+                <select class="input input-telefono ordenamiento1">
                     <option value="1">Más nuevo al más viejo</option>
                     <option value="2">Más viejo al más nuevo</option>
                     <option value="3">Precio: De mayor a menor</option>
