@@ -56,8 +56,7 @@ public function productosCategoria(){
                     ->orderBy('total_vendido', 'DESC')
                     ->where('productos.estado', 1)
                     ->where('productos.stock >', 0)
-                    ->limit(10)
-                    ->findAll();
+                    ->findAll(12);
     }
 
     public function topProductosVendidosPorCategoria($categoriaID, $IDproducto)
@@ -69,8 +68,7 @@ public function productosCategoria(){
                     ->where('productos.categoria_id', $categoriaID)
                     ->where('productos.estado', 1)
                     ->where('productos.id_producto !=', $IDproducto)
-                    ->limit(4)
-                    ->findAll();
+                    ->findAll(4);
     }
 
     public function getProductosFiltrados($colores = null, $talles = null, $categoria_id = null, $ordenamiento, $buscar)
