@@ -366,6 +366,32 @@ public function edit($id){
         echo view('cliente/galeria', ['productos' => $productos]);
     }
 
+    public function ProductosPorCategoria($idCategoria){
+        $productoModel = new producto_Model();
+        $productos = $productoModel->where('estado', 1)
+                                    ->where('categoria_id', $idCategoria)
+                                    ->orderBy('id_producto', 'DESC')->findAll();
+
+        $categoriaModel = new categoria_Model(); 
+        $categorias = $categoriaModel->where('activo', 1)->findAll();
+
+        $talleModel = new talles_Model();
+        $talles = $talleModel->where('estado', 1)->findAll();
+
+        $colorModel = new colores_Model();
+        $colores = $colorModel->where('estado', 1)->findAll();
+
+        $carrito = $this->obtenerCarrito();
+
+        echo view('cliente/head');
+        echo view('cliente/header');
+        echo view('cliente/navbar');
+        echo view('cliente/carrito.php', ['carrito' => $carrito]);
+        echo view('cliente/productos', ['categorias' => $categorias, 'colores' => $colores, 'talles' => $talles, 'id_categoria' => $idCategoria]);
+        echo view('cliente/galeria', ['productos' => $productos]);
+        echo view('cliente/footer');
+    }
+
         public function obtenerReglas(){
             return [
             'nombre_producto'   =>  [

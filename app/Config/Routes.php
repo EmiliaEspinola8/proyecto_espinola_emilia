@@ -40,6 +40,7 @@ $routes->get('productos/tablaEliminados','producto_controller::tablaEliminados',
 $routes->get('productos/activar/(:num)','producto_controller::activar/$1',['filter' => 'perfil']);
 $routes->get('productoDetalle_delete_(:num)','producto_controller::deleteProductoDetalle::/$1',['filter' => 'perfil']);
 $routes->get('tabla_productoDetalle_(:num)','producto_controller::ProductoDetalle::/$1',['filter' => 'perfil']);
+$routes->get('productos_por_categoria_(:num)','producto_controller::ProductosPorCategoria::/$1');
 /*rutas del crud de usuarios*/
 $routes->get('/crudusuarios','usuario_controller::listarUsuarios',['filter' => 'perfil']);
 $routes->get('/creausuarios','usuario_crud_controller::creaUsuario');

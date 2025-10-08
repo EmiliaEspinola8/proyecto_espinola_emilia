@@ -4,7 +4,7 @@
 <hr class="my-4 border-dark separador">
   <div class="grid-productos galeria-categoria">
     <?php foreach ($categorias as $categoria): ?>
-    <div>
+    <div onclick="window.location.href='<?= base_url('productos_por_categoria_').$categoria['id_categoria']; ?>'" style="cursor: pointer;" >
       <img src="<?= base_url()?>/assets/uploads/<?= $categoria['imagen'] ?>" alt="">
       <div><p><?= $categoria['descripcion'] ?></p></div>
     </div>

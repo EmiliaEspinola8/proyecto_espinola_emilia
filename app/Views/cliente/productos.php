@@ -60,7 +60,8 @@
                             <?php foreach ($categorias as $categoria): ?>
                                 <label class="label-categorias">
                                         <?= $categoria['descripcion'] ?>
-                                        <input class="categorias" name="categorias" value="<?= $categoria['id_categoria'] ?>" type="radio">
+                                        <input class="categorias" name="categorias" value="<?= $categoria['id_categoria'] ?>" type="radio"
+                                        <?= isset($id_categoria) && $id_categoria == $categoria['id_categoria'] ? 'checked' : '' ?>>
                                 </label>
                             <?php endforeach; ?>
                             <hr>

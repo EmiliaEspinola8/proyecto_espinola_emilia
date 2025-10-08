@@ -15,7 +15,7 @@ public function listarVentasDetalle($idVenta){
 }
 
 public function topCategoriasMasVendidas(){
-$sql = 'SELECT  c.descripcion, SUM(vd.cantidad) AS total_vendidos, p.imagen
+$sql = 'SELECT  c.*, SUM(vd.cantidad) AS total_vendidos, p.imagen
                 FROM ventas_detalle vd
                 JOIN productos p ON p.id_producto = vd.producto_id
                 JOIN categoria c ON c.id_categoria = p.categoria_id
