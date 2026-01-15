@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 04-10-2025 a las 06:58:00
+-- Tiempo de generación: 15-01-2026 a las 04:02:06
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -45,7 +45,8 @@ INSERT INTO `categoria` (`id_categoria`, `descripcion`, `activo`) VALUES
 (9, 'Tops', 1),
 (10, ' sweaters', 0),
 (11, 'Musculosas', 1),
-(12, 'Camisas', 0);
+(12, 'Camisas', 0),
+(13, 'Pantalones', 0);
 
 -- --------------------------------------------------------
 
@@ -74,7 +75,8 @@ INSERT INTO `colores` (`id_colores`, `nombre`, `codigo_hex`, `estado`) VALUES
 (7, 'Verde pantano', '#078a05', 1),
 (8, 'Amarillo pastel', '#f9f6ae', 1),
 (9, 'Marrón', '#4e3532', 1),
-(10, 'Gris claro', '#aeadad', 1);
+(10, 'Gris claro', '#aeadad', 1),
+(11, 'Violeta', '#8303d8', 0);
 
 -- --------------------------------------------------------
 
@@ -100,8 +102,7 @@ CREATE TABLE `contacto` (
 INSERT INTO `contacto` (`id_contacto`, `nombre_apellido`, `email`, `motivo`, `mensaje`, `resuelto`, `activo`, `telefono`) VALUES
 (1, 'Emilia Espinola', 'espinolaemilia865@gmail.com', 'Comprar', 'Hola!, como realizo una compra?', 1, 1, '0'),
 (5, 'Andrea', 'andreaRivera878@gmail.com', 'Comprar', 'como comprar?', 1, 0, '0'),
-(9, 'Andrea Maleni', 'andreamaleni781@gmail.com', 'Más info', 'Hola necesito saber más sobre la calidad de las ropas, y cuanto tarda el envió aproximadamente.', 0, 1, '3794774978'),
-(10, 'Matías Fernández', 'fernandezmatias@gmail.com', 'Más info', 'Holaa. tienen local?', 1, 1, '3794774978'),
+(10, 'Matías Fernández', 'fernandezmatias@gmail.com', 'Más info', 'Holaa. tienen local?', 0, 1, '3794774978'),
 (11, 'Sebastian Colaneri', 'sebastianUWU56@gmail.com', 'no tengo', 'Puedo retirar mi pedido en el local o hacen envíos en moto en la ciudad?', 0, 1, '3794545678');
 
 -- --------------------------------------------------------
@@ -145,25 +146,26 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id_producto`, `nombre_producto`, `imagen`, `categoria_id`, `precio`, `stock`, `estado`, `descripcion`) VALUES
-(75, 'Minifaldas', '1753993583_fdbba5bda3cb4db8b035.webp', 3, 5000.00, 59, 1, ''),
-(76, 'Falda sastrera', '1759175218_89386bb0c46d4b5c1804.webp', 3, 25000.00, 2, 1, 'Falda sastrera con  short abajo.'),
+(75, 'Minifaldas', '1753993583_fdbba5bda3cb4db8b035.webp', 3, 5000.00, 18, 1, ''),
+(76, 'Falda sastrera', '1759175218_89386bb0c46d4b5c1804.webp', 3, 25000.00, 0, 1, 'Falda sastrera con  short abajo.'),
 (77, 'baby  tee estampa', '1753994033_9805437b73b9dd0b00be.webp', 1, 20000.00, 4, 1, ''),
-(78, 'Top estraple', '1753994203_e8c8ed98bec7507fc170.webp', 9, 25000.00, 60, 1, ''),
+(78, 'Top estraple', '1753994203_e8c8ed98bec7507fc170.webp', 9, 25000.00, 55, 1, ''),
 (79, 'Buzo a rayas', '1753994275_3546dc6fdc31d17d067d.webp', 5, 40000.00, 10, 1, ''),
-(80, 'Blusas', '1753994390_78c808bb241b2dbd9bec.webp', 9, 17000.00, 42, 1, ''),
-(81, 'Remera', '1753994486_8f7c89901e5cb98792d6.webp', 9, 23000.00, 0, 1, ''),
-(82, 'chombas', '1753994550_91cf049be95e9d47aa73.webp', 9, 12000.00, 8, 1, ''),
-(83, 'Short baquero', '1753994897_cd4cf95b6143a98929f7.webp', 7, 24000.00, 1, 1, 'Short engomado estilo baquero, talle único.'),
-(84, 'Top argolla', '1758300778_ed1ab42f3232a3d3e615.webp', 9, 19900.00, 23, 1, ''),
-(87, 'Short de volados', '1758303751_fba7252f452688ca8fba.webp', 3, 30000.00, 27, 1, ''),
-(88, 'Short pollera', '1759175412_c9dd3397e3afce909656.webp', 3, 3600.00, 0, 1, 'Short pollera de Jeans mezquilla - Talle único.'),
-(89, 'Musculosas Tachas', '1759175801_f69274bc56d9fd49d797.webp', 11, 18900.00, 19, 1, ''),
-(90, 'Musculosas a rayas', '1759175991_f7260710ac1b3eb89687.webp', 11, 16900.00, 35, 1, ''),
-(91, 'Bodys tiras', '1759176703_9ecfa8fb893afc606617.webp', 11, 22000.00, 18, 1, ''),
-(92, 'Short jeans', '1759176852_3242d98e5edb35cdba13.webp', 7, 40000.00, 9, 1, 'Short de jeans tiro bajo.'),
-(93, 'Tops encaje', '1759176971_bcb9ce58a3019917d9d6.webp', 9, 27000.00, 29, 1, ''),
-(98, 'Mini jeans', '1759546414_f61d115cb86ebcd33a44.webp', 7, 23999.00, 12, 1, 'Mini de jeans tiro bajo.'),
-(102, 'Musculosa Morley', '1759546954_af9e61fcdbc0a8a9364a.webp', 11, 3999.00, 9, 1, 'kj');
+(80, 'Blusas', '1753994390_78c808bb241b2dbd9bec.webp', 9, 17000.00, 39, 1, ''),
+(81, 'Remera', '1753994486_8f7c89901e5cb98792d6.webp', 9, 23000.00, 10, 1, ''),
+(82, 'chombas', '1753994550_91cf049be95e9d47aa73.webp', 9, 12000.00, 7, 1, ''),
+(83, 'Short baquero', '1753994897_cd4cf95b6143a98929f7.webp', 7, 24000.00, 4, 1, ''),
+(84, 'Top argolla', '1758300778_ed1ab42f3232a3d3e615.webp', 9, 19900.00, 20, 1, ''),
+(87, 'Short de volados', '1758303751_fba7252f452688ca8fba.webp', 3, 30000.00, 32, 1, ''),
+(88, 'Short pollera', '1759175412_c9dd3397e3afce909656.webp', 3, 3600.00, 13, 1, ''),
+(89, 'Musculosas Tachas', '1759175801_f69274bc56d9fd49d797.webp', 11, 18900.00, 0, 1, ''),
+(90, 'Musculosas a rayas', '1759175991_f7260710ac1b3eb89687.webp', 11, 16900.00, 34, 1, ''),
+(91, 'Bodys tiras', '1759176703_9ecfa8fb893afc606617.webp', 11, 22000.00, 15, 1, ''),
+(92, 'Short jeans', '1759176852_3242d98e5edb35cdba13.webp', 7, 40000.00, 6, 1, 'Short de jeans tiro bajo.'),
+(93, 'Tops encaje', '1759176971_bcb9ce58a3019917d9d6.webp', 9, 27000.00, 36, 1, ''),
+(98, 'Mini jeans', '1759546414_f61d115cb86ebcd33a44.webp', 7, 23999.00, 15, 1, ''),
+(102, 'Musculosa Morley', '1759546954_af9e61fcdbc0a8a9364a.webp', 11, 3999.00, 20, 1, ''),
+(130, 'mini', '1768436311_99b1276431fe832bccbf.webp', 1, 290.00, 219, 0, '');
 
 -- --------------------------------------------------------
 
@@ -185,35 +187,42 @@ CREATE TABLE `productos_detalle` (
 --
 
 INSERT INTO `productos_detalle` (`id_producto`, `producto_id`, `talle_id`, `stock`, `color_id`, `estado`) VALUES
-(32, 75, 2, 30, 2, 1),
-(33, 75, 1, 16, 2, 1),
-(34, 76, 1, 2, 2, 1),
+(34, 76, 1, 0, 2, 1),
 (36, 77, 1, 1, 3, 1),
 (37, 77, 3, 3, 2, 1),
-(38, 78, 2, 22, 2, 1),
-(39, 78, 3, 38, 2, 1),
-(40, 80, 2, 15, 2, 1),
-(41, 80, 1, 14, 2, 1),
-(42, 80, 2, 13, 3, 1),
+(38, 78, 2, 18, 2, 1),
+(39, 78, 3, 37, 2, 1),
+(40, 80, 2, 14, 2, 1),
+(41, 80, 1, 13, 2, 1),
+(42, 80, 2, 12, 3, 1),
 (43, 82, 2, 3, 3, 1),
-(44, 82, 4, 5, 2, 1),
-(48, 84, 6, 10, 4, 1),
-(49, 87, 6, 27, 3, 1),
-(50, 84, 6, 13, 2, 1),
-(58, 75, 2, 13, 3, 1),
-(60, 89, 6, 9, 8, 1),
-(61, 89, 6, 10, 9, 1),
+(44, 82, 4, 4, 2, 1),
+(48, 84, 6, 8, 4, 1),
+(49, 87, 6, 25, 3, 1),
+(50, 84, 6, 12, 2, 1),
+(60, 89, 6, 0, 8, 1),
+(61, 89, 6, 0, 9, 1),
 (62, 90, 1, 20, 2, 1),
-(63, 90, 1, 15, 4, 1),
-(64, 91, 1, 6, 3, 1),
-(65, 91, 1, 7, 9, 1),
+(63, 90, 1, 14, 4, 1),
+(64, 91, 1, 4, 3, 1),
+(65, 91, 1, 6, 9, 1),
 (66, 91, 1, 5, 8, 1),
-(67, 92, 7, 9, 9, 1),
-(68, 93, 6, 8, 3, 1),
-(69, 93, 6, 1, 7, 1),
+(67, 92, 7, 6, 9, 1),
+(68, 93, 6, 6, 3, 1),
+(69, 93, 6, 12, 7, 1),
 (70, 93, 6, 10, 2, 1),
-(71, 93, 6, 10, 4, 1),
-(72, 102, 2, 9, 3, 1);
+(71, 93, 6, 8, 4, 1),
+(72, 102, 2, 8, 3, 1),
+(103, 79, 2, 10, 4, 1),
+(104, 81, 3, 10, 4, 1),
+(105, 83, 7, 4, 2, 1),
+(106, 98, 8, 5, 5, 1),
+(107, 98, 7, 10, 5, 1),
+(108, 88, 8, 13, 6, 1),
+(109, 87, 6, 7, 2, 1),
+(110, 102, 1, 12, 10, 1),
+(111, 75, 3, 8, 4, 1),
+(113, 130, 4, 219, 5, 1);
 
 -- --------------------------------------------------------
 
@@ -239,7 +248,8 @@ INSERT INTO `talles` (`id_talle`, `talle`, `estado`) VALUES
 (5, 'XXL', 0),
 (6, 'Unico', 1),
 (7, '38', 1),
-(8, '40', 1);
+(8, '40', 1),
+(9, '46', 0);
 
 -- --------------------------------------------------------
 
@@ -262,13 +272,14 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `nombre`, `email`, `pass`, `perfil_id`, `estado`, `carrito`) VALUES
-(19, 'Emilia Espinola', 'espinolaemilia8@gmail.com', '$2y$10$Lc7gyUdHg.PaA.x53rIT2uF3ruHV.jpYL3oAMWy1ymSQvJJdCjXLS', 2, 1, '{\"70\":{\"id_detalle_producto\":\"70\",\"cantidad\":2,\"nombre\":\"Tops encaje\",\"talle\":\"Unico\",\"color\":\"negro\",\"imagen\":\"1759176971_bcb9ce58a3019917d9d6.webp\",\"precio\":\"27000.00\",\"producto_id\":\"93\"},\"68\":{\"id_detalle_producto\":\"68\",\"cantidad\":\"1\",\"nombre\":\"Tops encaje\",\"talle\":\"Unico\",\"color\":\"blanco\",\"imagen\":\"1759176971_bcb9ce58a3019917d9d6.webp\",\"precio\":\"27000.00\",\"producto_id\":\"93\"}}'),
+(19, 'Emilia Espinola', 'espinolaemilia8@gmail.com', '$2y$10$Lc7gyUdHg.PaA.x53rIT2uF3ruHV.jpYL3oAMWy1ymSQvJJdCjXLS', 2, 1, '[]'),
 (20, 'Emilia Rivero', 'espinolaemilia86@gmail.com', '$2y$10$pEEZ9NgUnABAV7pNDv/sluku3dh03uOUfatD7PZH7aDKNCBC.Q676', 2, 1, '0'),
 (21, 'Sofia González', 'espinolaemilia4@gmail.com', '$2y$10$6ORUY7zRqTECpcSn.mvPmeWhtnO8hgirLEvbPR1dGFrv25UDEZ2jG', 2, 0, '0'),
-(22, 'María José', 'espinolaemilia45@gmail.com', '$2y$10$BexaKkjyLvdpNxh7FFkIoeIskyfSSSVa5pGhdWYfAt3/8QM2t.N/G', 2, 1, '{\"48\":{\"id_detalle_producto\":\"48\",\"cantidad\":\"1\",\"nombre\":\"Top argolla\",\"talle\":\"Unico\",\"color\":\"Bordo\",\"imagen\":\"1758300778_ed1ab42f3232a3d3e615.webp\",\"precio\":\"19900.00\",\"producto_id\":\"84\"}}'),
+(22, 'María José', 'espinolaemilia45@gmail.com', '$2y$10$BexaKkjyLvdpNxh7FFkIoeIskyfSSSVa5pGhdWYfAt3/8QM2t.N/G', 2, 1, '[]'),
 (23, 'Josefina Emilia', 'joseespinola4@gmail.com', '$2y$10$SGMhKBSoPcOompg716q58.21Sai/K9OsH8Yg8foBXd41BkhwJZipC', 1, 1, '0'),
-(24, 'Ramírez Martina', 'martinaramirez@gmail.com', '$2y$10$j4MhmYfI6pH3ye6tsUaMm.io.a3MQPcfZU0fK.xwhUcDNw5EUHbAe', 2, 1, ''),
-(25, 'Fran Exequiel', 'espinolafran889@gmail.com', '$2y$10$7kWkz3DrynfJqN9P6kJd0.vSvzYOy//yq1sLkVx0OgFXZpYHtG8WC', 2, 1, '');
+(24, 'Ramírez Martina', 'martinaramirez@gmail.com', '$2y$10$j4MhmYfI6pH3ye6tsUaMm.io.a3MQPcfZU0fK.xwhUcDNw5EUHbAe', 2, 1, '[]'),
+(25, 'Fran Exequiel', 'espinolafran889@gmail.com', '$2y$10$7kWkz3DrynfJqN9P6kJd0.vSvzYOy//yq1sLkVx0OgFXZpYHtG8WC', 2, 1, ''),
+(26, 'Olivarez Martina', 'martinaolivarez345@gmail.com', '$2y$10$rzee.Naq0XEbLUrvWOCsR.YelI0HLQn/BUarOAbfj8Fro4GQDhagK', 2, 1, '');
 
 -- --------------------------------------------------------
 
@@ -289,31 +300,15 @@ CREATE TABLE `ventas_cabecera` (
 --
 
 INSERT INTO `ventas_cabecera` (`id_ventas`, `fecha`, `hora`, `usuario_id`, `total_venta`) VALUES
-(29, '2025-09-28', '00:21:00', 19, 53900.00),
-(30, '2025-09-28', '00:21:24', 19, 60000.00),
-(31, '2025-09-28', '00:21:50', 19, 117000.00),
-(32, '2025-09-28', '00:22:15', 19, 5000.00),
-(33, '2025-09-28', '00:23:24', 19, 24000.00),
-(34, '2025-09-29', '16:13:42', 19, 49000.00),
-(35, '2025-09-29', '17:24:34', 22, 67000.00),
-(36, '2025-09-29', '17:25:33', 22, 60900.00),
-(37, '2025-09-29', '17:26:07', 22, 22500.00),
-(38, '2025-09-30', '02:19:58', 19, 100000.00),
-(39, '2025-09-30', '21:35:33', 19, 111000.00),
-(40, '2025-10-04', '00:19:19', 22, 51997.00),
-(41, '2025-10-04', '00:19:35', 22, 20000.00),
-(42, '2025-10-04', '00:29:42', 22, 3600.00),
-(43, '2025-10-04', '00:29:45', 22, 3600.00),
-(44, '2025-10-04', '00:44:02', 22, 3600.00),
-(45, '2025-10-04', '00:58:20', 22, 3600.00),
-(46, '2025-10-04', '01:03:19', 22, 3600.00),
-(47, '2025-10-04', '01:09:17', 22, 37800.00),
-(48, '2025-10-04', '01:09:34', 22, 18900.00),
-(49, '2025-10-04', '01:10:30', 22, 25000.00),
-(50, '2025-10-04', '01:11:02', 22, 25000.00),
-(51, '2025-10-04', '01:16:05', 22, 27000.00),
-(52, '2025-10-04', '01:16:15', 22, 27000.00),
-(53, '2025-10-04', '01:16:56', 22, 24000.00);
+(72, '2026-01-10', '19:49:40', 19, 64800.00),
+(73, '2026-01-10', '20:45:59', 19, 283500.00),
+(74, '2026-01-14', '17:34:09', 19, 83900.00),
+(75, '2026-01-14', '17:35:57', 19, 83600.00),
+(76, '2026-01-14', '17:38:09', 22, 140000.00),
+(77, '2026-01-14', '17:40:58', 24, 117998.00),
+(78, '2026-01-14', '17:41:19', 24, 42000.00),
+(79, '2026-01-14', '21:24:25', 22, 10000.00),
+(80, '2026-01-14', '21:24:52', 22, 12000.00);
 
 -- --------------------------------------------------------
 
@@ -324,7 +319,9 @@ INSERT INTO `ventas_cabecera` (`id_ventas`, `fecha`, `hora`, `usuario_id`, `tota
 CREATE TABLE `ventas_detalle` (
   `id` int(11) NOT NULL,
   `venta_id` int(11) NOT NULL,
-  `producto_id` int(11) NOT NULL,
+  `producto_detalle_id` int(11) DEFAULT NULL,
+  `color` varchar(50) DEFAULT NULL,
+  `talle` varchar(50) DEFAULT NULL,
   `cantidad` int(11) NOT NULL,
   `precio` float(10,2) NOT NULL,
   `subtotal` float(10,2) NOT NULL
@@ -334,37 +331,30 @@ CREATE TABLE `ventas_detalle` (
 -- Volcado de datos para la tabla `ventas_detalle`
 --
 
-INSERT INTO `ventas_detalle` (`id`, `venta_id`, `producto_id`, `cantidad`, `precio`, `subtotal`) VALUES
-(31, 29, 80, 2, 17000.00, 34000.00),
-(32, 29, 84, 1, 19900.00, 19900.00),
-(33, 30, 87, 2, 30000.00, 60000.00),
-(34, 31, 81, 4, 23000.00, 92000.00),
-(35, 31, 78, 1, 25000.00, 25000.00),
-(36, 32, 75, 1, 5000.00, 5000.00),
-(37, 33, 83, 1, 24000.00, 24000.00),
-(38, 34, 80, 2, 17000.00, 34000.00),
-(39, 34, 75, 3, 5000.00, 15000.00),
-(40, 35, 92, 1, 40000.00, 40000.00),
-(41, 35, 93, 1, 27000.00, 27000.00),
-(42, 36, 91, 1, 22000.00, 22000.00),
-(43, 36, 91, 1, 22000.00, 22000.00),
-(44, 36, 90, 1, 16900.00, 16900.00),
-(45, 37, 89, 1, 18900.00, 18900.00),
-(46, 37, 88, 1, 3600.00, 3600.00),
-(47, 38, 91, 3, 22000.00, 66000.00),
-(48, 38, 80, 2, 17000.00, 34000.00),
-(49, 39, 93, 3, 27000.00, 81000.00),
-(50, 39, 87, 1, 30000.00, 30000.00),
-(51, 40, 102, 1, 3999.00, 3999.00),
-(52, 40, 98, 2, 23999.00, 47998.00),
-(53, 41, 77, 1, 20000.00, 20000.00),
-(54, 47, 89, 2, 18900.00, 37800.00),
-(55, 48, 89, 1, 18900.00, 18900.00),
-(56, 49, 78, 1, 25000.00, 25000.00),
-(57, 50, 78, 1, 25000.00, 25000.00),
-(58, 51, 93, 1, 27000.00, 27000.00),
-(59, 52, 93, 1, 27000.00, 27000.00),
-(60, 53, 83, 1, 24000.00, 24000.00);
+INSERT INTO `ventas_detalle` (`id`, `venta_id`, `producto_detalle_id`, `color`, `talle`, `cantidad`, `precio`, `subtotal`) VALUES
+(78, 72, 38, 'negro', 'M', 1, 25000.00, 25000.00),
+(79, 72, 48, 'Bordo', 'Unico', 2, 19900.00, 39800.00),
+(80, 73, 60, 'Amarillo pastel', 'Unico', 6, 18900.00, 113400.00),
+(81, 73, 61, 'Marrón', 'Unico', 9, 18900.00, 170100.00),
+(82, 74, 63, 'Bordo', 'L', 1, 16900.00, 16900.00),
+(83, 74, 67, 'Marrón', '38', 1, 40000.00, 40000.00),
+(84, 74, 69, 'Verde pantano', 'Unico', 1, 27000.00, 27000.00),
+(85, 75, 41, 'negro', 'L', 1, 17000.00, 17000.00),
+(86, 75, 42, 'blanco', 'M', 1, 17000.00, 17000.00),
+(87, 75, 104, 'Bordo', 'X', 2, 23000.00, 46000.00),
+(88, 75, 108, 'Celeste', '40', 1, 3600.00, 3600.00),
+(89, 76, 34, 'negro', 'L', 2, 25000.00, 50000.00),
+(90, 76, 65, 'Marrón', 'L', 1, 22000.00, 22000.00),
+(91, 76, 66, 'Amarillo pastel', 'L', 2, 22000.00, 44000.00),
+(92, 76, 105, 'negro', '38', 1, 24000.00, 24000.00),
+(93, 77, 67, 'Marrón', '38', 2, 40000.00, 80000.00),
+(94, 77, 72, 'blanco', 'M', 1, 3999.00, 3999.00),
+(95, 77, 109, 'negro', 'Unico', 1, 30000.00, 30000.00),
+(96, 77, 110, 'Gris claro', 'L', 1, 3999.00, 3999.00),
+(97, 78, 39, 'negro', 'X', 1, 25000.00, 25000.00),
+(98, 78, 40, 'negro', 'M', 1, 17000.00, 17000.00),
+(99, 79, 111, 'Bordo', 'X', 2, 5000.00, 10000.00),
+(100, 80, 44, 'negro', 'XL', 1, 12000.00, 12000.00);
 
 --
 -- Índices para tablas volcadas
@@ -441,7 +431,7 @@ ALTER TABLE `ventas_cabecera`
 ALTER TABLE `ventas_detalle`
   ADD PRIMARY KEY (`id`),
   ADD KEY `venta_id` (`venta_id`),
-  ADD KEY `producto_id` (`producto_id`);
+  ADD KEY `id_producto_detalle` (`producto_detalle_id`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -451,13 +441,13 @@ ALTER TABLE `ventas_detalle`
 -- AUTO_INCREMENT de la tabla `categoria`
 --
 ALTER TABLE `categoria`
-  MODIFY `id_categoria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id_categoria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT de la tabla `colores`
 --
 ALTER TABLE `colores`
-  MODIFY `id_colores` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_colores` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT de la tabla `contacto`
@@ -475,37 +465,37 @@ ALTER TABLE `perfiles`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
+  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=131;
 
 --
 -- AUTO_INCREMENT de la tabla `productos_detalle`
 --
 ALTER TABLE `productos_detalle`
-  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
+  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
 
 --
 -- AUTO_INCREMENT de la tabla `talles`
 --
 ALTER TABLE `talles`
-  MODIFY `id_talle` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_talle` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT de la tabla `ventas_cabecera`
 --
 ALTER TABLE `ventas_cabecera`
-  MODIFY `id_ventas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
+  MODIFY `id_ventas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 
 --
 -- AUTO_INCREMENT de la tabla `ventas_detalle`
 --
 ALTER TABLE `ventas_detalle`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 
 --
 -- Restricciones para tablas volcadas
@@ -541,7 +531,8 @@ ALTER TABLE `ventas_cabecera`
 -- Filtros para la tabla `ventas_detalle`
 --
 ALTER TABLE `ventas_detalle`
-  ADD CONSTRAINT `ventas_detalle_ibfk_1` FOREIGN KEY (`venta_id`) REFERENCES `ventas_cabecera` (`id_ventas`);
+  ADD CONSTRAINT `ventas_detalle_ibfk_1` FOREIGN KEY (`venta_id`) REFERENCES `ventas_cabecera` (`id_ventas`),
+  ADD CONSTRAINT `ventas_detalle_ibfk_2` FOREIGN KEY (`producto_detalle_id`) REFERENCES `productos_detalle` (`id_producto`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
