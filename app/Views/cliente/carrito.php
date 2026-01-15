@@ -19,7 +19,6 @@
         <p style="font-size: 0.8em;"><span style="font-weight: 700;">Talle: </span> <?= esc($item['talle']) ?> </p>
         <p style="font-size: 0.8em;"> <span style="font-weight: 700;">Color: </span> <?= esc($item['color']) ?></p>
     </div>
-    <p class="validacion-form" id="error-stock-carrito"></p>
     <div class="wapper-titulo-card">
         <p style="font-size: 0.9em; font-weight: 700;" value="<?=$item['precio'] ?>">$ <?= number_format($item['precio'] * $item['cantidad'] , 2)?></p>
         <div class="wapper-input flex-cantidad" style="gap: 0;">
@@ -28,6 +27,7 @@
             <button value="<?=$item['id_detalle_producto'] ?>" id="incrementar" style="font-size: 18px !important; padding: 0;" class="button-cantidad-carrito material-symbols-outlined">add</button>
         </div>
     </div>
+    <p class="validacion-form" id="error-stock-carrito"></p>
     </div>
     </div>
     <?php $total += $item['precio'] * $item['cantidad']; ?>
@@ -49,8 +49,6 @@
             <p style="text-align: center;  font-weight: 700;  letter-spacing: 1px;">Tu carrito de compras está vacio.</p>
         </div>
 
-    <?php endif; ?>
-
     <?php if((session()->getFlashdata('error'))): ?>
     <div class="validacion-form">
         <p style="text-align: center;  font-weight: 700;  letter-spacing: 1px; font-size: 1.1em;"><?= esc(session()->getFlashdata('error')) ?></p>
@@ -61,5 +59,7 @@
     <div class="validacion-form validacion-form-success">
         <p style="text-align: center;  font-weight: 700;  letter-spacing: 1px; font-size: 1.1em;"><?= esc(session()->getFlashdata('sucess')) ?></p>
     </div>
+    <?php endif; ?>
+
     <?php endif; ?>
     </div>

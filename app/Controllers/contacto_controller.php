@@ -19,7 +19,7 @@ class contacto_controller extends Controller{
 
     public function contacto()
     {   
-        $carrito = $this->obtenerCarrito();
+        $carrito['carrito'] = $this->obtenerCarrito();
 
         echo view('cliente/head');
         echo view('cliente/header');
@@ -115,16 +115,16 @@ class contacto_controller extends Controller{
         ];
         } 
 
-        public function obtenerCarrito(){
-        
-        $session = session();
+    public function obtenerCarrito(){
         $usuarios = new usuario_Model();
-        if($session->get('logged_in')){
-            $usuarioID = $session->get('id_usuario');
-            return  $carrito['carrito'] = $usuarios->obtenerCarrito($usuarioID);
+        $usuarioID = session()->get('id_usuario');
+
+        if($usuarioID){
+            $carrito = $usuarios->obtenerCarrito($usuarioID);
+        }else{
+            $carrito = [];
         }
-        
-        return  $carrito = [];
+        return verCarrito($carrito);
     }
 
 }

@@ -25,59 +25,67 @@ class ventas_controller extends Controller{
     }
 
     public function registrarVenta()
-    {
-        $session = session();
-        $usuarioID = session()->get('id_usuario');
-        $carrito = $this->usuarios->obtenerCarrito($usuarioID);
-        $total = 0;
-        foreach ($carrito as $producto) {
-            $total += (float) $producto['precio'] * $producto['cantidad'];
+{
+    $usuarioID = session()->get('id_usuario');
+    $carrito = $this->usuarios->obtenerCarrito($usuarioID);
+
+    $idsDetalle = array_keys($carrito);
+    $detalles = $this->productosDetalle->obtenerDetallesCarrito($idsDetalle);
+
+    $total = 0;
+
+    foreach ($detalles as $detalle) {
+        $cantidad = $carrito[$detalle['id_producto']]['cantidad'];
+
+        if ($detalle['stock'] < $cantidad) {
+            $this->usuarios->actualizarCarrito($usuarioID, []);
+            session()->setFlashdata('error', 'No hay stock suficiente para completar la compra.');
+            return view('cliente/carrito', ['carrito' => []]);
         }
-        $data = [
-            'usuario_id' => $usuarioID,
-            'total_venta' => $total,
-        ];
-        $this->ventas->insert($data);
 
-        $ventaID = $this->ventas->getInsertID();
-
-        foreach ($carrito as $producto) {
-            $data = [
-                'venta_id' => $ventaID,
-                'producto_id' => $producto['producto_id'],
-                'precio' => (float) $producto['precio'],
-                'cantidad' => $producto['cantidad'],
-                'subtotal' => (float) ($producto['precio'] * $producto['cantidad']),
-            ];
-
-            $productoObtenido = $this->productos->find($producto['producto_id']);
-            $stock = ($productoObtenido['stock'] - $producto['cantidad']);
-            if($stock <= 0){
-                $carrito = $this->usuarios->actualizarCarrito($usuarioID, []);
-                $this->response->setJSON(['status' => 'error']);
-                session()->setFlashdata('error', 'No se pudo realizar su compra.');
-                return view('cliente/carrito', ['carrito' => $carrito]);
-            }
-            $this->productos->update($producto['producto_id'], ['stock' => $stock]);
-            
-            if($producto['id_detalle_producto'] != $producto['producto_id']){
-                    $productoDetalle = $this->productosDetalle->find($producto['id_detalle_producto']);
-                    $stockDetalle = ($productoDetalle['stock'] - $producto['cantidad']);
-                    if($stockDetalle <= 0){
-                        $carrito = $this->usuarios->actualizarCarrito($usuarioID, []);
-                        $this->response->setJSON(['status' => 'error']);
-                        session()->setFlashdata('error', 'No se pudo realizar su compra.');
-                        return view('cliente/carrito', ['carrito' => $carrito]);
-                    }
-                    $this->productosDetalle->update($producto['id_detalle_producto'], ['stock' => $stockDetalle]);
-            }
-
-            $this->detalleVentas->insert($data);
-        }
-        $carrito = $this->usuarios->actualizarCarrito($usuarioID, []);
-        session()->setFlashdata('sucess', 'Su compra se realizo con exito.');
-        return view('cliente/carrito', ['carrito' => $carrito]);
+        $total += $detalle['precio'] * $cantidad;
     }
+    
+    $this->ventas->insert([
+        'usuario_id' => $usuarioID,
+        'total_venta' => $total
+    ]);
+
+    $ventaID = $this->ventas->getInsertID();
+
+    foreach ($detalles as $detalle) {
+
+        $cantidad = $carrito[$detalle['id_producto']]['cantidad'];
+        $subtotal = $detalle['precio'] * $cantidad;
+
+        $this->detalleVentas->insert([
+            'venta_id'   => $ventaID,
+            'producto_id' => $detalle['producto_id'],
+            'producto_detalle_id' => $detalle['id_producto'],
+            'color' => $detalle['color'],
+            'talle' => $detalle['talle'],
+            'precio'     => $detalle['precio'],
+            'cantidad'   => $cantidad,
+            'subtotal'   => $subtotal
+        ]);
+
+        $this->productosDetalle->update(
+            $detalle['id_producto'],
+            ['stock' => $detalle['stock'] - $cantidad]
+        );
+        
+        $this->productos->update(
+            $detalle['producto_id'],
+            ['stock' => new \CodeIgniter\Database\RawSql('stock - ' . $cantidad)]
+        );
+    }
+
+    $this->usuarios->actualizarCarrito($usuarioID, []);
+
+    session()->setFlashdata('sucess', 'Su compra se realizó con éxito.');
+
+    return view('cliente/carrito', ['carrito' => []]);
+}
 
     public function listarVentas(){
         $ventas = $this->ventas->listarVentas();

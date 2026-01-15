@@ -4,6 +4,9 @@ namespace App\Controllers;
 Use App\Models\producto_Model;
 Use App\Models\usuario_Model;
 use App\Models\ventas_detalle_Model;
+use App\Models\productos_detalle_Model;
+use App\Models\talles_Model;
+use App\Models\colores_Model;
 
 class Home extends BaseController
 {
@@ -59,11 +62,13 @@ class Home extends BaseController
 
     public function obtenerCarrito(){
         $usuarios = new usuario_Model();
-        if(session()->get('logged_in')){
-            $usuarioID = session()->get('id_usuario');
-            return $carrito = $usuarios->obtenerCarrito($usuarioID);
+        $usuarioID = session()->get('id_usuario');
+
+        if($usuarioID){
+            $carrito = $usuarios->obtenerCarrito($usuarioID);
         }else{
-            return $carrito = [];
+            $carrito = [];
         }
+        return verCarrito($carrito);
     }
 }

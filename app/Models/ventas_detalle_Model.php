@@ -5,11 +5,12 @@ class ventas_detalle_Model extends Model
 {
  protected $table = 'ventas_detalle'; //nombre de la tabla
  protected $primaryKey = 'id'; //identificador de la tabla
- protected $allowedFields = ['venta_id', 'producto_id', 'cantidad', 'precio', 'subtotal']; //todos los campos de la tabla
+ protected $allowedFields = ['venta_id','producto_detalle_id', 'color', 'talle', 'cantidad', 'precio', 'subtotal']; //todos los campos de la tabla
 
 public function listarVentasDetalle($idVenta){
         return $this->select('ventas_detalle.*, productos.nombre_producto')
-                ->join('productos', 'productos.id_producto = ventas_detalle.producto_id', 'left')
+                ->join('productos_detalle', 'productos_detalle.id_producto = ventas_detalle.producto_detalle_id')
+                ->join('productos', 'productos.id_producto = productos_detalle.producto_id')
                 ->where('ventas_detalle.venta_id', $idVenta)
                 ->findAll();
 }
@@ -17,7 +18,8 @@ public function listarVentasDetalle($idVenta){
 public function topCategoriasMasVendidas(){
 $sql = 'SELECT  c.*, SUM(vd.cantidad) AS total_vendidos, p.imagen
                 FROM ventas_detalle vd
-                JOIN productos p ON p.id_producto = vd.producto_id
+                JOIN productos_detalle pd ON pd.id_producto = vd.producto_detalle_id
+                JOIN productos p ON p.id_producto = pd.producto_id
                 JOIN categoria c ON c.id_categoria = p.categoria_id
                 WHERE c.activo = 1
                 GROUP BY c.id_categoria

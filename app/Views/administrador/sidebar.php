@@ -2,7 +2,10 @@
 <div style="display: flex;">
     <div class="sidebar-admin">
 
-    <h1 style="color: #878e9e">Futura</h1> 
+    <div>
+        <h1 style="color: #878e9e">Emilia</h1>
+        <p style="color: #878e9e">tienda de ropas</p> 
+    </div>
         
     <div>
         <ul>

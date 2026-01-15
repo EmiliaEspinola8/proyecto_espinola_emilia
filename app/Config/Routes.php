@@ -72,7 +72,6 @@ $routes->post('buscar_contacto','contacto_controller::buscar',['filter' => 'perf
 
 
 /*rutas del carrito*/
-$routes->post('/validar_stock','carrito_controller::validarStock');
 $routes->post('/incrementar_cant_producto','carrito_controller::incrementarCantProducto');
 $routes->post('/eliminar_del_carrito','carrito_controller::eliminarProductoDelCarrito');
 $routes->post('/agregar_al_carrito','carrito_controller::agregar_al_carrito');

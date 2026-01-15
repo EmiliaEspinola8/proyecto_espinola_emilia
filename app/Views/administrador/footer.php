@@ -46,10 +46,6 @@ $(document).on('click', '.btn-edit-color', function () {
         url:  'productos_buscar',
         type: 'POST',
 
-        beforeSend: function() {
-            $('#tabla-productos').html("Mensaje antes de Enviar");
-        },
-
         success: function(mensaje_mostrar) {
             console.log(estado.value);
             console.log("Respuesta del servidor:", mensaje_mostrar);
@@ -68,8 +64,6 @@ $(document).on('click', '#btn-buscar', function () {
     const fechaHasta = document.getElementById('fecha-hasta');
     const buscar = document.getElementById('buscar');
 
-    if(fechaDesde.value <= fechaHasta.value){
-
     var parametros = {
         "fecha-desde" : fechaDesde.value,
         "fecha-hasta" : fechaHasta.value,
@@ -81,10 +75,6 @@ $(document).on('click', '#btn-buscar', function () {
             url: 'filtrar_ventas',
             type: 'POST',
 
-            beforeSend: function() {
-                $('#tabla-productos').html("Mensaje antes de Enviar");
-            },
-
             success: function(mensaje_mostrar) {
                 console.log("Respuesta del servidor:", mensaje_mostrar);
                 $('#tabla-productos').html(mensaje_mostrar);
@@ -95,10 +85,6 @@ $(document).on('click', '#btn-buscar', function () {
                 console.error("Error AJAX: ", xhr.responseText);
             }
         });
-
-    }else{
-            alert("La fecha desde es más grande que la fecha hasta.");
-    }
 });
 
 $(document).on('click', '#btn-editar-talle', function (){
@@ -333,10 +319,6 @@ function buscarContactos(){
             url: 'buscar_contacto',
             type: 'POST',
 
-            beforeSend: function() {
-                $('#tabla-productos').html("Mensaje antes de Enviar");
-            },
-
             success: function(mensaje_mostrar) {
                 console.log("Respuesta del servidor:", mensaje_mostrar);
                 $('#tabla-productos').html(mensaje_mostrar);
@@ -362,10 +344,6 @@ function buscarContactos(){
         data: parametros,
         url:  'buscar_talles',
         type: 'POST',
-
-        beforeSend: function() {
-            $('#tabla-productos').html("Mensaje antes de Enviar");
-        },
 
         success: function(mensaje_mostrar) {
             console.log(estado.value);
@@ -394,10 +372,6 @@ function filtrarColores() {
         url:  'buscar_colores',
         type: 'POST',
 
-        beforeSend: function() {
-            $('#tabla-productos').html("Mensaje antes de Enviar");
-        },
-
         success: function(mensaje_mostrar) {
             console.log(estado.value);
             console.log(inputBuscar.value);
@@ -424,10 +398,6 @@ function filtrarColores() {
         data: parametros,
         url:  'buscar_categorias',
         type: 'POST',
-
-        beforeSend: function() {
-            $('#tabla-productos').html("Mensaje antes de Enviar");
-        },
 
         success: function(mensaje_mostrar) {
             console.log(estado.value);
@@ -457,10 +427,6 @@ $(document).on('click', '#btn-buscar-usuarios, #btn-estado , #btn-perfil', funct
             data: parametros,
             url: 'filtrar-usuarios',
             type: 'POST',
-
-            beforeSend: function() {
-                $('#tabla-productos').html("Mensaje antes de Enviar");
-            },
 
             success: function(mensaje_mostrar) {
                 console.log("Respuesta del servidor:", mensaje_mostrar);

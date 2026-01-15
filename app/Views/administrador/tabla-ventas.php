@@ -9,11 +9,11 @@
         <div style="display: flex; gap: 10px; align-items: center;">
             <div style="display: flex; flex-direction: column;">
                 <label class="label-login" for="">Desde:</label>
-                <input id="fecha-desde" class="input-login input-fecha" type="date">
+                <input id="fecha-desde" class="fecha-desde input-login input-fecha" type="date">
             </div>
             <div  style="display: flex; flex-direction: column;">
                 <label class="label-login" for="">Hasta:</label>
-                <input id="fecha-hasta" class="input-login input-fecha" type="date">
+                <input id="fecha-hasta" class="fecha-hasta input-login input-fecha" type="date">
             </div>
         </div>
     </div>

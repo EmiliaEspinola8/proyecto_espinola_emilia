@@ -75,8 +75,17 @@
             <input autocomplete="off" class="button-admin input-login input-submit-login" type="submit" value="Agregar Producto">
             </div>
 
+
+            <?php if (session('errors')): ?>
+                <ul class="alert alert-login text-center">
+                    <?php foreach (session('errors') as $error): ?>
+                <li><?= esc($error) ?></li>
+                    <?php endforeach ?>
+                </ul>
+            <?php endif ?>
+
             <div id="grid-colores-talles" class="grid-colores-talles" >
-                <div id="plantilla-color-talle" style="display: none">
+                <div id="plantilla-color-talle">
     <div class="card card-talles-colores">
         <div class="flex-color-talle">
             <label class="label-login">Colores                
@@ -104,11 +113,6 @@
     </div>
 </div>
             </div>
-                <?php if(session()->getFlashdata('error')):?>
-                    <div class="alert alert-login text-center">
-                            <?= session()->getFlashdata('error')?>
-                    </div>
-                <?php endif;?>
 
             <div class="button-add-talle-color">
             <span class="material-symbols-outlined">add</span>

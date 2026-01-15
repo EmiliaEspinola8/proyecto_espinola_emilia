@@ -94,10 +94,10 @@ $(document).on('click', '#id-producto-detalle', function (){
 
 $(document).on('click', '.button-cantidad-carrito', function () {
 
-    let contenedor = $(this).parent();
+    let contenedor = $(this).closest('.card-carrito');
     let inputCantidad = contenedor.find('.input-cantidad-carrito').val();
     let idProducto = $(this).val();
-
+    let errorCard = contenedor.find('#error-stock-carrito');
 
       var parametros = {
         "id_producto" : idProducto,
@@ -117,49 +117,14 @@ $(document).on('click', '.button-cantidad-carrito', function () {
 
             error: function(xhr, status, error) {
                 console.error("Error AJAX: ", xhr.responseText);
-                $('#error-stock-carrito').html(xhr.responseText);
-                $('#error-stock-carrito').removeClass("fade-out");
-                $('#error-stock-carrito').addClass("fade-in");
+                $(errorCard).html(xhr.responseText);
+                $(errorCard).removeClass("fade-out");
+                $(errorCard).addClass("fade-in");
 
                 setTimeout(() => {
-                    $('#error-stock-carrito').html("");
-                    $('#error-stock-carrito').removeClass("fade-in");
-                    $('#error-stock-carrito').addClass("fade-out");
-                }, 2000);
-            }
-        });
-    });
-
-$(document).on('input', '.input-cantidad-carrito', function () {
-
-    let contenedor = $(this).parent();
-    let idProducto = contenedor.find('#descrementar').val();
-
-      var parametros = {
-        "id_producto" : idProducto,
-        "cantidad" : $(this).val(),
-        };
-
-        $.ajax({
-            data: parametros,
-            url: 'validar_stock',
-            type: 'POST',
-
-            success: function(mensaje_mostrar) {
-                console.log("Respuesta del servidor:", mensaje_mostrar);
-                $('.carrito').html(mensaje_mostrar);
-            },
-
-            error: function(xhr, status, error) {
-                console.error("Error AJAX: ", xhr.responseText);
-                $('#error-stock-carrito').html(xhr.responseText);
-                $('#error-stock-carrito').removeClass("fade-out");
-                $('#error-stock-carrito').addClass("fade-in");
-
-                setTimeout(() => {
-                    $('#error-stock-carrito').html("");
-                    $('#error-stock-carrito').removeClass("fade-in");
-                    $('#error-stock-carrito').addClass("fade-out");
+                    $(errorCard).html("");
+                    $(errorCard).removeClass("fade-in");
+                    $(errorCard).addClass("fade-out");
                 }, 2000);
             }
         });
@@ -177,8 +142,7 @@ $(document).on('input', '.input-cantidad-carrito', function () {
         },
 
         error: function(xhr, status, error) {
-        console.error("Error AJAX: ", xhr.responseText);
-        $('.carrito').html(error);
+        $('.carrito').html(xhr.responseText);
         }
     });
 }

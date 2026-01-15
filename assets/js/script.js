@@ -17,6 +17,8 @@ const inputsStock = document.querySelectorAll('.inputs-stock');
 const estadoProducto = document.querySelectorAll('.estado-producto');
 const imagen = document.querySelector('.img-quienes-somos');
 const pImagen = document.querySelector('.p-quienes-somos');
+const fechaDesde = document.getElementById('fecha-desde');
+const fechaHasta = document.getElementById('fecha-hasta');
 
 // funciones para que al hacer focus en el input tenga un ouline el div padre
 if(input){ 
@@ -81,7 +83,7 @@ inputCantidad.forEach(input => {
 
 btnDecremento.forEach(btnSeleccionado => {
     btnSeleccionado.addEventListener('click', () => {
-    // agarro a elemento padre del bot{on que se hizo click
+    // agarro a elemento padre del botón que se hizo click
     const padre = btnSeleccionado.closest('.flex-cantidad');
     // agarro el elemento hermano que busco para que pueda decrementa solo en ese input
     const inputCantidad = padre.querySelector('.input-cantidad');
@@ -94,7 +96,7 @@ btnDecremento.forEach(btnSeleccionado => {
 
 btnIncremento.forEach(btnSeleccionado => {
     btnSeleccionado.addEventListener('click', () => {
-    // agarro a elemento padre del bot{on que se hizo click
+    // agarro a elemento padre del botón que se hizo click
     const padre = btnSeleccionado.closest('.flex-cantidad');
     // agarro el elemento hermano que busco para que pueda incrementar solo en ese input
     const inputCantidad = padre.querySelector('.input-cantidad');
@@ -165,7 +167,13 @@ if (btnColorTalle) {
         inputStock.readOnly = true;
         // Clonar el contenido desde el DOM generado por PHP
         const plantilla = document.getElementById('plantilla-color-talle').firstElementChild.cloneNode(true);
+        plantilla.querySelector('.input-cantidad').disabled = false;
+        plantilla.querySelector('.option-talle').disabled = false;
+        plantilla.querySelector('.option-color').disabled = false;
+
         plantilla.classList.add('fade-in');
+
+        resetearCampos(plantilla);
 
         // Eliminar con animación
         const btnEliminar = plantilla.querySelector('.btn-eliminar');
@@ -183,6 +191,21 @@ if (btnColorTalle) {
         gridColorTalle.appendChild(plantilla);
     });
 
+    function resetearCampos(contenedor) {
+
+    // Inputs text / number
+    contenedor.querySelectorAll('input').forEach(input => {
+        input.value = '';
+        input.readOnly = false;
+        input.disabled = false;
+    });
+
+    // Selects
+    contenedor.querySelectorAll('select').forEach(select => {
+        select.selectedIndex = 0;
+        select.disabled = false;
+    });
+}
 
 function actualizarStockTotal() {
     let total = 0;
@@ -234,3 +257,35 @@ const eliminaModal = document.getElementById('eliminaModal')
                 const form = eliminaModal.querySelector('#form-elimina')
                 form.setAttribute('action', url)
 })}
+
+if(fechaDesde && fechaHasta){
+
+    fechaDesde.addEventListener('change', function () {
+        if (this.value) {
+            fechaHasta.min = this.value; // "hasta" no puede ser menor
+            console.log(this.value);
+        } else {
+            fechaHasta.removeAttribute('min');
+        }
+    
+        // Si ya hay una fecha inválida, la limpiamos
+        if (fechaHasta.value && fechaHasta.value < this.value) {
+            fechaHasta.value = '';
+        }
+    });
+
+// Cuando cambia "hasta"
+    fechaHasta.addEventListener('change', function () {
+        if (this.value) {
+            fechaDesde.max = this.value; // "desde" no puede ser mayor
+        } else {
+            fechaDesde.removeAttribute('max');
+        }
+    
+        // Si ya hay una fecha inválida, la limpiamos
+        if (fechaDesde.value && fechaDesde.value > this.value) {
+            fechaDesde.value = '';
+        }
+    });
+
+}

@@ -76,6 +76,20 @@
             <input autocomplete="off" class="button-admin input-login input-submit-login" type="submit" value="Editar Producto">
             </div>
 
+            <?php if (session('errors')): ?>
+                <ul class="alert alert-login text-center">
+                    <?php foreach (session('errors') as $error): ?>
+                <li><?= esc($error) ?></li>
+                    <?php endforeach ?>
+                </ul>
+            <?php endif ?>
+
+            <?php if(session()->getFlashdata('error')):?>
+                    <div class="alert alert-login text-center">
+                            <?= session()->getFlashdata('error')?>
+                    </div>
+            <?php endif;?>
+
             <div id="grid-colores-talles" class="grid-colores-talles">
 
         <?php foreach ($productosDetalle as $productoDetalle): ?>
@@ -83,7 +97,7 @@
         <input type="hidden" name="id_detalle_producto[]"  value="<?=$productoDetalle['id_producto'] ?>">
         <div class="flex-color-talle">
             <label class="label-login">Colores                
-                <select name="color_viejo[]" class="input-login">
+                <select name="color[]" class="input-login">
                     <?php if(empty($productoDetalle['color_id'])){?>
                             <option value="" disabled selected style="color: #38332f;">Selecciona un color</option>
                     <?php }?>
@@ -94,7 +108,7 @@
                 </select>
             </label>
             <label class="label-login">Talles                
-                <select name="talle_viejo[]" class="input-login">
+                <select name="talle[]" class="input-login">
                     <?php if(empty($productoDetalle['talle_id'])){?>
                             <option value="" disabled selected style="color: #38332f;">Selecciona un talle</option>
                     <?php }?>
@@ -105,7 +119,7 @@
             </label>
         </div>
         <label class="label-login">Stock
-            <input value="<?= $productoDetalle['stock']; ?>" name="cantidad_viejo[]" class="input-login inputs-stock input-cantidad" type="number" placeholder="Ingresa el stock del producto">
+            <input value="<?= $productoDetalle['stock']; ?>" name="cantidad[]" class="input-login inputs-stock input-cantidad" type="number" placeholder="Ingresa el stock del producto">
         </label>
 
         <a  href="<?= base_url('productoDetalle_delete_').$productoDetalle['id_producto']; ?>" type="button" class="btn-eliminar material-symbols-outlined">close</a>
@@ -114,10 +128,11 @@
 
     <div id="plantilla-color-talle" style="display: none;">
     <div class="card card-talles-colores">
+        <input type="hidden" name="id_detalle_producto[]"  value="">
         <div class="flex-color-talle">
             <label class="label-login">Colores                
                 <select name="color[]" class="input-login">
-                    <option value="" disabled selected style="color: #38332f;">Selecciona un color</option>
+                    <option value="" class="option-color" disabled selected style="color: #38332f;">Selecciona un color</option>
                     <?php foreach ($colores as $color): ?>
                         <option value="<?= $color['id_colores']; ?>"><?= $color['nombre']; ?></option>
                     <?php endforeach; ?>  
@@ -125,7 +140,7 @@
             </label>
             <label class="label-login">Talles                
                 <select name="talle[]" class="input-login">
-                    <option value="" disabled selected style="color: #38332f;">Selecciona un talle</option>
+                    <option value="" class="option-talle" disabled selected style="color: #38332f;">Selecciona un talle</option>
                     <?php foreach ($talles as $talle): ?>
                         <option value="<?= $talle['id_talle']; ?>"><?= $talle['talle']; ?></option>
                     <?php endforeach; ?>  
@@ -133,19 +148,13 @@
             </label>
         </div>
         <label class="label-login">Stock
-            <input  name="cantidad[]" class="input-login inputs-stock input-cantidad" type="number" placeholder="Ingresa el stock del producto">
+            <input disabled  name="cantidad[]" class="input-login inputs-stock input-cantidad" type="number" placeholder="Ingresa el stock del producto">
         </label>
 
         <button type="button" class="btn-eliminar material-symbols-outlined">close</button>
     </div>
 </div>
             </div>
-
-            <?php if(session()->getFlashdata('error')):?>
-                    <div class="alert alert-login text-center">
-                            <?= session()->getFlashdata('error')?>
-                    </div>
-                <?php endif;?>
 
             <div class="button-add-talle-color">
             <span class="material-symbols-outlined">add</span>

@@ -16,7 +16,6 @@ class usuario_controller extends Controller{
         echo view('cliente/head', $dato);
         echo view('cliente/header');
         echo view('cliente/navbar');
-        echo view('cliente/header_carrito');
         echo view('cliente/carrito.php');
         echo view('cliente/registro');
         echo view('cliente/footer');
@@ -65,8 +64,7 @@ class usuario_controller extends Controller{
                 echo view('cliente/head', $dato);
                 echo view('cliente/header');
                 echo view('cliente/navbar');
-                echo view('cliente/header_carrito');
-                echo view('cliente/carrito.php');
+                echo view('cliente/carrito');
                 echo view('cliente/registro', ['validation' => $this->validator]);
                 echo view('cliente/footer');
 

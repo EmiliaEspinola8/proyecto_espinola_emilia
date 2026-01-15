@@ -50,6 +50,17 @@ class producto_controller extends Controller{
 
     public function create(){
 
+        $img = $this->request->getFile('imagen');    
+        $post = $this->request->getPost(['nombre_producto', 'categoria_id', 'precio', 'stock','descripcion']);
+        $colores = $this->request->getPost('color');
+        $talles = $this->request->getPost('talle');
+        $cantidad = $this->request->getPost('cantidad');
+
+                $rules = $this->reglasDetalles('talle', 'color', 'cantidad');
+                if(! $this->validate($rules)){
+                    return redirect()->to('/alta-producto')->withInput()->with('errors', $this->validator->getErrors());
+                }
+
         $reglas = $this->validate($this->obtenerReglas());
 
         if(!$reglas){
@@ -67,14 +78,7 @@ class producto_controller extends Controller{
             echo view('administrador/sidebar');
             echo view('administrador/alta-producto', $datos);
             echo view('administrador/footer');
-
         }else{
-
-        $img = $this->request->getFile('imagen');    
-        $post = $this->request->getPost(['nombre_producto', 'categoria_id', 'precio', 'stock','descripcion']);
-        $colores = $this->request->getPost('color');
-        $talles = $this->request->getPost('talle');
-        $cantidad = $this->request->getPost('cantidad');
 
         if($img->isValid() && ! $img->hasMoved()){
         $nombre_aleatorio = $img->getRandomName(); 
@@ -93,26 +97,21 @@ class producto_controller extends Controller{
         $productoModel = new producto_Model();
         $productoModel->insert($lista);
 
-        $idProducto = $productoModel->getInsertID();
-
         $productoDetalle = new productos_detalle_Model();
 
-        for ($i = 0; $i < count($cantidad)-1; $i++) {
+        $idProducto = $productoModel->getInsertID();
 
-        if(empty($talles[$i]) || empty($colores[$i])){
-            $productoModel->delete($idProducto);
-            return redirect()->back()->withInput()->with('error', 'Bebes seleccionar un color y un talle');         
-        }else{
+        for ($i = 0; $i < count($cantidad); $i++) {
             $productoDetalle->insert([
             'producto_id' => $idProducto,
             'color_id'    => $colores[$i] ?? null,
             'talle_id'    => $talles[$i] ?? null,
-            'stock'       => $cantidad[$i+1],
+            'stock'       => $cantidad[$i],
         ]);
-        }
         }        
+
         return $this->response->redirect(site_url('/crudproductos'));
-        }  
+    }
 }
 
 public function delete($id){
@@ -139,7 +138,6 @@ public function edit($id){
         $colorModel = new colores_Model();
         $colores = $colorModel->where('estado', 1)->findAll();
         
-
         $productosDetalle = $productoDetalleModel->where('producto_id' , $id)->findAll();
         
         $datos =  ['categorias' => $categorias, 'talles' => $talles, 'colores' => $colores, 'producto' => $producto, 'productosDetalle' =>  $productosDetalle];
@@ -150,51 +148,60 @@ public function edit($id){
     }
 
 
-    public function deleteProductoDetalle($id){ 
-        $productoDetalleModel = new productos_detalle_Model();
-        $productoDetalleModel->delete($id);
+public function deleteProductoDetalle($id){
+    $productoDetalleModel = new productos_detalle_Model();
 
-        return redirect()->back()->withInput();
+    if (!$productoDetalleModel->puedeEliminarDetalle($id)) {
+        return redirect()->back()
+            ->with('error', 'Este producto debe tener al menos un talle y color');
     }
 
+    $productoDetalleModel->delete($id);
+
+    return redirect()->back()->withInput(); 
+    }
+
+
     public function update($id){
-        if(!$this->request->is('post') || $id == null){
-            return redirect()->route('/crudproductos');
-        }
-
-        $reglas = $this->obtenerReglas();
-        if(!$this->validate($reglas)){
-        $categoriaModel = new categoria_Model(); 
-        $categorias = $categoriaModel->where('activo', 1)->findAll();
-
-        $talleModel = new talles_Model();
-        $talles = $talleModel->where('estado', 1)->findAll();
-
-        $colorModel = new colores_Model();
-        $colores = $colorModel->where('estado', 1)->findAll();
-
-            $datos =  ['validation' => $this->validator , 'categorias' => $categorias, 'talles' => $talles, 'colores' => $colores];
-            echo view('cliente/head');
-            echo view('administrador/sidebar');
-            echo view('administrador/alta-producto', $datos);
-            echo view('administrador/footer');
-        }
-
         $img = $this->request->getFile('imagen');    
         $post = $this->request->getPost(['nombre_producto', 'categoria_id', 'precio', 'stock','descripcion']);
         $colores = $this->request->getPost('color');
         $talles = $this->request->getPost('talle');
         $cantidad = $this->request->getPost('cantidad');
-        $colores_viejos = $this->request->getPost('color_viejo');
-        $talles_viejos = $this->request->getPost('talle_viejo');
-        $cantidad_viejos = $this->request->getPost('cantidad_viejo');
-        $idProdustosDetalle = $this->request->getPost('id_detalle_producto');
+        $ids = $this->request->getPost('id_detalle_producto');
 
-        $productoModel = new producto_Model();
-        $productoDetalle = new productos_detalle_Model();
-
-        $producto = $productoModel->where('id_producto', $id)->first();
+        $rules = $this->reglasDetalles();
+                if(! $this->validate($rules)){
+                    return redirect()->to('productos_edit_' . $id)->withInput()->with('errors', $this->validator->getErrors());
+                }
         
+        $productoModel = new producto_Model();
+        $producto = $productoModel->where('id_producto', $id)->first();
+
+        $productoDetalle = new productos_detalle_Model();
+        
+        $reglas = $this->reglasUpdate($id);
+
+        if(! $this->validate($reglas)){
+            $categoriaModel = new categoria_Model(); 
+            $categorias = $categoriaModel->where('activo', 1)->findAll();
+
+            $talleModel = new talles_Model();
+            $talles = $talleModel->where('estado', 1)->findAll();
+
+            $colorModel = new colores_Model();
+            $colores = $colorModel->where('estado', 1)->findAll();
+
+            $productosDetalle = $productoDetalle->where('producto_id' , $id)->findAll();
+
+            $datos =  ['validation' => $this->validator , 'producto' => $producto, 'productosDetalle' => $productosDetalle, 'categorias' => $categorias, 'talles' => $talles, 'colores' => $colores];
+            echo view('cliente/head');
+            echo view('administrador/sidebar');
+            echo view('administrador/editar_producto', $datos);
+            echo view('administrador/footer');
+        }else{
+
+        $nombre_aleatorio = null;
 
         if($img->isValid() && ! $img->hasMoved()){
         $nombre_aleatorio = $img->getRandomName(); 
@@ -222,39 +229,25 @@ public function edit($id){
         }
         
         $productoModel->update($id, $lista);
+        
+        for ($i = 0; $i < count($cantidad); $i++) {
+            $data = [
+                'producto_id' => $id,
+                'color_id'    => $colores[$i] ?? null,
+                'talle_id'    => $talles[$i] ?? null,
+                'stock'       => $cantidad[$i],
+            ];
 
-        if(!empty($cantidad_viejos)){
-            for ($i = 0; $i < count($cantidad_viejos); $i++){
-            if(empty($talles_viejos[$i]) || empty($colores_viejos[$i])){
-
-            return redirect()->back()->withInput()->with('error', 'Bebes seleccionar un color o un talle');
-        }else{
-            $productoDetalle->update($idProdustosDetalle[$i],[
-            'producto_id' => $id,
-            'color_id'    => $colores_viejos[$i] ?? null,
-            'talle_id'    => $talles_viejos[$i] ?? null,
-            'stock'       => $cantidad_viejos[$i],
-        ]);
+            if (!empty($ids[$i])) {
+                $productoDetalle->update($ids[$i], $data);
+            } else {
+                $productoDetalle->insert($data);
+            }
         }
-        }
-        }
-
-        for ($i = 0; $i < count($cantidad)-1; $i++) {
-
-        if(empty($talles[$i]) || empty($colores[$i])){
-            return redirect()->back()->withInput()->with('error', 'Bebes seleccionar un color y un talle');         
-        }else{
-            $productoDetalle->insert([
-            'producto_id' => $id,
-            'color_id'    => $colores[$i] ?? null,
-            'talle_id'    => $talles[$i] ?? null,
-            'stock'       => $cantidad[$i+1],
-        ]);
-        }
-        }  
 
         return $this->response->redirect(site_url('/crudproductos'));
         }
+    }
 
     public function detalle_producto($id)
     {   
@@ -398,7 +391,7 @@ public function edit($id){
                 'rules' => 'required|min_length[3]',
                 'errors' => [
                     'required' => 'El campo nombre es requerido',
-                    'min_length' => 'El {field} debe ser de al menos 3 caracteres' 
+                    'min_length' => 'El nombre debe ser de al menos 3 caracteres' 
                 ],
             ],
             'categoria_id'    => 'is_not_unique[categoria.id_categoria]',
@@ -427,23 +420,105 @@ public function edit($id){
                 'is_image' => 'El archivo debe ser una imagen',
                 ],
             ],
-            'cantidad'  => [
-                'rules' => 'required',
-                'errors' => [
-                    'required' => 'El campo stock es requerido',
-                ],
+        ];
+        }
+
+
+    public function reglasUpdate($id)
+{
+    $productoModel = new producto_Model();
+    $producto = $productoModel->find($id);
+
+    $reglas = [
+        'nombre_producto' => [
+            'rules'  => 'required|min_length[3]',
+            'errors' => [
+                'required'   => 'El campo nombre es requerido',
+                'min_length' => 'El nombre debe ser de al menos 3 caracteres',
+            ],
+        ],
+        'categoria_id' => [
+            'rules' => 'is_not_unique[categoria.id_categoria]',
+            'errors' => [
+                'is_not_unique' => 'La categoría seleccionada no es válida',
+            ],
+        ],
+        'precio' => [
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'El campo precio es requerido',
+            ],
+        ],
+        'stock' => [
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'El campo stock es requerido',
+            ],
+        ],
+        'descripcion' => [
+            'rules'  => 'max_length[100]',
+            'errors' => [
+                'max_length' => 'La descripción no debe superar los 100 caracteres',
+            ],
+        ],
+    ];
+
+    if (empty($producto['imagen'])) {
+        $reglas['imagen'] = [
+            'rules'  => 'uploaded[imagen]|is_image[imagen]',
+            'errors' => [
+                'uploaded' => 'Debes seleccionar una imagen',
+                'is_image' => 'El archivo debe ser una imagen válida',
             ],
         ];
-        
-        }
+    } else {
+        $reglas['imagen'] = [
+            'rules'  => 'permit_empty|is_image[imagen]',
+            'errors' => [
+                'is_image' => 'El archivo debe ser una imagen válida',
+            ],
+        ];
+    }
+
+    return $reglas;
+    }
     
+
+    public function reglasDetalles(){
+            return [
+        'talle' => [
+            'rules'  => 'required|todosCompletos',
+            'errors' => [
+                'required'       => 'Debe ingresar al menos un talle',
+                'todosCompletos' => 'Todos los talles son obligatorios',
+            ],
+        ],
+        'color' => [
+            'rules'  => 'required|todosCompletos',
+            'errors' => [
+                'required'       => 'Debe ingresar al menos un color',
+                'todosCompletos' => 'Todos los colores son obligatorios',
+            ],
+        ],
+        'cantidad' => [
+            'rules'  => 'required|todosCompletos',
+            'errors' => [
+                'required'       => 'Debe ingresar el stock',
+                'todosCompletos' => 'El stock es obligatorio en todos los productos',
+            ],
+        ],
+    ];
+    }
+
     public function obtenerCarrito(){
         $usuarios = new usuario_Model();
-        if(session()->get('logged_in')){
-            $usuarioID = session()->get('id_usuario');
-            return $carrito = $usuarios->obtenerCarrito($usuarioID);
+        $usuarioID = session()->get('id_usuario');
+
+        if($usuarioID){
+            $carrito = $usuarios->obtenerCarrito($usuarioID);
         }else{
-            return $carrito = [];
+            $carrito = [];
         }
+        return verCarrito($carrito);
     }
 }

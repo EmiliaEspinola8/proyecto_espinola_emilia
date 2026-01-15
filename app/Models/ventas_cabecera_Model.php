@@ -11,6 +11,7 @@ class ventas_cabecera_Model extends Model
 public function listarVentas(){    
         return $this->select('ventas_cabecera.*, usuarios.nombre')
                 ->join('usuarios', 'usuarios.id_usuario = ventas_cabecera.usuario_id')
+                ->orderBy('id_ventas', 'DESC')
                 ->findAll();
 }
 
@@ -21,7 +22,8 @@ public function filtrarVentas($fechaDesde, $fechaHasta, $buscar){
                         INNER JOIN usuarios
                         ON usuarios.id_usuario = ventas_cabecera.usuario_id
                         WHERE ventas_cabecera.fecha BETWEEN COALESCE(?, (SELECT MIN(fecha) FROM ventas_cabecera))
-                        AND COALESCE(?, (SELECT MAX(fecha) FROM ventas_cabecera))";
+                        AND COALESCE(?, (SELECT MAX(fecha) FROM ventas_cabecera))
+                        ORDER BY id_ventas DESC";
                 $query = $this->db->query($sql, [$fechaDesde, $fechaHasta]);
         }else{
                 $sql = "SELECT *
@@ -30,7 +32,8 @@ public function filtrarVentas($fechaDesde, $fechaHasta, $buscar){
                         ON usuarios.id_usuario = ventas_cabecera.usuario_id
                         WHERE ventas_cabecera.fecha BETWEEN COALESCE(?, (SELECT MIN(fecha) FROM ventas_cabecera))
                         AND COALESCE(?, (SELECT MAX(fecha) FROM ventas_cabecera))
-                        AND usuarios.nombre LIKE ?";
+                        AND usuarios.nombre LIKE ?
+                        ORDER BY id_ventas DESC";
 
                 $query = $this->db->query($sql, [$fechaDesde, $fechaHasta, '%' . $buscar . '%']);
         }

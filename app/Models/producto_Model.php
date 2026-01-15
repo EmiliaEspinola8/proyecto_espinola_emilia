@@ -51,7 +51,8 @@ public function productosCategoria(){
     public function topProductosVendidos()
     {
         return $this->select('productos.*, SUM(ventas_detalle.cantidad) as total_vendido')
-                    ->join('ventas_detalle', 'productos.id_producto = ventas_detalle.producto_id')
+                    ->join('productos_detalle', 'productos.id_producto = productos_detalle.producto_id')
+                    ->join('ventas_detalle', 'productos_detalle.id_producto = ventas_detalle.producto_detalle_id')
                     ->groupBy('productos.id_producto')
                     ->orderBy('total_vendido', 'DESC')
                     ->where('productos.estado', 1)
@@ -62,7 +63,8 @@ public function productosCategoria(){
     public function topProductosVendidosPorCategoria($categoriaID, $IDproducto)
     {
         return $this->select('productos.*, SUM(ventas_detalle.cantidad) as total_vendido')
-                    ->join('ventas_detalle', 'productos.id_producto = ventas_detalle.producto_id')
+                    ->join('productos_detalle', 'productos.id_producto = productos_detalle.producto_id')
+                    ->join('ventas_detalle', 'productos_detalle.id_producto = ventas_detalle.producto_detalle_id')
                     ->groupBy('productos.id_producto')
                     ->orderBy('total_vendido', 'DESC')
                     ->where('productos.categoria_id', $categoriaID)
