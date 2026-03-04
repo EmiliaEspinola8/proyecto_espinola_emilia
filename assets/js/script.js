@@ -164,12 +164,14 @@ if(sidebar){
 
 if (btnColorTalle) {
     btnColorTalle.addEventListener('click', () => {
-        inputStock.readOnly = true;
         // Clonar el contenido desde el DOM generado por PHP
         const plantilla = document.getElementById('plantilla-color-talle').firstElementChild.cloneNode(true);
-        plantilla.querySelector('.input-cantidad').disabled = false;
-        plantilla.querySelector('.option-talle').disabled = false;
-        plantilla.querySelector('.option-color').disabled = false;
+        const edit = document.querySelector('.edit-producto');
+        if(edit){
+            plantilla.querySelector('.input-cantidad').disabled = false;
+            plantilla.querySelector('.option-talle').disabled = false;
+            plantilla.querySelector('.option-color').disabled = false;
+        }
 
         plantilla.classList.add('fade-in');
 

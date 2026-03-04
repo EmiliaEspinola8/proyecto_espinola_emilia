@@ -5,7 +5,8 @@ use App\Models\ventas_cabecera_Model;
 use App\Models\ventas_detalle_Model;
 use App\Models\producto_Model;
 Use App\Models\productos_detalle_Model;
-
+Use App\Models\carrito_Model;
+Use App\Models\carrito_item_Model;
 use CodeIgniter\Controller;
 
 class ventas_controller extends Controller{
@@ -23,29 +24,50 @@ class ventas_controller extends Controller{
         $this->productos = new producto_Model();
         $this->productosDetalle = new productos_detalle_Model();
     }
-
-    public function registrarVenta()
+public function registrarVenta()
 {
     $usuarioID = session()->get('id_usuario');
-    $carrito = $this->usuarios->obtenerCarrito($usuarioID);
 
-    $idsDetalle = array_keys($carrito);
-    $detalles = $this->productosDetalle->obtenerDetallesCarrito($idsDetalle);
+    $carritoModel = new carrito_Model();
+    $carritoItemsModel = new carrito_item_Model();
+    // buscar carrito del usuario
+    $carrito = $carritoModel
+        ->where('usuario_id', $usuarioID)
+        ->first();
+
+    if (!$carrito) {
+        session()->setFlashdata('error', 'No se encuentra el carrito.');
+        return redirect()->back();
+    }
+
+    $carritoID = $carrito['id_carrito'];
+
+    // obtener items del carrito con datos del producto
+    $items = $carritoItemsModel->verCarrito($carritoID);
+    
+    if (!$items) {
+        session()->setFlashdata('error', 'El carrito está vacío.');
+        return redirect()->back();
+    }
 
     $total = 0;
 
-    foreach ($detalles as $detalle) {
-        $cantidad = $carrito[$detalle['id_producto']]['cantidad'];
+    foreach ($items as $item) {
 
-        if ($detalle['stock'] < $cantidad) {
-            $this->usuarios->actualizarCarrito($usuarioID, []);
-            session()->setFlashdata('error', 'No hay stock suficiente para completar la compra.');
-            return view('cliente/carrito', ['carrito' => []]);
+        if ($item['stock'] < $item['cantidad']) {
+
+            session()->setFlashdata(
+                'error',
+                "No hay stock suficiente para {$item['nombre']}"
+            );
+
+            return view('cliente/carrito', ['carrito' => $items]);
         }
 
-        $total += $detalle['precio'] * $cantidad;
+        $total += $item['precio'] * $item['cantidad'];
     }
-    
+
+    // registrar venta
     $this->ventas->insert([
         'usuario_id' => $usuarioID,
         'total_venta' => $total
@@ -53,38 +75,36 @@ class ventas_controller extends Controller{
 
     $ventaID = $this->ventas->getInsertID();
 
-    foreach ($detalles as $detalle) {
+    // registrar detalle de venta
+    foreach ($items as $item) {
 
-        $cantidad = $carrito[$detalle['id_producto']]['cantidad'];
-        $subtotal = $detalle['precio'] * $cantidad;
+        $subtotal = $item['precio'] * $item['cantidad'];
 
         $this->detalleVentas->insert([
-            'venta_id'   => $ventaID,
-            'producto_id' => $detalle['producto_id'],
-            'producto_detalle_id' => $detalle['id_producto'],
-            'color' => $detalle['color'],
-            'talle' => $detalle['talle'],
-            'precio'     => $detalle['precio'],
-            'cantidad'   => $cantidad,
-            'subtotal'   => $subtotal
+            'venta_id' => $ventaID,
+            'producto_detalle_id' => $item['id_detalle_producto'],
+            'precio' => $item['precio'],
+            'cantidad' => $item['cantidad'],
+            'subtotal' => $subtotal
         ]);
 
+        // actualizar stock de la variante
         $this->productosDetalle->update(
-            $detalle['id_producto'],
-            ['stock' => $detalle['stock'] - $cantidad]
-        );
-        
-        $this->productos->update(
-            $detalle['producto_id'],
-            ['stock' => new \CodeIgniter\Database\RawSql('stock - ' . $cantidad)]
+            $item['id_detalle_producto'],
+            ['stock' => $item['stock'] - $item['cantidad']]
         );
     }
 
-    $this->usuarios->actualizarCarrito($usuarioID, []);
+    // vaciar carrito
+    $carritoItemsModel
+        ->where('carrito_id', $carritoID)
+        ->delete();
 
     session()->setFlashdata('sucess', 'Su compra se realizó con éxito.');
 
-    return view('cliente/carrito', ['carrito' => []]);
+    $carritoActualizado = $carritoItemsModel->verCarrito($carritoID);
+
+    return view('cliente/carrito', ['carrito' => $carritoActualizado]);
 }
 
     public function listarVentas(){

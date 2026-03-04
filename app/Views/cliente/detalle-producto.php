@@ -78,7 +78,11 @@
   <div class="grid-productos galeria-productos grid-productos-segun-categoria">
       <?php foreach ($categorias as $categoria): ?>
         <div  onclick="window.location.href='<?= base_url('detalle_producto_').$categoria['id_producto']; ?>'" style="cursor: pointer;" class="item-producto"> 
-            <p class="sin-stock con-stock">Sin stock</p>
+            <?php if ($categoria['stock_total'] == 0){ ?>
+                <p class="sin-stock">Sin stock</p>
+            <?php }else{ ?>
+                      <p class="sin-stock con-stock">Sin stock</p>
+            <?php } ?>
           <img src="<?= base_url()?>/assets/uploads/<?= $categoria['imagen'] ?>"  alt="">
           <div class="contenido-productos">
             <p><?= $producto['nombre_producto'] ?></p>

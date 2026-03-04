@@ -4,7 +4,7 @@
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
 
-    <div class="wapper-carrito offcanvas-body">
+    <div style="padding-top: 0" class="wapper-carrito offcanvas-body">
     <?php if (isset($carrito) && count($carrito) > 0): ?>
     <?php $total = 0; ?>
     <?php foreach ($carrito as $item): ?>
@@ -30,6 +30,11 @@
     <p class="validacion-form" id="error-stock-carrito"></p>
     </div>
     </div>
+    <?php if((session()->getFlashdata('error'))): ?>
+    <div class="validacion-form">
+        <p style="text-align: center;  font-weight: 700;  letter-spacing: 1px; font-size: 1.1em;"><?= esc(session()->getFlashdata('error')) ?></p>
+    </div>
+    <?php endif; ?>
     <?php $total += $item['precio'] * $item['cantidad']; ?>
     <?php endforeach; ?>
     </div>
@@ -48,18 +53,10 @@
         <div>
             <p style="text-align: center;  font-weight: 700;  letter-spacing: 1px;">Tu carrito de compras está vacio.</p>
         </div>
-
-    <?php if((session()->getFlashdata('error'))): ?>
-    <div class="validacion-form">
-        <p style="text-align: center;  font-weight: 700;  letter-spacing: 1px; font-size: 1.1em;"><?= esc(session()->getFlashdata('error')) ?></p>
-    </div>
-    <?php endif; ?>
-
     <?php if((session()->getFlashdata('sucess'))): ?>
     <div class="validacion-form validacion-form-success">
         <p style="text-align: center;  font-weight: 700;  letter-spacing: 1px; font-size: 1.1em;"><?= esc(session()->getFlashdata('sucess')) ?></p>
     </div>
     <?php endif; ?>
-
     <?php endif; ?>
     </div>

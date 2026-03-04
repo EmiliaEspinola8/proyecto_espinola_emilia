@@ -3,7 +3,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 class contacto_Model extends Model
 {
- protected $table = 'contacto'; //nombre de la tabla
+ protected $table = 'contactos'; //nombre de la tabla
  protected $primaryKey = 'id_contacto'; //identificador de la tabla
  protected $allowedFields = ['nombre_apellido', 'email', 'motivo', 'mensaje', 'resuelto','telefono']; //todos los campos de la tabla
 

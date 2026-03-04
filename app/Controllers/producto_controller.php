@@ -6,6 +6,8 @@ Use App\Models\usuario_Model;
 Use App\Models\talles_Model;
 Use App\Models\colores_Model;
 Use App\Models\productos_detalle_Model;
+Use App\Models\carrito_Model;
+Use App\Models\carrito_item_Model;
 use CodeIgniter\Controller;
 
 
@@ -51,7 +53,7 @@ class producto_controller extends Controller{
     public function create(){
 
         $img = $this->request->getFile('imagen');    
-        $post = $this->request->getPost(['nombre_producto', 'categoria_id', 'precio', 'stock','descripcion']);
+        $post = $this->request->getPost(['nombre_producto', 'categoria_id', 'precio','descripcion']);
         $colores = $this->request->getPost('color');
         $talles = $this->request->getPost('talle');
         $cantidad = $this->request->getPost('cantidad');
@@ -61,7 +63,7 @@ class producto_controller extends Controller{
                     return redirect()->to('/alta-producto')->withInput()->with('errors', $this->validator->getErrors());
                 }
 
-        $reglas = $this->validate($this->obtenerReglas());
+        $reglas = $this->validate($this->reglasProductos());
 
         if(!$reglas){
         $categoriaModel = new categoria_Model(); 
@@ -90,7 +92,6 @@ class producto_controller extends Controller{
             'imagen' => $nombre_aleatorio,
             'categoria_id' => $post['categoria_id'],
             'precio' => $post['precio'],
-            'stock' => $post['stock'],
             'descripcion' => $post['descripcion'],
         ];
 
@@ -104,8 +105,8 @@ class producto_controller extends Controller{
         for ($i = 0; $i < count($cantidad); $i++) {
             $productoDetalle->insert([
             'producto_id' => $idProducto,
-            'color_id'    => $colores[$i] ?? null,
-            'talle_id'    => $talles[$i] ?? null,
+            'color_id'    => $colores[$i],
+            'talle_id'    => $talles[$i],
             'stock'       => $cantidad[$i],
         ]);
         }        
@@ -324,7 +325,7 @@ public function deleteProductoDetalle($id){
     {   
         $productoModel = new producto_Model();
         $productos = $productoModel->where('estado', 1)->orderBy('id_producto', 'DESC')->findAll();
-
+        $productos = $productoModel->allProductos();
         $categoriaModel = new categoria_Model(); 
         $categorias = $categoriaModel->where('activo', 1)->findAll();
 
@@ -361,9 +362,8 @@ public function deleteProductoDetalle($id){
 
     public function ProductosPorCategoria($idCategoria){
         $productoModel = new producto_Model();
-        $productos = $productoModel->where('estado', 1)
-                                    ->where('categoria_id', $idCategoria)
-                                    ->orderBy('id_producto', 'DESC')->findAll();
+        
+        $productos = $productoModel->allProductosCategoria($idCategoria);
 
         $categoriaModel = new categoria_Model(); 
         $categorias = $categoriaModel->where('activo', 1)->findAll();
@@ -385,7 +385,7 @@ public function deleteProductoDetalle($id){
         echo view('cliente/footer');
     }
 
-        public function obtenerReglas(){
+        public function reglasProductos(){
             return [
             'nombre_producto'   =>  [
                 'rules' => 'required|min_length[3]',
@@ -394,14 +394,8 @@ public function deleteProductoDetalle($id){
                     'min_length' => 'El nombre debe ser de al menos 3 caracteres' 
                 ],
             ],
-            'categoria_id'    => 'is_not_unique[categoria.id_categoria]',
+            'categoria_id'    => 'is_not_unique[categorias.id_categoria]',
             'precio'  => [
-                'rules' => 'required',
-                'errors' => [
-                    'required' => 'El campo {field} es requerido',
-                ],
-            ],
-            'stock'  => [
                 'rules' => 'required',
                 'errors' => [
                     'required' => 'El campo {field} es requerido',
@@ -438,7 +432,7 @@ public function deleteProductoDetalle($id){
             ],
         ],
         'categoria_id' => [
-            'rules' => 'is_not_unique[categoria.id_categoria]',
+            'rules' => 'is_not_unique[categorias.id_categoria]',
             'errors' => [
                 'is_not_unique' => 'La categoría seleccionada no es válida',
             ],
@@ -447,12 +441,6 @@ public function deleteProductoDetalle($id){
             'rules'  => 'required',
             'errors' => [
                 'required' => 'El campo precio es requerido',
-            ],
-        ],
-        'stock' => [
-            'rules'  => 'required',
-            'errors' => [
-                'required' => 'El campo stock es requerido',
             ],
         ],
         'descripcion' => [
@@ -512,13 +500,21 @@ public function deleteProductoDetalle($id){
 
     public function obtenerCarrito(){
         $usuarios = new usuario_Model();
-        $usuarioID = session()->get('id_usuario');
+        $carritoModel = new carrito_Model();
+        $carritoItemsModel = new carrito_item_Model();
 
+        $usuarioID = session()->get('id_usuario');
+        
+        $carrito = $carritoModel
+        ->where('usuario_id', $usuarioID)
+        ->first();
+        
         if($usuarioID){
-            $carrito = $usuarios->obtenerCarrito($usuarioID);
+            $carritoActualizado = $carritoItemsModel->verCarrito($carrito['id_carrito']);
         }else{
-            $carrito = [];
+            $carritoActualizado = [];
         }
-        return verCarrito($carrito);
+
+        return $carritoActualizado;
     }
 }

@@ -53,16 +53,6 @@
             <?php }?>
             </div>
             <div>
-            <label class="label-login">Stock
-                    <input name="stock" class="input-login input-stock input-cantidad" type="number" name="clave" placeholder="Ingresa el stock del producto">
-            </label>
-            <?php if($validation->getError('stock')) {?>
-                <div class="validacion-form">
-                    <?= $error = $validation->getError('stock'); ?>
-                </div>
-            <?php }?>
-            </div>
-            <div>
                 <label class="label-login">Descripción
                     <textarea name="descripcion" class="input-login" id="" placeholder="Ingresa la el descripción del producto"></textarea>
             </label>

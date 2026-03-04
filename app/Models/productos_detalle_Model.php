@@ -78,33 +78,6 @@ public function primerDetalleProducto($idProducto){
                 ->first();
 }
 
-public function obtenerDetallesCarrito(array $idsDetalle): array
-{
-    if (empty($idsDetalle)) {
-        return [];
-    }
-
-    return $this->select('
-            productos_detalle.id_producto,
-            productos_detalle.producto_id,
-            productos_detalle.talle_id,
-            productos_detalle.color_id,
-            productos_detalle.stock,
-
-            productos.nombre_producto,
-            productos.precio,
-            productos.imagen,
-
-            talles.talle,
-            colores.nombre AS color
-        ')
-        ->join('productos', 'productos.id_producto = productos_detalle.producto_id')
-        ->join('talles', 'talles.id_talle = productos_detalle.talle_id', 'left')
-        ->join('colores', 'colores.id_colores = productos_detalle.color_id', 'left')
-        ->whereIn('productos_detalle.id_producto', $idsDetalle)
-        ->findAll();
-}
-
 public function puedeEliminarDetalle($idDetalle)
 {
     $detalle = $this->find($idDetalle);

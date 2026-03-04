@@ -7,6 +7,8 @@ use App\Models\ventas_detalle_Model;
 use App\Models\productos_detalle_Model;
 use App\Models\talles_Model;
 use App\Models\colores_Model;
+Use App\Models\carrito_Model;
+Use App\Models\carrito_item_Model;
 
 class Home extends BaseController
 {
@@ -62,13 +64,21 @@ class Home extends BaseController
 
     public function obtenerCarrito(){
         $usuarios = new usuario_Model();
+        $carritoModel = new carrito_Model();
+        $carritoItemsModel = new carrito_item_Model();
+
         $usuarioID = session()->get('id_usuario');
+        
+        $carrito = $carritoModel
+        ->where('usuario_id', $usuarioID)
+        ->first();
 
         if($usuarioID){
-            $carrito = $usuarios->obtenerCarrito($usuarioID);
+            $carritoActualizado = $carritoItemsModel->verCarrito($carrito['id_carrito']);
         }else{
-            $carrito = [];
+            $carritoActualizado = [];
         }
-        return verCarrito($carrito);
+
+        return $carritoActualizado;
     }
 }

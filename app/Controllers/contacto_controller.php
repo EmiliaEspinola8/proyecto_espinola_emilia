@@ -2,6 +2,8 @@
 namespace App\Controllers;
 Use App\Models\contacto_Model;
 Use App\Models\usuario_Model;
+Use App\Models\carrito_Model;
+Use App\Models\carrito_item_Model;
 use CodeIgniter\Controller;
 
 
@@ -117,14 +119,21 @@ class contacto_controller extends Controller{
 
     public function obtenerCarrito(){
         $usuarios = new usuario_Model();
+        $carritoModel = new carrito_Model();
+        $carritoItemsModel = new carrito_item_Model();
+
         $usuarioID = session()->get('id_usuario');
-
+        
+        $carrito = $carritoModel
+        ->where('usuario_id', $usuarioID)
+        ->first();
+        
         if($usuarioID){
-            $carrito = $usuarios->obtenerCarrito($usuarioID);
+            $carritoActualizado = $carritoItemsModel->verCarrito($carrito['id_carrito']);
         }else{
-            $carrito = [];
+            $carritoActualizado = [];
         }
-        return verCarrito($carrito);
-    }
 
+        return $carritoActualizado;
+    }
 }

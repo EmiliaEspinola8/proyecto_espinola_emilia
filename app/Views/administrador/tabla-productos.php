@@ -28,7 +28,6 @@
                 <th class="filas">Nombre Completo</th>
                 <th class="filas">Precio</th>
                 <th class="filas">Categoría</th>
-                <th class="filas">Stock</th>
                 <th class="filas">Estado</th>
                 <th class="filas">Detalle</th>
                 <th class="filas">Acciones</th>
@@ -41,7 +40,6 @@
                     <td class="filas"><?= $producto['nombre_producto']; ?></td>
                     <td class="filas">$ <?=number_format($producto['precio'], 2); ?></td>
                     <td class="filas"><?= $producto['categoria']; ?></td>
-                    <td class="filas"><?= $producto['stock']; ?></td>  
                     <?php if( $producto['estado'] == 1) {?>  
                     <td class="filas"> <div class="estado estado-activo">activo</div> </td>
                     <?php } else {?>

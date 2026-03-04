@@ -1,7 +1,7 @@
 
         <?php $validation = \Config\Services::validation(); ?>
         <form action="<?php echo base_url('productos_update_').$producto['id_producto'] ?>" method="post"  style="padding-top: 20px;" class="flex-producto"  enctype="multipart/form-data">
-            <div class="wapper-producto">
+            <div class="wapper-producto edit-producto">
             <div class="flex-archivo">
                 <div>
                     <img style="border: var(--color-cuarto) solid 1px"class="imagen_producto" id="vista_previa" src="<?= base_url()?>/assets/uploads/<?= $producto['imagen'] ?>" alt="imagen del producto">
@@ -50,16 +50,6 @@
             <?php if($validation->getError('categoria_id')) {?>
                 <div class="validacion-form">
                     <?= $error = $validation->getError('categoria_id'); ?>
-                </div>
-            <?php }?>
-            </div>
-            <div>
-            <label class="label-login">Stock
-                    <input value="<?= $producto['stock']; ?>" name="stock" class="input-login input-stock input-cantidad" type="number" name="clave" placeholder="Ingresa el stock del producto">
-            </label>
-            <?php if($validation->getError('stock')) {?>
-                <div class="validacion-form">
-                    <?= $error = $validation->getError('stock'); ?>
                 </div>
             <?php }?>
             </div>

@@ -6,6 +6,8 @@ Use App\Models\usuario_Model;
 Use App\Models\productos_detalle_Model;
 Use App\Models\talles_Model;
 Use App\Models\colores_Model;
+Use App\Models\carrito_Model;
+Use App\Models\carrito_item_Model;
 
 class carrito_controller extends Controller{
     protected $ventas;
@@ -43,32 +45,56 @@ public function agregar_al_carrito()
     $color      = $this->request->getPost('color');
 
     $productoDetalleModel = new productos_detalle_Model();
+    $carritoModel = new carrito_Model();
+    $carritoItemsModel = new carrito_item_Model();
 
     $productoDetalle = $productoDetalleModel
         ->buscarDetalleProducto($idProducto, $talle, $color);
 
     if (!$productoDetalle) {
-        return $this->response->setJSON(['status' => 'error', 'msg' => 'Detalle no encontrado']);
-    }
-
-    if ($usuarioID) {
-        $carrito = $this->usuarios->obtenerCarrito($usuarioID);
-    } else {
-        $carrito = [];
+        return $this->response->setJSON([
+            'status' => 'error',
+            'msg' => 'Detalle no encontrado'
+        ]);
     }
 
     $idDetalle = $productoDetalle['id_producto'];
 
-    if (isset($carrito[$idDetalle])) {
+    // 1buscar carrito del usuario
+    $carrito = $carritoModel
+        ->where('usuario_id', $usuarioID)
+        ->first();
 
-        $nuevaCantidad = $carrito[$idDetalle]['cantidad'] + $cantidad;
+    // si no tiene carrito lo creamos
+    if (!$carrito) {
+        $carritoID = $carritoModel->insert([
+            'usuario_id' => $usuarioID,
+        ]);
+
+    } else {
+        $carritoID = $carrito['id_carrito'];
+    }
+
+    // buscar si el producto ya está en el carrito
+    $item = $carritoItemsModel
+        ->where('carrito_id', $carritoID)
+        ->where('producto_detalle_id', $idDetalle)
+        ->first();
+
+    if ($item) {
+
+        $nuevaCantidad = $item['cantidad'] + $cantidad;
 
         if ($productoDetalle['stock'] < $nuevaCantidad) {
             $this->response->setJSON(['status' => 'error']);
             return "Solo quedan {$productoDetalle['stock']} unidades disponibles.";
         }
 
-        $carrito[$idDetalle]['cantidad'] = $nuevaCantidad;
+        // actualizar cantidad
+        $carritoItemsModel->update(
+            $item['id_carrito_item'],
+            ['cantidad' => $nuevaCantidad]
+        );
 
     } else {
 
@@ -79,71 +105,109 @@ public function agregar_al_carrito()
                 : "Solo quedan {$productoDetalle['stock']} unidades disponibles.";
         }
 
-        $carrito[$idDetalle] = [
-            'producto_id' => $idProducto,
-            'cantidad'    => $cantidad
-        ];
+        // insertar nuevo item
+        $carritoItemsModel->insert([
+            'carrito_id' => $carritoID,
+            'producto_detalle_id' => $idDetalle,
+            'cantidad' => $cantidad
+        ]);
     }
+    
+    $carritoActualizado = $carritoItemsModel->verCarrito($carritoID);
 
-    $this->usuarios->actualizarCarrito($usuarioID, $carrito);
-
-    $carritoActualizado = verCarrito($carrito);
-        
     return view('cliente/carrito', ['carrito' => $carritoActualizado]);
 }
 
+
+
 public function eliminarProductoDelCarrito()
     {
-        $usuarioID = session()->get('id_usuario');
+    $usuarioID = session()->get('id_usuario');
 
-        $productoID = $this->request->getPost('id_producto');
+    $idDetalle = $this->request->getPost('id_producto');
 
-        $carrito = $this->usuarios->obtenerCarrito($usuarioID);
-        
-        if (isset($carrito[$productoID])) {
-            unset($carrito[$productoID]);
-        }
-        $this->usuarios->actualizarCarrito($usuarioID, $carrito);
+    $carritoModel = new carrito_Model();
+    $carritoItemsModel = new carrito_item_Model();
 
-        $carritoActualizado = verCarrito($carrito);
-        
-        return view('cliente/carrito', ['carrito' => $carritoActualizado]);
+    // buscar carrito del usuario
+    $carrito = $carritoModel
+        ->where('usuario_id', $usuarioID)
+        ->first();
+
+    $carritoID = $carrito['id_carrito'];
+
+    // eliminar item del carrito
+    $carritoItemsModel
+        ->where('carrito_id', $carritoID)
+        ->where('producto_detalle_id', $idDetalle)
+        ->delete();
+
+    // volver a cargar el carrito actualizado
+    $carritoActualizado = $carritoItemsModel->verCarrito($carritoID);
+
+    return view('cliente/carrito', [
+        'carrito' => $carritoActualizado
+    ]);
     }
 
-    public function incrementarCantProducto(){
+public function incrementarCantProducto()
+{
+    $usuarioID = session()->get('id_usuario');
 
-        $usuarioID = session()->get('id_usuario');
+    $idDetalle = $this->request->getPost('id_producto');
+    $cantidad  = (int) $this->request->getPost('cantidad');
+    $operacion = $this->request->getPost('operacion');
 
-        $idProducto = $this->request->getPost('id_producto');
-        $cantidad =  $this->request->getPost('cantidad');
-        $operacion =  $this->request->getPost('operacion');
+    $productoDetalleModel = new productos_detalle_Model();
+    $carritoModel = new carrito_Model();
+    $carritoItemsModel = new carrito_item_Model();
+    // buscar carrito del usuario
+    $carrito = $carritoModel
+        ->where('usuario_id', $usuarioID)
+        ->first();
 
-        $productoDetalle = new productos_detalle_Model();
-        $productos = new producto_Model();
+    $carritoID = $carrito['id_carrito'];
 
-        if ($usuarioID) {
-            $carrito = $this->usuarios->obtenerCarrito($usuarioID);
+    // buscar detalle del producto
+    $producto = $productoDetalleModel
+        ->where('id_producto', $idDetalle)
+        ->first();
+
+    // buscar item del carrito
+    $item = $carritoItemsModel
+        ->where('carrito_id', $carritoID)
+        ->where('producto_detalle_id', $idDetalle)
+        ->first();
+
+    $nuevaCantidad = $item['cantidad'];
+
+    if ($operacion == "incrementar") {
+
+        if ($producto['stock'] >= ($item['cantidad'] + 1)) {
+            $nuevaCantidad = $item['cantidad'] + 1;
+        } else {
+            $this->response->setJSON(['status' => 'error']);
+            return "Solo quedan {$producto['stock']} unidades disponibles.";
         }
 
-        $producto =  $productoDetalle->where('id_producto', $idProducto)->first();
-        
-        if($operacion == "incrementar"){
-                if($producto['stock'] >= ($cantidad + 1)){
-                        $carrito[$idProducto]['cantidad'] += 1; 
-                }else{
-                    $this->response->setJSON(['status' => 'error']);
-                    return "Solo quedan " . $producto['stock'] . " unidades disponibles.";
-                }
-        }else{
-            if($cantidad > 1){
-                    $carrito[$idProducto]['cantidad'] -= 1; 
-            }
+    } else {
+
+        if ($item['cantidad'] > 1) {
+            $nuevaCantidad = $item['cantidad'] - 1;
         }
-
-        $this->usuarios->actualizarCarrito($usuarioID, $carrito);
-
-        $carritoActualizado = verCarrito($carrito);
-        
-        return view('cliente/carrito', ['carrito' => $carritoActualizado]);
     }
+
+    // actualizar cantidad
+    $carritoItemsModel->update(
+        $item['id_carrito_item'],
+        ['cantidad' => $nuevaCantidad]
+    );
+
+    // volver a cargar el carrito actualizado
+    $carritoActualizado = $carritoItemsModel->verCarrito($carritoID);
+
+    return view('cliente/carrito', [
+        'carrito' => $carritoActualizado
+    ]);
+}
 }   

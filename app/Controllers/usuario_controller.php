@@ -23,40 +23,7 @@ class usuario_controller extends Controller{
 
     public function formValidation() {
 
-        $input = $this->validate([
-            'nombre'   => [
-                'rules' => 'required|min_length[3]',
-                'errors' => [
-                    'required' => 'El campo {field} es requerido',
-                    'min_length' => 'El {field} debe ser de al menos 3 caracteres' 
-                ],
-            ],
-            'apellido'   => [
-                'rules' => 'required|min_length[3]',
-                'errors' => [
-                    'required' => 'El campo {field} es requerido',
-                    'min_length' => 'El {field} debe ser de al menos 3 caracteres' 
-                ],
-            ],
-            'email'   => [
-                'rules' => 'required|min_length[4]|valid_email[email]|is_unique[usuarios.email]',
-                'errors' => [
-                    'required' => 'El campo {field} es requerido',
-                    'min_length' => 'El {field} debe ser de al menos 4 caracteres',
-                    'valid_email' => 'El {field} no es válido',
-                    'is_unique' => 'Este {field} ya está en uso'  
-                ],
-            ],
-            'pass'   => [
-                'rules' => 'required|min_length[5]',
-                'errors' => [
-                    'required' => 'El campo contraseña es requerido',
-                    'min_length' => 'La contraseña debe ser de al menos 5 caracteres' 
-                ],
-            ],
-        ],
-        
-    );
+        $input = $this->validate($this->reglasUsuarios());
         $formModel = new usuario_Model();
     
         if (!$input) {
@@ -138,5 +105,40 @@ class usuario_controller extends Controller{
         $usuarios = $usuarioModel->filtrarUsuarios($estado, $perfil, $buscar); 
 
         return view('administrador/tabla-usuarios',  ['usuarios' => $usuarios, 'perfiles' => $perfiles]);
+    }
+
+    function reglasUsuarios(){
+        return [
+            'nombre'   => [
+                'rules' => 'required|min_length[3]',
+                'errors' => [
+                    'required' => 'El campo {field} es requerido',
+                    'min_length' => 'El {field} debe ser de al menos 3 caracteres' 
+                ],
+            ],
+            'apellido'   => [
+                'rules' => 'required|min_length[3]',
+                'errors' => [
+                    'required' => 'El campo {field} es requerido',
+                    'min_length' => 'El {field} debe ser de al menos 3 caracteres' 
+                ],
+            ],
+            'email'   => [
+                'rules' => 'required|min_length[4]|valid_email[email]|is_unique[usuarios.email]',
+                'errors' => [
+                    'required' => 'El campo {field} es requerido',
+                    'min_length' => 'El {field} debe ser de al menos 4 caracteres',
+                    'valid_email' => 'El {field} no es válido',
+                    'is_unique' => 'Este {field} ya está en uso'  
+                ],
+            ],
+            'pass'   => [
+                'rules' => 'required|min_length[5]',
+                'errors' => [
+                    'required' => 'El campo contraseña es requerido',
+                    'min_length' => 'La contraseña debe ser de al menos 5 caracteres' 
+                ],
+            ],
+        ];
     }
 }
